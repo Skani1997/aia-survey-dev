@@ -1,0 +1,70 @@
+.container{
+  font-family: "notosans" !important;
+  height: 100vh;
+  padding : 10vh 10vw;
+}
+
+.menubar{
+  width: 80vw;
+  height: 5vh;
+}
+
+.logo{
+  width: 14.4vw;
+  height: 5vh;
+}
+
+.left-container{
+  float: left;
+  width: 40vw;
+  height: 75vh;
+  padding-top: 18vh;
+}
+
+.right-container{
+  float: left;
+  height: 75vh;
+  overflow: hidden;
+}
+
+.main-image{
+  width : 38vw;
+  height : 70vh;
+}
+
+.description{
+  margin-top: 1rem;
+  line-height: 2rem;
+  font-size: 20px;
+  color: #7E7E7E;
+  font-weight: 100 !important;
+}
+
+em{
+  font-style: normal;
+  color: #FA941E;
+}
+
+.slogan{
+  margin-top: 8vh;
+  font-size: 3rem;
+  font-weight: 400 !important;
+}
+
+.product-name{
+  margin-top: 3vh;
+  margin-bottom: 6vh;
+  font-size: 4rem;
+  color: #FA941E;
+} 
+
+.btn_survey.ui.large.button{
+  width:  12vw;
+  height: 8.5vh;
+  font-size: 1.5em;
+  margin-left: 12px;
+  border-radius: 150px;
+  font-family: "notosans" !important;
+  color: #7E7E7E;
+  background-color: #E6E6E6;
+}

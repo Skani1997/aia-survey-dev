@@ -1,0 +1,49 @@
+.recommend-container{
+    font-family: "notosans" !important;
+    height: 250vh;
+    padding : 20vh 10vw 0 10vw;
+  }
+
+.recommend{
+    color : #FA941E;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 15vh;
+    line-height: 5rem;
+}
+
+.recommend-box1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.recommend-box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    text-align: center;
+}
+
+.box>img{
+    width: 205px;
+    height : 235px;
+}
+
+.box>p{
+    color: #7E7E7E;
+    font-size: 1.5rem;
+    margin-top: 3vh;
+}
+
+.dream{
+    margin-top: 20vh;
+    width : 80vw;
+    height: auto;
+}

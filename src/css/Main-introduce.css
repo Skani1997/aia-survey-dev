@@ -1,0 +1,18 @@
+.introduce-container{
+    font-family: "notosans" !important;
+    height: 100vh;
+    padding : 10vh 10vw;
+}
+
+.introduce-title{
+    color : #FA941E;
+    font-size: 3.2rem;
+}
+
+.introduce-description{
+    margin-top: 10vh;
+    margin-left: 4vh;
+    color: #7E7E7E;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+}
