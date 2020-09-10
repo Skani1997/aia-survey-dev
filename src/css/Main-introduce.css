@@ -6,13 +6,13 @@
 
 .introduce-title{
     color : #FA941E;
-    font-size: 3.2rem;
+    font-size: 1.8rem;
 }
 
 .introduce-description{
-    margin-top: 10vh;
-    margin-left: 4vh;
+    margin-top: 3vh;
+    margin-left: 2vh;
     color: #7E7E7E;
-    font-size: 1.3rem;
-    line-height: 2.5rem;
+    font-size: 1rem;
+    line-height: 1.8rem;
 }
