@@ -25,3 +25,33 @@ Modal.Description>form>input{
     background-color: #FA941E !important;
     color : white !important ;
 }
+
+@media (max-width : 1280px){
+    .modal-title{
+        color : #7E7E7E !important;
+        font-weight: 700 !important;
+    }
+    
+    label{
+        color : #7E7E7E;
+        font-weight: 700;
+    }
+    
+    Modal.Description>form>input{
+        margin : auto 1rem !important;
+        outline: none;
+        background-color: #E6E6E6;
+        width :30vw;
+        height : 5vh;
+        margin : 1vh 0 ;
+        border-radius: 12px !important;
+        border: none;
+        padding : 0 20px;
+    }
+    
+    .survey-btn{
+        margin-bottom: 10px !important;
+        background-color: #FA941E !important;
+        color : white !important ;
+    }
+}

@@ -110,7 +110,7 @@ textarea::placeholder{
     .form-container>div>input{
         outline: none;
         background-color: #E6E6E6;
-        width : 10.8rem;
+        width : 90%;
         height : 5vh;
         margin : 1vh 0 ;
         border-radius: 12px;
@@ -120,10 +120,12 @@ textarea::placeholder{
     
     .form-left{
         float: left;
+        width : 50%;
     }
     
     .form-right{
         float : right;
+        width : 50%;
     }
     
     .contact-content{
@@ -147,7 +149,7 @@ textarea::placeholder{
         font-weight: 700;
     }
     textarea{
-        width: 80vw;
+        width: 95%;
     }
 
     .submit-btn{
