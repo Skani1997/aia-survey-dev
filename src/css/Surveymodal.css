@@ -8,7 +8,7 @@ label{
     font-weight: 700;
 }
 
-input{
+Modal.Description>form>input{
     margin : auto 1rem !important;
     outline: none;
     background-color: #E6E6E6;

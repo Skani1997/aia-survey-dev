@@ -10,7 +10,7 @@
 }
 
 .logo{
-  width: 14.4vw;
+  width: auto;
   height: 5vh;
 }
 
@@ -29,7 +29,7 @@
 
 .main-image{
   width : 38vw;
-  height : 70vh;
+  height : auto;
 }
 
 .description{
@@ -67,4 +67,83 @@ em{
   font-family: "notosans" !important;
   color: #7E7E7E;
   background-color: #E6E6E6;
+}
+
+@media (max-width:1280px){
+  .container{
+    font-family: "notosans" !important;
+    height: 100vh;
+    padding : 5vh 5vw;
+    text-align: center;
+    background-image: url(../image/main_page_illust_entire.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: auto 40vh;
+    background-origin: content-box;
+  }
+  
+  .menubar{
+    width: 80vw;
+    height: 5vh;
+  }
+  
+  .logo{
+    float: left;
+    width: auto;
+    height: 5vh;
+  }
+  
+  .left-container{
+    width: 80vw;
+    height: 75vh;
+    padding-top: 10vh;
+  }
+  
+  .right-container{
+    height: 75vh;
+    overflow: hidden;
+  }
+  
+  .main-image{
+    display: none;
+    width : 38vw;
+    height : auto;
+  }
+  
+  .description{
+    margin-top: 1rem;
+    line-height: 2rem;
+    font-size: 20px;
+    color: #7E7E7E;
+    font-weight: 100 !important;
+  }
+  
+  em{
+    font-style: normal;
+    color: #FA941E;
+  }
+  
+  .slogan{
+    margin-top: 8vh;
+    font-size: 3rem;
+    font-weight: 400 !important;
+  }
+  
+  .product-name{
+    margin-top: 3vh;
+    margin-bottom: 6vh;
+    font-size: 4rem;
+    color: #FA941E;
+  } 
+  
+  .btn_survey.ui.large.button{
+    width:  12rem;
+    height: 8.5vh;
+    font-size: 1.5em;
+    margin-left: 12px;
+    border-radius: 150px;
+    font-family: "notosans" !important;
+    color: #7E7E7E;
+    background-color: #E6E6E6;
+  }
 }
