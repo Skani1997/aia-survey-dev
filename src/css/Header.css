@@ -89,12 +89,13 @@ em{
   }
   
   .left-container{
-    width: 80vw;
+    width: 90vw;
     height: 75vh;
     padding-top: 15vh;
   }
   
   .right-container{
+    display: none;
     height: 75vh;
     overflow: hidden;
   }
