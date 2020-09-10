@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import '../css/Surveymodal.css';
 import { Button, Icon, Modal } from 'semantic-ui-react'
 
 const Surveymodal = () => {
@@ -12,17 +13,20 @@ const Surveymodal = () => {
       onOpen={() => setOpen(true)}
       trigger={<button className="btn_survey ui large button">설문 시작</button>}
     >
-      <Modal.Header>설문 시작하기</Modal.Header>
+      <Modal.Header className="modal-title">설문 시작하기</Modal.Header>
       <Modal.Content image scrolling>
         <Modal.Description>
-          <p>
-            이부분이 설문시작할때 핀번호 전화번호 넣는부분 입니다
-          </p>
+          <form>
+            <label for ="pin-num">핀 번호</label>
+            <input id="pin-num" type="text" name="pinNum" />
+            <label for ="phone">전화번호</label>
+            <input id="phone" type="text" name="phone"/>
+          </form>
         </Modal.Description>
       </Modal.Content>
       <Modal.Actions>
         <Link to="/surveypage">
-          <Button onClick={() => setOpen(false)} primary>
+          <Button className="survey-btn">
             설문 시작 <Icon name='chevron right' />
           </Button>
         </Link>
