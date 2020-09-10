@@ -85,7 +85,7 @@ em{
   .logo{
     float: left;
     width: auto;
-    height: 5vh;
+    height: 2.5em;
   }
   
   .left-container{
@@ -109,7 +109,7 @@ em{
   .description{
     margin-top: 1rem;
     line-height: 2rem;
-    font-size: 12px;
+    font-size: 15px;
     color: #7E7E7E;
     font-weight: 100 !important;
   }
