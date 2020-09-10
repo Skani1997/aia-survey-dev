@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import { Button, Icon, Modal } from 'semantic-ui-react'
 
 const Surveymodal = () => {
@@ -20,9 +21,11 @@ const Surveymodal = () => {
         </Modal.Description>
       </Modal.Content>
       <Modal.Actions>
-        <Button onClick={() => setOpen(false)} primary>
-          설문 시작 <Icon name='chevron right' />
-        </Button>
+        <Link to="/surveypage">
+          <Button onClick={() => setOpen(false)} primary>
+            설문 시작 <Icon name='chevron right' />
+          </Button>
+        </Link>
       </Modal.Actions>
     </Modal>
   )
