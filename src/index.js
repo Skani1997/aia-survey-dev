@@ -2,22 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import 'semantic-ui-css/semantic.min.css'
-import Header from './Layout/Header';
-import MainProgress from './Layout/Main-progress';
-import MainRecommend from './Layout/Main-recommend';
-import MainIntroduce from './Layout/Main-introduce';
-import Contact from './Layout/Contact';
-import Footer from './Layout/Footer';
+import Home from './Home';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
-    <MainProgress />
-    <MainRecommend />
-    <MainIntroduce />
-    <Contact />
-    <Footer />
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 );
