@@ -6,7 +6,7 @@ import Home from './Home';
 export default () => (
     <div >
       <BrowserRouter>
-        <Route exact={true} path="/aia-survey" component={Home}/>
+        <Route exact={true} path="/aia-survey-dev" component={Home}/>
         <Route path="/surveypage" component={SurveyP}/>
       </BrowserRouter>
     </div>
