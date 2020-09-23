@@ -11,7 +11,7 @@ const Surveymodal = () => {
       open={open}
       onClose={() => setOpen(false)}
       onOpen={() => setOpen(true)}
-      trigger={<button className="btn_survey ui large button">설문 시작</button>}
+      trigger={<button className="btn_survey ui large button">설문시작</button>}
     >
       <Modal.Header className="modal-title">설문 시작하기</Modal.Header>
       <Modal.Content image scrolling>

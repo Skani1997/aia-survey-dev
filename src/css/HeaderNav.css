@@ -1,0 +1,23 @@
+.navbar{
+    overflow: hidden;
+    width: 90vw;
+    margin-bottom: 12rem;
+}
+
+.logo{
+    float: left;
+    height : 2.5rem;
+    width : auto;
+}
+
+.menu{
+    float : right;
+}
+
+.menu>ul>li{
+    float : left;
+    size: 1.2rem;
+    list-style: none;
+    margin-left: 1rem;
+    color: white;
+}

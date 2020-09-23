@@ -1,0 +1,14 @@
+.description{
+    margin-top: 1rem;
+    line-height: 2.3rem;
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 100 !important;
+  }
+  
+.header-title{
+    margin-top: 4rem;
+    margin-bottom: 6vh;
+    font-size: 4rem;
+    color: white;
+} 
