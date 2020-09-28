@@ -9,19 +9,19 @@ function Header() {
   return (
       <header className="header-container">
         <div className="slide">
-        <div className="header-content-container">
-          <HeaderNav></HeaderNav>
-          <HeaderContent></HeaderContent>
-          <SurveyModal></SurveyModal>  
-            <img className="down-arrow" src={downArrow} alt=""></img>  
-        </div>
-        
-          <ul className="slide-ul">
-            <li className="bg-house slide-li"></li>
-            <li className="bg-car slide-li"></li>
-            <li className="bg-money slide-li"></li>
-            <li className="bg-dream slide-li"></li>
-          </ul>
+          <div className="header-content-container">
+            <HeaderNav></HeaderNav>
+            <HeaderContent></HeaderContent>
+            <SurveyModal></SurveyModal>
+            <img className="down-arrow" src={downArrow} alt=""></img>
+          </div>
+          
+            <ul className="slide-ul">
+              <li className="bg-house slide-li"></li>
+              <li className="bg-car slide-li"></li>
+              <li className="bg-money slide-li"></li>
+              <li className="bg-dream slide-li"></li>
+            </ul>
         </div> 
       </header>
   );

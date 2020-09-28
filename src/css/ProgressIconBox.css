@@ -1,0 +1,15 @@
+.progressbox-img{
+    width: 9vw;
+    height: 18vh;
+}
+
+.progressbox-title{
+    color: white;
+    font-size: 2.3rem;
+    padding-top: 2rem;
+}
+
+.progressbox-description{
+    color: white;
+    font-size: 1.5rem;
+}

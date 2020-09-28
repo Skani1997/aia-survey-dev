@@ -1,0 +1,52 @@
+.main-request-container{
+    font-family: "notosans" !important;
+    height: 100vh;
+    padding : 15vh 10vw;
+}
+
+.request-title{
+    color: #343434;
+    font-size: 2.5rem;
+}
+
+.request-description{
+    color: #2E2E2E;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
+
+.request-box-container{
+    overflow: hidden;
+    padding: 0 3rem;
+}
+
+.request-container-left{
+    float: left;
+    background-image: url(../image/howtobg1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding : 15.31rem 0 3.063rem 3.313rem;
+    width: 35rem;
+    height:33rem;
+}
+
+.request-container-right{
+    float: right;
+    background-image: url(../image/howtobg2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding : 15.31rem 0 3.063rem 3.313rem;
+    width: 35rem;
+    height:33rem;
+}
+
+.request-box-title{
+    color: #343434;
+    font-size: 2.5rem;
+}
+
+.request-box-description{
+    color: #2E2E2E;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
