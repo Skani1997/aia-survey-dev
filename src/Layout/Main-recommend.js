@@ -1,19 +1,17 @@
 import React from 'react';
 import '../css/Main-recommend.css';
-import person1 from '../image/person1.png'
-import person2 from '../image/person2.png'
-import person3 from '../image/person3.png'
-import person4 from '../image/person4.png'
-import person5 from '../image/person5.png'
-import person6 from '../image/person6.png'
-import dream from '../image/dream.png'
+import person1 from '../image/person1.png';
+import person2 from '../image/person2.png';
+import person3 from '../image/person3.png';
+import person4 from '../image/person4.png';
+import person5 from '../image/person5.png';
+import person6 from '../image/person6.png';
 
 function MainRecommend(){
     return(
         <div className="recommend-container">
             <h1 className="recommend">
-                이런 분들이 사용하면<br/>
-                좋을 것 같아요!
+                이런 분들에게 반드시 필요합니다
             </h1>
             <div className="recommend-box1">
                 <div className="box">
@@ -48,7 +46,6 @@ function MainRecommend(){
                     <p>미래를 미리 대비하고 싶어요</p>
                 </div>
             </div>
-            <img className="dream" src={dream} alt=""></img>
         </div>
     );
 }
