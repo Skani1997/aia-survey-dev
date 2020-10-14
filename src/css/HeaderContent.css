@@ -6,9 +6,17 @@
     font-weight: 100 !important;
   }
   
+.header-subtitle{
+    font-size: 3rem;
+    color: white;
+}
+
 .header-title{
-    margin-top: 4rem;
+    margin-top: 3vh;
     margin-bottom: 6vh;
     font-size: 4rem;
     color: white;
 } 
+.orange{
+  color: #FA941E;
+}
