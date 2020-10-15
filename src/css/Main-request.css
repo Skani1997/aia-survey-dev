@@ -1,7 +1,9 @@
 .main-request-container{
     font-family: "notosans" !important;
     height: 100vh;
-    padding : 15vh 10vw;
+    padding : 8vh 10vw;
+    background-color: #FBFBFB;
+    text-align: center;
 }
 
 .request-title{
@@ -9,44 +11,62 @@
     font-size: 2.5rem;
 }
 
+hr{
+    width: 4rem;
+    margin-top: 2rem;
+}
+
 .request-description{
     color: #2E2E2E;
-    font-size: 1.5rem;
-    line-height: 2.4rem;
+    font-size: 1.3rem;
+    line-height: 2.7rem;
+    margin-top: 2rem;
 }
 
 .request-box-container{
     overflow: hidden;
-    padding: 0 3rem;
+    padding: 0 13vw;
 }
 
 .request-container-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     float: left;
-    background-image: url(../image/howtobg1.png);
+    background-image: url(../image/howtobg.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding : 15.31rem 0 3.063rem 3.313rem;
-    width: 35rem;
-    height:33rem;
+    padding : 4.5vh 0;
+    width: 25vw;
+    height:65vh;
 }
 
 .request-container-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     float: right;
-    background-image: url(../image/howtobg2.png);
+    background-image: url(../image/howtobg.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding : 15.31rem 0 3.063rem 3.313rem;
-    width: 35rem;
-    height:33rem;
+    padding : 4.5vh 0;
+    width: 25vw;
+    height:65vh;
 }
 
 .request-box-title{
-    color: #343434;
+    color: #FFFFFF;
     font-size: 2.5rem;
+}
+
+.howtoimg{
+    width: 7vw;
+    margin-top: 10vh;
 }
 
 .request-box-description{
     color: #2E2E2E;
     font-size: 1.5rem;
     line-height: 2.4rem;
+    margin-top: 4vh;
 }

@@ -10,7 +10,6 @@ import MainUsage from './Layout/Main-usage';
 import MainEffect from './Layout/Main-effect';
 import MainIntroduce from './Layout/Main-introduce';
 import Contact from './Layout/Contact';
-import Footer from './Layout/Footer';
 
 function Home(){
     return(
@@ -40,7 +39,6 @@ function Home(){
             <Slide>
                 <Contact />
             </Slide>
-                <Footer />
         </FullPage>
         
         </>

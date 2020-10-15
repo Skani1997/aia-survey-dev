@@ -1,8 +1,10 @@
 import React from 'react';
+import Footer from './Footer'
 import '../css/Contact.css';
 
 function Contact(){
     return(
+        <>
         <div className="contact-container">
             <h1>고객 문의</h1>
             <p>혹시 궁금한 점이 있으시다면 연락주세요!</p>
@@ -17,7 +19,10 @@ function Contact(){
                 <textarea className="contact-content" rows="12" cols="90" placeholder="문의 내용"></textarea> 
             </form>
             <button className="submit-btn" type="submit" form="contact">고객 문의</button>
+            
         </div>
+        <Footer></Footer>
+        </>
     );
 }
 

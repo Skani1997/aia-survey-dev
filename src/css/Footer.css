@@ -1,8 +1,8 @@
 .footer-container{
     font-family: "notosans" !important;
-    padding : 10vh 10vw;
-    height: 30vh;
+    height: 20vh !important;
     background-color: #0F1925;
+    padding : 5vh 5vw;
 }
 
 .footer-container > p{
@@ -24,6 +24,6 @@
 .footerlogo{
     float:right;
     margin-top: 1.7rem;
-    width: 16rem;
-    height: 7.313rem;
+    width: 10   rem;
+    height: auto;
 }
