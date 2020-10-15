@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css';
 import 'semantic-ui-css/semantic.min.css'
+import { FullPage, Slide } from 'react-full-page';
 import Header from './Layout/Header';
 import MainProgress from './Layout/Main-progress';
 import MainRecommend from './Layout/Main-recommend';
@@ -14,15 +15,34 @@ import Footer from './Layout/Footer';
 function Home(){
     return(
         <>
-            <Header />
-            <MainIntroduce />
-            <MainProgress />
-            <MainRequest />
-            <MainUsage/>
-            <MainEffect/>
-            <MainRecommend />          
-            <Contact />
-            <Footer />
+        <FullPage>
+            <Slide>
+                <Header />
+            </Slide>
+            <Slide>
+                <MainIntroduce />
+            </Slide>
+            <Slide>
+                <MainProgress />             
+            </Slide>
+            <Slide>
+                <MainRequest />
+            </Slide>
+            <Slide>
+                <MainUsage/>
+            </Slide>
+            <Slide>
+                <MainEffect/>
+            </Slide>
+            <Slide>
+                <MainRecommend />  
+            </Slide>
+            <Slide>
+                <Contact />
+            </Slide>
+                <Footer />
+        </FullPage>
+        
         </>
     );
 }

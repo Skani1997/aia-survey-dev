@@ -1,13 +1,13 @@
 .recommend-container{
     font-family: "notosans" !important;
     height: 130vh;
-    padding : 20vh 10vw 0 10vw;
+    padding : 5vh 10vw 0 10vw;
   }
 
 .recommend{
     font-size: 3rem;
     font-weight: bold;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
     line-height: 5rem;
 }
 

@@ -3,9 +3,9 @@ import '../css/ProgressIconBox.css';
 
 function ProgressIconBox(props){
     return(
-        <div>
+        <div className="progressbox-container">
             <img className="progressbox-img" src={props.img} alt=""/>
-            <h1 className="progressbox-title">{props.title}</h1>
+            <button className="progressbox-title">{props.title}</button>
             <p className="progressbox-description">{props.description}</p>
         </div>
     );
