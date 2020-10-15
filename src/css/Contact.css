@@ -55,6 +55,7 @@
     border-radius: 12px;
     border: none;
     padding : 10px 20px;
+    width: 41vw;
 }
 
 input::placeholder{
@@ -70,98 +71,11 @@ textarea::placeholder{
 .submit-btn{
     margin-top: 5vh;
     border: none;
-    width:  10vw;
-    height: 6.5vh;
+    width:  8vw;
+    height: 5vh;
     font-size: 1.5em;
     border-radius: 150px;
     font-family: "notosans" !important;
     color: #7E7E7E;
     background-color: #E6E6E6;
-}
-
-@media (max-width:1280px){
-    .contact-container{
-        font-family: "notosans" !important;
-        height: 100vh;
-        padding : 10vh 10vw;
-        text-align: center;
-    }
-    
-    .contact-container>h1{
-        color : #FA941E;
-        font-size: 2.2rem;
-        font-weight: bold;
-    }
-    
-    .contact-container>p{
-        color: #7E7E7E;
-        font-size: 1rem;
-        margin-top: 2rem;
-    }
-    
-    .contact-form{
-        margin-top: 7vh;
-    }
-    
-    .form-container{
-        overflow: hidden;
-        padding: 0;
-    }
-    
-    .form-container>div>input{
-        outline: none;
-        background-color: #E6E6E6;
-        width : 90%;
-        height : 5vh;
-        margin : 1vh 0 ;
-        border-radius: 12px;
-        border: none;
-        padding : 0 13px;
-    }
-    
-    .form-left{
-        float: left;
-        width : 50%;
-    }
-    
-    .form-right{
-        float : right;
-        width : 50%;
-    }
-    
-    .contact-content{
-        outline: none;
-        background-color: #E6E6E6;
-        clear: both;
-        resize: none;
-        margin-top: 1vh;
-        border-radius: 12px;
-        border: none;
-        padding : 10px 20px;
-    }
-    
-    input::placeholder{
-        color : #7E7E7E;
-        font-weight: 700;
-    }
-    
-    textarea::placeholder{
-        color : #7E7E7E;
-        font-weight: 700;
-    }
-    textarea{
-        width: 95%;
-    }
-
-    .submit-btn{
-        margin-top: 5vh;
-        border: none;
-        width:  7em;
-        height: 6.5vh;
-        font-size: 1.5em;
-        border-radius: 150px;
-        font-family: "notosans" !important;
-        color: #7E7E7E;
-        background-color: #E6E6E6;
-    }
 }

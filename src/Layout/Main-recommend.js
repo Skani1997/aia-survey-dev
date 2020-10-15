@@ -1,11 +1,6 @@
 import React from 'react';
 import '../css/Main-recommend.css';
 import person1 from '../image/person1.png';
-import person2 from '../image/person2.png';
-import person3 from '../image/person3.png';
-import person4 from '../image/person4.png';
-import person5 from '../image/person5.png';
-import person6 from '../image/person6.png';
 
 function MainRecommend(){
     return(
@@ -16,34 +11,38 @@ function MainRecommend(){
             <div className="recommend-box1">
                 <div className="box">
                     <img src={person1} alt=''></img>
-                    <p>나름대로 하고는 있는데<br/>
-                        돈 관리를 잘 하고 있는지<br/> 모르겠어요</p>
+                    <p>꿈이요? 너무 막연해요<br/>
+                        사실 제가 뭘 하고 싶은지 모르겠어요
+                    </p>
                 </div>
                 <div className="box">
-                    <img src={person2} alt=''></img>
-                    <p>저와 비슷한 사람들과<br/>
-                        비교해보고 싶어요</p>
+                    <img src={person1} alt=''></img>
+                    <p>
+                    전 나름 노력하고 있는데<br/>
+                    결코 제 꿈을 이루기는 쉽지 않을 것 같아요
+                    </p>
                 </div>
                 <div className="box">
-                    <img src={person3} alt=''></img>
+                    <img src={person1} alt=''></img>
                     <p>어떻게 하면 돈 관리를<br/>
-                        잘 할수 있을까요?</p>
+                        잘 할 수 있는지 모르겠어요</p>
                 </div>
             </div>
             <div className="recommend-box2">
                 <div className="box">
-                    <img src={person4} alt=''></img>
-                    <p>저한테 재무적인 환경의<br/>
-                        변화가 생겼는데 어떻게 하죠?</p>
+                    <img src={person1} alt=''></img>
+                    <p>막연한 미래를 잘 대비하고<br/>
+                    구체적으로 계획을 세우고 싶어요</p>
                 </div>
                 <div className="box">
-                    <img src={person5} alt=''></img>
-                    <p>지금까지 한번도 재무설계를 <br/>
-                        받아보지 못해서 궁금해요</p>
+                    <img src={person1} alt=''></img>
+                    <p>저와 비슷한 사람들과 비교해서 <br/>
+                    제가 잘 하고 있는지 확인하고 싶어요</p>
                 </div>
                 <div className="box">
-                    <img src={person6} alt=''></img>
-                    <p>미래를 미리 대비하고 싶어요</p>
+                    <img src={person1} alt=''></img>
+                    <p>어디에도 명쾌한 재무적<br/>
+                    방향성을 잡지 못하겠어요</p>
                 </div>
             </div>
         </div>
