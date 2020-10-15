@@ -8,6 +8,7 @@ import MainRecommend from './Layout/Main-recommend';
 import MainRequest from './Layout/Main-request';
 import MainUsage from './Layout/Main-usage';
 import MainIntroduce from './Layout/Main-introduce';
+import MainReview from './Layout/Main-review';
 import Contact from './Layout/Contact';
 
 function Home(){
@@ -31,6 +32,9 @@ function Home(){
             </Slide>
             <Slide>
                 <MainRecommend />  
+            </Slide>
+            <Slide>
+                <MainReview />
             </Slide>
             <Slide>
                 <Contact />

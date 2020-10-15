@@ -1,0 +1,29 @@
+.review-container{
+    font-family: "notosans" !important;
+    height: 100vh;
+    padding : 5vh 10vw 0 10vw;
+    background-color: #FBFBFB;
+}
+
+.review-title{
+    font-size: 3rem;
+    color: #343434;
+    margin-left: 3vw;
+    margin-bottom: 10vh;
+}
+
+.reviewbox-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 3vw;
+}
+
+.review-description{
+    margin-top: 8vh;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    color: #696969;
+    font-weight: 500;
+}
