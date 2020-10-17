@@ -40,7 +40,7 @@
 .reviewbox-title{
     font-size: 1.5rem;
     padding-top: 32vh;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
 }
 
 .reviewbox-description{
@@ -54,4 +54,60 @@
     line-height: 2.4rem;
     color: #696969;
     font-weight: 500;
+}
+
+@media screen and (max-width: 1024px){
+    .review-container{
+        font-family: "notosans" !important;
+        height: 100vh;
+        padding : 5vh 10vw 0 10vw;
+        background-color: #FBFBFB;
+    }
+    
+    .review-title{
+        font-size: 1.8rem;
+        color: #343434;
+        margin-left: 3vw;
+        margin-bottom: 8vh;
+    }
+    
+   
+    .reviewbox-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0;
+    }
+    
+    
+    .reviewbox{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        background-image: url(../image/reviewbox.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 40vw;
+        height: 20vh;
+        padding : 0; 
+    }
+    
+    .reviewbox-title{
+        font-size: 1.5rem;
+        padding-top: 16vh;
+        margin-bottom: 2.5rem;
+    }
+    
+    .reviewbox-description{
+        font-size: 1rem;
+    }
+    
+    .review-description{
+        margin-top: 6vh;
+        text-align: center;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        color: #696969;
+        font-weight: 500;
+    }
 }

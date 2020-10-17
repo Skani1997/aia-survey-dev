@@ -11,3 +11,19 @@
     padding-top: 2vh;
     font-size: 3.2rem;
 }
+
+@media screen and (max-width: 1024px){
+    .main-container{
+        font-family: "notosans" !important;
+        height: 100vh;
+        padding : 4vh 8vw;
+        text-align: center;
+        background-color: #FBFBFB;
+    }
+    .progress-title{
+        color: #575757;
+        padding-top: 2vh;
+        font-size: 2rem;
+    }
+    
+}

@@ -124,3 +124,134 @@ li {
   color: #393939;
   background-color: #E6E6E6;
 }
+
+/*모바일 반응형 코드*/
+@media screen and (max-width: 1024px) {
+  .header-container{
+    font-family: "notosans" !important;
+    margin: 0;
+    padding : 0;
+    height: 100vh;
+    text-align: center;
+  }
+  ul,
+  li {
+    list-style: none;
+  }
+  
+  .slide {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .slide .slide-ul {
+    padding: 0;
+    height: calc(100% * 4);
+    animation: slide 8s infinite;
+  }
+  
+  .slide-ul li {
+    height: calc(100% / 4);
+  }
+  
+  .slide-ul li:nth-child(1) {
+    background-image: url('../image/header-house.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .slide-ul li:nth-child(2) {
+    background-image: url('../image/header-car.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .slide-ul li:nth-child(3) {
+    background-image: url('../image/header-money.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .slide-ul li:nth-child(4) {
+    background-image: url('../image/header-dream.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  @keyframes slide {
+    0% {
+      margin-top: 0;
+    }
+  
+    10% {
+      margin-top: 0;
+    }
+  
+    25% {
+      margin-top: -100vh;
+    }
+  
+    35% {
+      margin-top: -100vh;
+    }
+  
+    50% {
+      margin-top: -200vh;
+    }
+  
+    60% {
+      margin-top: -200vh;
+    }
+  
+    75% {
+      margin-top: -300vh;
+    }
+  
+    85% {
+      margin-top: -300vh;
+    }
+  
+    100% {
+      margin-top: 0;
+    }
+  }
+  
+  .header-content-container{
+    float: left;
+    padding: 10vh 10vw;
+    z-index: 2;
+  }
+  
+  .down-arrow{
+    position: absolute;
+    top: 90%;
+    left: 47%;
+    z-index: 2;
+    animation-name: verticalArrow;
+    animation-duration: 0.7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes verticalArrow{
+    0%{
+      top: 90%;
+    }
+    100%{
+      top : 92%;
+    }
+  }
+  
+  .btn_survey.ui.large.button{
+    width:  10rem;
+    height: 3.6rem;
+    font-size: 1.3rem;
+    border-radius: 150px;
+    margin-top: 7vh;
+    font-family: "notosans" !important;
+    color: #393939;
+    background-color: #E6E6E6;
+  }
+}

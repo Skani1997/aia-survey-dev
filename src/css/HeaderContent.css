@@ -20,3 +20,28 @@
 .orange{
   color: #FA941E;
 }
+
+/*모바일 반응형 코드*/
+@media screen and (max-width: 1024px){
+  .description{
+    margin-top: 30vh;
+    line-height: 2.3rem;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 100 !important;
+  }
+  
+.header-subtitle{
+    font-size: 2rem;
+    color: white;
+}
+
+.header-title{
+    margin-top: 3vh;
+    margin-bottom: 6vh;
+    font-size: 3rem;
+} 
+.orange{
+  color: #FA941E;
+}
+}

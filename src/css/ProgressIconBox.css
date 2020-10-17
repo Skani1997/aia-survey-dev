@@ -5,21 +5,27 @@
     flex-wrap: nowrap;
     align-items: center;
 }
+.progressbox-innercontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .progressbox-img{
-    width: 11vw;
+    width: 21vh;
     height: auto;
-    margin-bottom: 3rem;
+    margin-bottom: 3vh;
 }
 
 .progressbox-title{
     display: block;
     font-family: "notosans" !important;
     color: white;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: bold;
     background-color: #FA941E;
     border-radius: 64px;
-    width: 16rem;
+    width: 14rem;
     height: 3rem;
     border: 0;
     outline: 0;
@@ -29,4 +35,45 @@
     color: #191919;
     font-size: 1.2rem;
     margin-top: 1rem;
+}
+
+@media screen and (max-width: 1024px){
+    .progressbox-container{
+        width: 84vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .progressbox-innercontainer{
+        display: flex;
+        width: 80vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .progressbox-img{
+        width: 12vh;
+        height: auto;
+        margin-bottom: 3vh;
+    }
+    
+    .progressbox-title{
+        display: block;
+        font-family: "notosans" !important;
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        background-color: #FA941E;
+        border-radius: 64px;
+        width: 16vh;
+        height: 2.5rem;
+        border: 0;
+        outline: 0;
+    }
+    
+    .progressbox-description{
+        color: #191919;
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
 }

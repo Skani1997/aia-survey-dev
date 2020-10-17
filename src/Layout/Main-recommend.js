@@ -6,7 +6,7 @@ function MainRecommend(){
     return(
         <div className="recommend-container">
             <h1 className="recommend">
-                이런 분들에게 반드시 필요합니다
+                이런 분들에게 <br/>반드시 필요합니다
             </h1>
             <div className="recommend-box1">
                 <div className="box">

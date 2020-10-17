@@ -19,7 +19,7 @@
 }
 
 .contact-form{
-    margin-top: 7vh;
+    margin-top: 5vh;
 }
 
 .form-container{
@@ -71,7 +71,7 @@ textarea::placeholder{
 .submit-btn{
     margin-top: 5vh;
     border: none;
-    width:  8vw;
+    width:  10vw;
     height: 5vh;
     font-size: 1.5em;
     border-radius: 150px;
