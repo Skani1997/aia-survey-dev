@@ -1,15 +1,23 @@
 import React from 'react';
 import '../css/Main-review.css';
-import reviewbox from '../image/reviewbox.png'
 
 function MainReview(){
     return(
         <div className="review-container">
             <h1 className="review-title">드림캘린더 사용후기</h1>
             <div className="reviewbox-container">
-                <img src={reviewbox} alt=""></img>
-                <img src={reviewbox} alt=""></img>
-                <img src={reviewbox} alt=""></img>
+                <div className="reviewbox">
+                    <h1 className="reviewbox-title">드림캘린더 신청</h1>
+                    <p className="reviewbox-description">신청양식에 맞춘 무료신청 OR 유료신청 신청양식에 맞춘 무료신청 OR 유료신청</p>
+                </div>
+                <div className="reviewbox">
+                    <h1 className="reviewbox-title">드림캘린더 신청</h1>
+                    <p className="reviewbox-description">신청양식에 맞춘 무료신청 OR 유료신청 신청양식에 맞춘 무료신청 OR 유료신청</p>                
+                </div>
+                <div className="reviewbox">
+                    <h1 className="reviewbox-title">드림캘린더 신청</h1>
+                    <p className="reviewbox-description">신청양식에 맞춘 무료신청 OR 유료신청 신청양식에 맞춘 무료신청 OR 유료신청</p>                
+                </div>    
             </div>
             <p className="review-description">
                 꿈을 날짜와 함께 적어놓으면 그것은 목표가 되고, 목표를 잘게 나누면 그것은 계획이 되며,<br/>

@@ -9,7 +9,11 @@
     font-size: 3rem;
     color: #343434;
     margin-left: 3vw;
-    margin-bottom: 10vh;
+    margin-bottom: 8vh;
+}
+
+.review-img{
+    width : 23vw;
 }
 
 .reviewbox-container{
@@ -19,11 +23,35 @@
     padding: 0 3vw;
 }
 
+
+.reviewbox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(../image/reviewbox.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 23vw;
+    height: 50vh;
+    padding : 5vh 1vw; 
+}
+
+
+.reviewbox-title{
+    font-size: 1.5rem;
+    padding-top: 32vh;
+    margin-bottom: 3rem;
+}
+
+.reviewbox-description{
+    font-size: 1rem;
+}
+
 .review-description{
-    margin-top: 8vh;
+    margin-top: 6vh;
     text-align: center;
     font-size: 1.4rem;
-    line-height: 2.8rem;
+    line-height: 2.4rem;
     color: #696969;
     font-weight: 500;
 }

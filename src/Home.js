@@ -13,7 +13,6 @@ import Contact from './Layout/Contact';
 
 function Home(){
     return(
-        <>
         <FullPage>
             <Slide>
                 <Header />
@@ -40,8 +39,6 @@ function Home(){
                 <Contact />
             </Slide>
         </FullPage>
-        
-        </>
     );
 }
 
