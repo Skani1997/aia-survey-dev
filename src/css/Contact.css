@@ -79,3 +79,87 @@ textarea::placeholder{
     color: #7E7E7E;
     background-color: #E6E6E6;
 }
+
+@media screen and (max-width: 1024px){
+    .contact-container{
+        font-family: "notosans" !important;
+        height: 80%;
+        padding : 10vh 2vw;
+        text-align: center;
+        background-color: #FBFBFB;
+    }
+    
+    .contact-container>h1{
+        color : #FA941E;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .contact-container>p{
+        color: #7E7E7E;
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .contact-form{
+        margin-top: 5vh;
+    }
+    
+    .form-container{
+        overflow: hidden;
+        padding : 0 19vw;
+    }
+    
+    .form-container>div>input{
+        outline: none;
+        background-color: #E6E6E6;
+        width :28vw;
+        height : 5vh;
+        margin : 1vh 0 ;
+        border-radius: 12px;
+        border: none;
+        padding : 0 20px;
+    }
+    
+    .form-left{
+        float: left;
+    }
+    
+    .form-right{
+        float : right;
+    }
+    
+    .contact-content{
+        outline: none;
+        background-color: #E6E6E6;
+        clear: both;
+        resize: none;
+        margin-top: 1vh;
+        border-radius: 12px;
+        border: none;
+        padding : 10px 20px;
+        width: 58vw;
+    }
+    
+    input::placeholder{
+        color : #7E7E7E;
+        font-weight: 700;
+    }
+    
+    textarea::placeholder{
+        color : #7E7E7E;
+        font-weight: 700;
+    }
+    
+    .submit-btn{
+        margin-top: 5vh;
+        border: none;
+        width:  35vw;
+        height: 5vh;
+        font-size: 1.5em;
+        border-radius: 150px;
+        font-family: "notosans" !important;
+        color: #7E7E7E;
+        background-color: #E6E6E6;
+    }
+}

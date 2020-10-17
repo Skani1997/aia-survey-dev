@@ -81,7 +81,7 @@
     }
     
     .box>img{
-        width: 10vh;
+        width: 12vh;
         height: auto;
     }
     
@@ -91,5 +91,6 @@
         font-size: 0.8rem;
         margin-top: 4vh;
         margin-left: 1rem;
+        text-align: center;
     }
 }

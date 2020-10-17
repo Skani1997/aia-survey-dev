@@ -10,20 +10,20 @@
 }
 
 .footer-address{
-    font-size: 0.75rem;
+    font-size: 0.5rem;
 }
 
 .footer-tell{
-    font-size: 0.75rem;
+    font-size: 0.5rem;
 }
 
 .footer-copyright{
-    font-size: 0.75rem;
+    font-size: 0.5rem;
 }
 
 .footerlogo{
     float:right;
     margin-top: 1.7rem;
-    width: 10rem;
+    width: 6rem;
     height: auto;
 }
