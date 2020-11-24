@@ -4,6 +4,7 @@ import 'semantic-ui-css/semantic.min.css'
 import { FullPage, Slide } from 'react-full-page';
 import Header from './Layout/Header';
 import MainProgress from './Layout/Main-progress';
+import MainConfig from './Layout/Main-config';
 import MainRecommend from './Layout/Main-recommend';
 import MainRequest from './Layout/Main-request';
 import MainUsage from './Layout/Main-usage';
@@ -22,6 +23,9 @@ function Home(){
             </Slide>
             <Slide>
                 <MainProgress />             
+            </Slide>
+            <Slide>
+                <MainConfig />             
             </Slide>
             <Slide>
                 <MainRequest />
