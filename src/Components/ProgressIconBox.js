@@ -7,7 +7,8 @@ function ProgressIconBox(props){
             <img className="progressbox-img" src={props.img} alt=""/>
             <div className="progressbox-innercontainer">
                 <button className="progressbox-title">{props.title}</button>
-                <p className="progressbox-description">{props.description}</p>
+                {/* eslint-disable-next-line*/}
+                <p className="progressbox-description" dangerouslySetInnerHTML={{__html: props.description.replace(new RegExp('\n', 'g') , '<br/>')}}/>
             </div>
         </div>
     );

@@ -1,20 +1,25 @@
 .progressbox-container{
-    width: 20vw;
+    width: 50vw;
+    height: 33vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
+    margin-left: 23%;
+    margin-top: 5vh;
 }
 .progressbox-innercontainer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 25vh;
 }
 .progressbox-img{
-    width: 21vh;
+    width: 30vh;
     height: auto;
     margin-bottom: 3vh;
+    margin-right: 5vh;
 }
 
 .progressbox-title{
@@ -23,7 +28,7 @@
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
-    background-color: #FA941E;
+    background-color: #A4734B;
     border-radius: 64px;
     width: 14rem;
     height: 3rem;
@@ -34,7 +39,8 @@
 .progressbox-description{
     color: #191919;
     font-size: 1.2rem;
-    margin-top: 1rem;
+    margin-top: 15%;
+    text-align: left;
 }
 
 @media screen and (max-width: 1024px){

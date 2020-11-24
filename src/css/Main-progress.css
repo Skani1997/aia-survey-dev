@@ -7,9 +7,25 @@
 }
 
 .progress-title{
-    color: #575757;
-    padding-top: 2vh;
-    font-size: 3.2rem;
+    color: #483527;
+    padding-top: 5vh;
+    font-size: 3.3rem;
+}
+
+.progress-description{
+    padding-top: 3vh;
+    color: #2E2E2E;
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 2.3rem;
+}
+
+.progress-caption{
+    padding-top: 5vh;
+    color: #2E2E2E;
+    font-size: 1.3rem;
+    line-height: 2.3rem;
 }
 
 @media screen and (max-width: 1024px){
