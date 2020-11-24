@@ -1,4 +1,4 @@
-.usage-container{
+.effect-container{
     font-family: "notosans" !important;
     height: 100vh;
     padding : 11vh 10vw;
@@ -7,13 +7,13 @@
     text-align: center;
 }
 
-.usage-description1{
+.effect-description1{
     color: white;
     font-size: 1.4rem;
     line-height: 2.7rem;
     font-weight: bold;
 }
-.usage-description2{
+.effect-description2{
     color: white;
     font-size: 1.4rem;
     line-height: 2.7rem;
@@ -21,45 +21,42 @@
     margin-top: 6vh;
 }
 
-.usage-title{
+.effect-title{
     color: #ECD4BC;
     font-size: 3rem;
     margin-bottom: 6vh;
 }
 
-.usage-vertical-line{
+.effect-vertical-line{
     margin-bottom: 7vh;
 }
 
 @media screen and (max-width: 1024px){
-    .usage-container{
+    .effect-container{
         font-family: "notosans" !important;
         height: 100vh;
         padding : 15vh 10vw;
         background-color: #FBFBFB;
     }
     
-    .usage-description1{
+    .effect-description1{
         color: #1F1F1F;
         font-size: 1rem;
         line-height: 2rem;
         font-weight: 200;
     }
-    .usage-description2{
+    .effect-description2{
         color: #1F1F1F;
         font-size: 1rem;
         line-height: 2rem;
         font-weight: 200;
     }
     
-    .usage-title{
+    .effect-title{
         color: #FA941E;
         padding-top: 2.5rem;
         font-size: 1.6rem;
         margin-bottom: 10vh;
     }
-    
-    strong{
-        font-weight: 530;
-    }
+
 }

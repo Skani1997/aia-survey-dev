@@ -1,10 +1,12 @@
 import React from 'react';
 import '../css/Main-usage.css';
+import verticalLine from '../image/vertical-line.png'
 
 function MainUsage(){
     return(
         <div className="usage-container">
             <h1 className="usage-title">드림캘린더 활용방법</h1>
+            <img className="usage-vertical-line" src={verticalLine} alt=""/>
             <p className="usage-description1">
             1. 활용방법
             </p>  
