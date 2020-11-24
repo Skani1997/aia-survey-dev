@@ -19,15 +19,12 @@
 }
 
 .usage-title{
-    color: #FA941E;
+    color: #ECD4BC;
     padding-top: 2.5rem;
     font-size: 3rem;
     margin-bottom: 10vh;
 }
 
-strong{
-    font-weight: 530;
-}
 
 @media screen and (max-width: 1024px){
     .usage-container{
