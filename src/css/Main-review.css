@@ -5,17 +5,6 @@
     background-color: #FBFBFB;
 }
 
-.review-title{
-    font-size: 3rem;
-    color: #343434;
-    margin-left: 3vw;
-    margin-bottom: 8vh;
-}
-
-.review-img{
-    width : 23vw;
-}
-
 .reviewbox-container{
     display: flex;
     flex-direction: row;
@@ -23,28 +12,19 @@
     padding: 0 3vw;
 }
 
-
-.reviewbox{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    background-image: url(../image/reviewbox.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    width: 23vw;
-    height: 50vh;
-    padding : 5vh 1vw; 
+.reviewbox-slider{
+    height: 40vh !important;
 }
 
-
-.reviewbox-title{
-    font-size: 1.5rem;
-    padding-top: 32vh;
-    margin-bottom: 2.5rem;
+.slider-container{
+    height: 55vh ;
 }
 
-.reviewbox-description{
-    font-size: 1rem;
+.review-title{
+    font-size: 3rem;
+    color: #343434;
+    margin-left: 3vw;
+    margin-bottom: 8vh;
 }
 
 .review-description{
@@ -56,58 +36,25 @@
     font-weight: 500;
 }
 
-@media screen and (max-width: 1024px){
-    .review-container{
-        font-family: "notosans" !important;
-        height: 100vh;
-        padding : 5vh 10vw 0 10vw;
-        background-color: #FBFBFB;
-    }
-    
-    .review-title{
-        font-size: 1.8rem;
-        color: #343434;
-        margin-left: 3vw;
-        margin-bottom: 5vh;
-    }
-    
-   
-    .reviewbox-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        padding: 0;
-    }
-    
-    
-    .reviewbox{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        background-image: url(../image/reviewbox.png);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        width: 40vw;
-        height: 30vh;
-        padding : 0; 
-    }
-    
-    .reviewbox-title{
-        font-size: 1rem;
-        padding-top: 22vh;
-        margin-bottom: 1vh;
-    }
-    
-    .reviewbox-description{
-        font-size: 0.6rem;
-    }
-    
-    .review-description{
-        text-align: center;
-        font-size: 0.97rem;
-        line-height: 2rem;
-        color: #696969;
-        font-weight: 500;
-    }
+.reviewbox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 23vw;
+    height: 50vh;
+    padding : 5vh 2.5vw; 
+}
+
+.reviewbox-title{
+    font-size: 1.5rem;
+    padding-top: 30vh;
+    color: #242424;
+    margin-bottom: 2.5rem;
+}
+
+.reviewbox-description{
+    font-size: 1rem;
+    color: #5C5C5C;
 }

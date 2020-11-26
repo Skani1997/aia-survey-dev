@@ -1,29 +1,40 @@
+*{
+    margin :0 ;
+    padding : 0;
+}
+
 .footer-container{
     font-family: "notosans" !important;
-    height: 20vh !important;
-    background-color: #0F1925;
-    padding : 5vh 5vw;
+    height: 30vh !important;
+    background-color: #4A3729;
+    padding : 5vh 15vw;
+}
+
+.footer-menu{
+    overflow: hidden;
+}
+
+.footer-menu > li{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color : white;
+    float: left;
+    margin: 0 2rem 2rem 0;
+}
+
+.footer-company{
+    clear: both;
 }
 
 .footer-container > p{
     color : white;
+    font-size: 0.8rem;
 }
 
-.footer-address{
-    font-size: 0.5rem;
+.footer-shopcall{
+    margin : 2rem 0;
 }
 
-.footer-tell{
-    font-size: 0.5rem;
-}
-
-.footer-copyright{
-    font-size: 0.5rem;
-}
-
-.footerlogo{
-    float:right;
-    margin-top: 1.7rem;
-    width: 6rem;
-    height: auto;
+.spforma{
+    margin : 0 2rem;
 }
