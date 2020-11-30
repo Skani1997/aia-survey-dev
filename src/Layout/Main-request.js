@@ -18,10 +18,10 @@ function MainRequest(){
                     <h1 className="request-box-title">무료 신청</h1>
                     <img className="howtoimg" src={howtoimg1} alt=""></img>
                     <p className="request-box-description">
-                        드림캘린더 페이지에서 바로 신청하세요<br/>
-                        신청사유, 당신이 가진 꿈, 과거의 경험 등<br/>
-                        몇가지 제시되는 질문으로 당신을 소개해주세요.<br/>
-                        간단한 리뷰를 거쳐 최소한의 기준점만 넘으면<br/>
+                        드림캘린더 페이지에서 <br/>바로 신청하세요<br/>
+                        신청사유, 당신이 가진 꿈, <br/>과거의 경험 등
+                        몇가지 제시되는 <br/>질문으로 당신을 소개해주세요.<br/>
+                        간단한 리뷰를 거쳐 최소한의 <br/>기준점만 넘으면<br/>
                         드림캘린더를 받아 볼 수 있습니다.
                     </p>
                 </div>

@@ -36,31 +36,35 @@
     .usage-container{
         font-family: "notosans" !important;
         height: 100vh;
-        padding : 15vh 10vw;
-        background-color: #FBFBFB;
+        padding : 11vh 10vw;
+        background-image: url("../image/usagebg.png");
+        background-attachment:fixed;
+        background-size: cover;
+        text-align: center;
     }
     
     .usage-description1{
-        color: #1F1F1F;
-        font-size: 1rem;
-        line-height: 2rem;
-        font-weight: 200;
+        color: white;
+        font-size: 1.3rem;
+        line-height: 2.7rem;
+        font-weight: bold;
     }
     .usage-description2{
-        color: #1F1F1F;
+        color: white;
         font-size: 1rem;
         line-height: 2rem;
-        font-weight: 200;
+        font-weight: 400;
+        margin-top: 6vh;
     }
     
     .usage-title{
-        color: #FA941E;
-        padding-top: 2.5rem;
-        font-size: 1.6rem;
-        margin-bottom: 10vh;
+        color: #ECD4BC;
+        font-size: 2rem;
+        margin-bottom: 6vh;
     }
     
-    strong{
-        font-weight: 530;
+    .usage-vertical-line{
+        height: 3rem;
+        margin-bottom: 7vh;
     }
 }

@@ -72,7 +72,7 @@
     .main-request-container{
         font-family: "notosans" !important;
         height: 100vh;
-        padding : 8vh 10vw;
+        padding : 8vh 5vw;
         background-color: #FBFBFB;
         text-align: center;
     }
@@ -89,9 +89,9 @@
     
     .request-description{
         color: #2E2E2E;
-        font-size: 1.2rem;
-        line-height: 2.4rem;
-        margin-top: 2rem;
+        font-size: 1.1rem;
+        line-height: 1.7rem;
+        margin-top: 3rem;
     }
     
     .request-box-container{
@@ -108,8 +108,8 @@
         background-size: 100% 100%;
         background-repeat: no-repeat;
         padding : 4.5vh 0;
-        width: 38vw;
-        height:56vh;
+        width: 43vw;
+        height:49vh;
     }
     
     .request-container-right{
@@ -121,25 +121,25 @@
         background-size: 100% 100%;
         background-repeat: no-repeat;
         padding : 4.5vh 0;
-        width: 38vw;
-        height:56vh;
+        width: 43vw;
+        height:49vh;
     }
     
     .request-box-title{
         color: #FFFFFF;
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
     
     .howtoimg{
         width: 20vw;
-        margin-top: 5vh;
+        margin-top: 3vh;
     }
     
     .request-box-description{
         color: #2E2E2E;
-        font-size: 0.8rem;
-        line-height: 2rem;
-        margin-top: 4vh;
+        font-size: 0.7rem;
+        line-height: 1.2rem;
+        margin-top: 3vh;
     }
     
 }
