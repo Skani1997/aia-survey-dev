@@ -5,7 +5,10 @@
 
 
 @media screen and (max-width: 1024px){
-
+    .slider{
+        height: 43vh;
+        margin-top: 0;
+    }
 }
 
 

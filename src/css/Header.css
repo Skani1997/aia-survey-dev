@@ -227,7 +227,7 @@ li {
   .down-arrow{
     position: absolute;
     top: 90%;
-    left: 47%;
+    left: 43%;
     z-index: 2;
     animation-name: verticalArrow;
     animation-duration: 0.7s;
