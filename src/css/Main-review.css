@@ -75,11 +75,11 @@
     }
     
     .reviewbox-slider{
-        height: 40vh !important;
+        height: 35vh !important;
     }
     
     .slider-container{
-        height: 55vh ;
+        height: 52vh ;
     }
     
     .review-title{
@@ -100,6 +100,7 @@
     }
     
     .reviewbox{
+        margin-left: 7%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -107,18 +108,18 @@
         background-repeat: no-repeat;
         width: 80vw;
         height: 50vh;
-        padding : 5vh 2.5vw; 
+        padding : 5vh 7vw; 
     }
     
     .reviewbox-title{
-        font-size: 1.3rem;
-        padding-top: 30vh;
+        font-size: 1rem;
+        padding-top: 29vh;
         color: #242424;
-        margin-bottom: 2.5rem;
+        margin-bottom: 2rem;
     }
     
     .reviewbox-description{
-        font-size: 1rem;
+        font-size: 0.9rem;
         color: #5C5C5C;
     }
 }
