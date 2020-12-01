@@ -31,8 +31,44 @@
 .usage-vertical-line{
     margin-bottom: 7vh;
 }
+@media screen and (max-width: 1200px){
+    .usage-container{
+        font-family: "notosans" !important;
+        height: 100vh;
+        padding : 11vh 10vw;
+        background-image: url("../image/usagebg.png");
+        background-attachment:fixed;
+        background-size: cover;
+        text-align: center;
+    }
+    
+    .usage-description1{
+        color: white;
+        font-size: 1.4rem;
+        line-height: 2.7rem;
+        font-weight: bold;
+    }
+    .usage-description2{
+        color: white;
+        font-size: 1.2rem;
+        line-height: 2.7rem;
+        font-weight: 400;
+        margin-top: 6vh;
+    }
+    
+    .usage-title{
+        color: #ECD4BC;
+        font-size: 3rem;
+        margin-bottom: 6vh;
+    }
+    
+    .usage-vertical-line{
+        height: 7vh;
+        margin-bottom: 7vh;
+    }
+}
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 768px){
     .usage-container{
         font-family: "notosans" !important;
         height: 100vh;

@@ -43,7 +43,7 @@
     margin-top: 4vh;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 768px){
     .recommend-container{
         font-family: "notosans" !important;
         padding : 5vh 0 0 7vw;

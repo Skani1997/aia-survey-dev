@@ -10,6 +10,20 @@
     color: #483527;
 }
 
+@media screen and (max-width: 1200px) {
+    .config-container{
+        font-family: "notosans" !important;
+        height: 100vh;
+        padding : 10vh 5vw;
+        text-align: center;
+        background-color: #FBFBFB;
+    }
+    .config-title{
+        font-size: 3.2rem;
+        color: #483527;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .config-container{
         font-family: "notosans" !important;

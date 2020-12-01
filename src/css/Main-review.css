@@ -14,7 +14,6 @@
 
 .reviewbox-slider{
     height: 40vh !important;
-    max-width: 1280px;
 }
 
 .slider-container{
@@ -61,7 +60,72 @@
     color: #5C5C5C;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width : 1200px){
+    .review-container{
+        font-family: "notosans" !important;
+        height: 100vh;
+        padding : 5vh 5vw 0 5vw;
+        background-color: #FBFBFB;
+    }
+    
+    .reviewbox-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 3vw;
+    }
+    
+    .reviewbox-slider{
+        height: 40vh !important;
+    }
+    
+    .slider-container{
+        height: 55vh ;
+    }
+    
+    .review-title{
+        font-size: 3rem;
+        color: #343434;
+        margin-left: 3vw;
+        margin-bottom: 8vh;
+    }
+    
+    .review-description{
+        margin-top: 6vh;
+        text-align: center;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        color: #696969;
+        font-weight: 500;
+    }
+    
+    .reviewbox{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 35%;
+        height: 50vh;
+        padding : 5vh 2.5vw; 
+    }
+    
+    .reviewbox-title{
+        font-size: 1.5rem;
+        padding-top: 30vh;
+        color: #242424;
+        margin-bottom: 1rem;
+    }
+    
+    .reviewbox-description{
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+        letter-spacing: -0.3px;
+        color: #5C5C5C;
+    }
+}
+
+@media screen and (max-width: 768px){
     .review-container{
         font-family: "notosans" !important;
         height: 100vh;
