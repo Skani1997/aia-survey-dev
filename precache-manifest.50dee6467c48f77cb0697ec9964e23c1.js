@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd28e127f2c21f5e7f679c2b100bee7e",
+    "revision": "7143389e484dfa204c8bdb3adf35d294",
     "url": "/aia-survey-dev/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aia-survey-dev/static/css/2.4a609840.chunk.css"
   },
   {
-    "revision": "2631622af9db50863936",
-    "url": "/aia-survey-dev/static/css/main.1707712a.chunk.css"
+    "revision": "ef6a3174dd192b5769ef",
+    "url": "/aia-survey-dev/static/css/main.c9cd4fe8.chunk.css"
   },
   {
     "revision": "a3d4aca6f819e05bdf28",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aia-survey-dev/static/js/2.b13def56.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2631622af9db50863936",
+    "revision": "ef6a3174dd192b5769ef",
     "url": "/aia-survey-dev/static/js/main.9c94564d.chunk.js"
   },
   {
@@ -64,16 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aia-survey-dev/static/media/flags.9c74e172.png"
   },
   {
-    "revision": "8be12b74eafec6332161b489e4f57dfd",
-    "url": "/aia-survey-dev/static/media/header-car.8be12b74.jpg"
-  },
-  {
     "revision": "d381e1f920b61aa6ad514a7f5166308f",
     "url": "/aia-survey-dev/static/media/header-house.d381e1f9.jpg"
-  },
-  {
-    "revision": "07d7baa583650d5783e457db2c8e48de",
-    "url": "/aia-survey-dev/static/media/header-money.07d7baa5.jpg"
   },
   {
     "revision": "acfc80b3fb1cc8715691c70900c2c639",
