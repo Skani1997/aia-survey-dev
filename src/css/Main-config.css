@@ -10,7 +10,7 @@
     color: #483527;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     .config-container{
         font-family: "notosans" !important;
         height: 100vh;

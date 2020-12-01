@@ -4,7 +4,7 @@
 }
 
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 768px){
     .slider{
         height: 43vh;
         margin-top: 0;

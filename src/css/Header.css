@@ -126,7 +126,7 @@ li {
 }
 
 /*모바일 반응형 코드*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .header-container{
     font-family: "notosans" !important;
     margin: 0;
