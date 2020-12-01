@@ -14,6 +14,7 @@
 
 .reviewbox-slider{
     height: 40vh !important;
+    max-width: 1280px;
 }
 
 .slider-container{
@@ -42,7 +43,7 @@
     align-items: flex-start;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    width: 23vw;
+    width: 35%;
     height: 50vh;
     padding : 5vh 2.5vw; 
 }
@@ -55,7 +56,8 @@
 }
 
 .reviewbox-description{
-    font-size: 1rem;
+    font-size: 0.9rem;
+    letter-spacing: -0.3px;
     color: #5C5C5C;
 }
 
