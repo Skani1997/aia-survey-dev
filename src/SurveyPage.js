@@ -449,23 +449,33 @@ var surveyJSON ={
         "isRequired": true
        },
        {
-        "type": "text",
-        "inputFormat": "###-####-####",
-        "autoUnmask": false,
+        "type": "multipletext",
         "name": "phone",
-        "title": "연락처",
-        "isRequired": true,
-        "validators":[{
-            "type" : "regex",
-            "regex" : "^\\d{3}-?\\d{4}-?\\d{4}$"
-        }     
-        ]
+        "title" :"연락처",
+        "maxWidth": "400px",
+        "items": [
+         {},
+         {
+          "name": "1",
+          "title": "-"
+         },
+         {
+          "name": "2",
+          "title": "-"
+         }
+        ],
+        "colCount": 3
        },
        {
         "type": "text",
         "name": "email",
         "title": "이메일",
-        "isRequired": true
+        "isRequired": true,
+        validators: [
+            {
+                type: "email"
+            }
+        ]
        },
        {
         "type": "radiogroup",
