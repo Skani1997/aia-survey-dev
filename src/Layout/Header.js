@@ -18,9 +18,6 @@ function Header() {
           
             <ul className="slide-ul">
               <li className="bg-house slide-li"></li>
-              <li className="bg-car slide-li"></li>
-              <li className="bg-money slide-li"></li>
-              <li className="bg-dream slide-li"></li>
             </ul>
         </div> 
       </header>
