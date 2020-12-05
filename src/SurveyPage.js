@@ -3625,6 +3625,8 @@ var surveyJSON ={
         json={surveyJSON} 
         onComplete={sendDataToServer}
         showProgressBar = "bottom"
+        pageNextText = "다음 페이지"
+        completeText = "설문 완료"
       />
     )
   }
