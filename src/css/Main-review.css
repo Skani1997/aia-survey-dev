@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 3vw;
+    padding: 0 1vw;
 }
 
 .reviewbox-slider{
@@ -40,31 +40,38 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    width: 35%;
+    width: 50%;
     height: 50vh;
     padding : 5vh 2.5vw; 
+    margin-left: 20%;
 }
 
 .reviewbox-title{
-    font-size: 1.5rem;
-    padding-top: 30vh;
-    color: #242424;
-    margin-bottom: 2.5rem;
+    font-size: 2.4rem;
+    padding-top: 14vh;
+    color: #483527;
+    margin-bottom: 4rem;
 }
-
+.reviewbox-name{
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
 .reviewbox-description{
-    font-size: 0.9rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
     letter-spacing: -0.3px;
     color: #5C5C5C;
 }
 
 @media screen and (max-width : 1200px){
+
+}
+
+@media screen and (max-width: 768px){
     .review-container{
         font-family: "notosans" !important;
         height: 100vh;
-        padding : 5vh 5vw 0 5vw;
+        padding : 5vh 10vw 0 10vw;
         background-color: #FBFBFB;
     }
     
@@ -72,7 +79,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 0 3vw;
+        padding: 0 1vw;
     }
     
     .reviewbox-slider{
@@ -84,16 +91,16 @@
     }
     
     .review-title{
-        font-size: 3rem;
+        font-size: 2rem;
         color: #343434;
         margin-left: 3vw;
-        margin-bottom: 8vh;
+        margin-bottom: 1vh;
     }
     
     .review-description{
-        margin-top: 6vh;
+        margin-top: 5vh;
         text-align: center;
-        font-size: 1.4rem;
+        font-size: 1.1rem;
         line-height: 2.4rem;
         color: #696969;
         font-weight: 500;
@@ -103,89 +110,26 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        width: 35%;
+        width: 70%;
         height: 50vh;
         padding : 5vh 2.5vw; 
+        margin-left: 20%;
     }
     
     .reviewbox-title{
-        font-size: 1.5rem;
-        padding-top: 30vh;
-        color: #242424;
-        margin-bottom: 1rem;
+        font-size: 1.6rem;
+        padding-top: 14vh;
+        color: #483527;
+        margin-bottom: 4rem;
     }
-    
-    .reviewbox-description{
-        font-size: 0.8rem;
-        line-height: 1.3rem;
-        letter-spacing: -0.3px;
-        color: #5C5C5C;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .review-container{
-        font-family: "notosans" !important;
-        height: 100vh;
-        padding : 5vh 0 0 0;
-        background-color: #FBFBFB;
-    }
-    
-    .reviewbox-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 0 3vw;
-    }
-    
-    .reviewbox-slider{
-        height: 35vh !important;
-    }
-    
-    .slider-container{
-        height: 52vh ;
-    }
-    
-    .review-title{
-        font-size: 2rem;
-        color: #343434;
-        margin-left: 8vw;
-        margin-bottom: 8vh;
-    }
-    
-    .review-description{
-        padding: 0 10vw;
-        margin-top: 6vh;
-        text-align: center;
-        font-size: 1rem;
-        line-height: 2rem;
-        color: #696969;
-        font-weight: 500;
-    }
-    
-    .reviewbox{
-        margin-left: 7%;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        width: 80vw;
-        height: 50vh;
-        padding : 5vh 7vw; 
-    }
-    
-    .reviewbox-title{
-        font-size: 1rem;
-        padding-top: 29vh;
-        color: #242424;
+    .reviewbox-name{
+        font-size: 1.4rem;
         margin-bottom: 2rem;
     }
-    
     .reviewbox-description{
         font-size: 0.9rem;
+        line-height: 1.6rem;
+        letter-spacing: -0.4px;
         color: #5C5C5C;
     }
 }
