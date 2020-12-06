@@ -20,9 +20,9 @@
 }
 
 .request-box-container{
-    margin-top: 7vh;
+    margin-top: 3vh;
     overflow: hidden;
-    padding: 0 12vw;
+    padding: 0 21vw;
 }
 
 .request-container-left{
@@ -30,12 +30,9 @@
     flex-direction: column;
     align-items: center;
     float: left;
-    background-image: url(../image/howtobg.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    padding : 5.7vh 0;
-    width: 28vw;
-    height:60vh;
+    padding : 5vh 0;
+    width: 23vw;
+    height:70vh;
 }
 
 .request-container-right{
@@ -43,28 +40,33 @@
     flex-direction: column;
     align-items: center;
     float: right;
-    background-image: url(../image/howtobg.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    padding : 5.7vh 0;
-    width: 28vw;
-    height:60vh;
+    padding : 5vh 0;
+    width: 23vw;
+    height:70vh;
 }
 
 .request-box-title{
-    color: #FFFFFF;
+    color: white;
     font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #A4734B;
+    border-radius: 64px;
+    width: 15vh;
+    padding: 0.5vh;
+    height: 3rem;
+    border: 0;
+    outline: 0;
 }
 
 .howtoimg{
     width: 7vw;
-    margin-top: 6vh;
+    margin-top: 4vh;
 }
 
 .request-box-description{
     color: #2E2E2E;
     font-size: 1.1rem;
-    line-height: 1.8rem;
+    line-height: 1.6rem;
     margin-top: 4vh;
 }
 
@@ -72,31 +74,28 @@
     .main-request-container{
         font-family: "notosans" !important;
         height: 100vh;
-        padding : 8vh 5vw;
+        padding : 4.5vh 6vw;
         background-color: #FBFBFB;
         text-align: center;
     }
     
     .request-title{
-        color: #343434;
+        color: #483527;
         font-size: 2rem;
     }
     
-    hr{
-        width: 4rem;
-        margin-top: 2rem;
-    }
     
     .request-description{
         color: #2E2E2E;
-        font-size: 1.1rem;
-        line-height: 1.7rem;
-        margin-top: 3rem;
+        font-size: 1rem;
+        line-height: 1.8rem;
+        margin-top: 3vh;
     }
     
     .request-box-container{
+        margin-top: 1vh;
         overflow: hidden;
-        padding: 0;
+        padding: 0 4vw;
     }
     
     .request-container-left{
@@ -104,12 +103,9 @@
         flex-direction: column;
         align-items: center;
         float: left;
-        background-image: url(../image/howtobg.png);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        padding : 4.5vh 0;
-        width: 43vw;
-        height:49vh;
+        padding : 2vh 0;
+        width: 35vw;
+        height:70vh;
     }
     
     .request-container-right{
@@ -117,29 +113,35 @@
         flex-direction: column;
         align-items: center;
         float: right;
-        background-image: url(../image/howtobg.png);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        padding : 4.5vh 0;
-        width: 43vw;
-        height:49vh;
+        padding : 2vh 0;
+        width: 35vw;
+        height:70vh;
     }
     
     .request-box-title{
-        color: #FFFFFF;
-        font-size: 1.3rem;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        background-color: #A4734B;
+        border-radius: 64px;
+        width: 15vh;
+        padding: 0.5vh;
+        height: 3rem;
+        border: 0;
+        outline: 0;
     }
     
     .howtoimg{
-        width: 20vw;
-        margin-top: 3vh;
+        width: 24vw;
+        margin-top: 2vh;
     }
     
     .request-box-description{
         color: #2E2E2E;
-        font-size: 0.7rem;
-        line-height: 1.2rem;
-        margin-top: 3vh;
+        font-size: 0.8rem;
+        letter-spacing: -0.45px;
+        line-height: 1.4rem;
+        margin-top: 4vh;
     }
     
 }

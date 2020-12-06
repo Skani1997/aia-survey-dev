@@ -9,6 +9,8 @@ function ProgressIconBox(props){
                 <button className="progressbox-title">{props.title}</button>
                 {/* eslint-disable-next-line*/}
                 <p className="progressbox-description" dangerouslySetInnerHTML={{__html: props.description.replace(new RegExp('\n', 'g') , '<br/>')}}/>
+                {/* eslint-disable-next-line*/}
+                <p className="emphasize" dangerouslySetInnerHTML={{__html: props.em.replace(new RegExp('\n', 'g') , '<br/>')}}/>
             </div>
         </div>
     );

@@ -42,6 +42,12 @@
     margin-top: 15%;
     text-align: left;
 }
+.emphasize{
+    color: #414040;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
 @media screen and (max-width: 1200px){
     .progressbox-container{
         width: 50vw;
