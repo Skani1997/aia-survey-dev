@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/aia-survey-dev/static/css/main.facf37da.chunk.css",
-    "main.js": "/aia-survey-dev/static/js/main.8d69fb61.chunk.js",
-    "main.js.map": "/aia-survey-dev/static/js/main.8d69fb61.chunk.js.map",
+    "main.css": "/aia-survey-dev/static/css/main.43592217.chunk.css",
+    "main.js": "/aia-survey-dev/static/js/main.dd1c00fe.chunk.js",
+    "main.js.map": "/aia-survey-dev/static/js/main.dd1c00fe.chunk.js.map",
     "runtime-main.js": "/aia-survey-dev/static/js/runtime-main.658d4411.js",
     "runtime-main.js.map": "/aia-survey-dev/static/js/runtime-main.658d4411.js.map",
     "static/css/2.4a609840.chunk.css": "/aia-survey-dev/static/css/2.4a609840.chunk.css",
-    "static/js/2.280e54d9.chunk.js": "/aia-survey-dev/static/js/2.280e54d9.chunk.js",
-    "static/js/2.280e54d9.chunk.js.map": "/aia-survey-dev/static/js/2.280e54d9.chunk.js.map",
+    "static/js/2.06e05baf.chunk.js": "/aia-survey-dev/static/js/2.06e05baf.chunk.js",
+    "static/js/2.06e05baf.chunk.js.map": "/aia-survey-dev/static/js/2.06e05baf.chunk.js.map",
     "index.html": "/aia-survey-dev/index.html",
-    "precache-manifest.0c8b4d519c5540fe94b4db5f17e9ceae.js": "/aia-survey-dev/precache-manifest.0c8b4d519c5540fe94b4db5f17e9ceae.js",
+    "precache-manifest.7b57f955b44d5c9bb318a66215d078b8.js": "/aia-survey-dev/precache-manifest.7b57f955b44d5c9bb318a66215d078b8.js",
     "service-worker.js": "/aia-survey-dev/service-worker.js",
     "static/css/2.4a609840.chunk.css.map": "/aia-survey-dev/static/css/2.4a609840.chunk.css.map",
-    "static/css/main.facf37da.chunk.css.map": "/aia-survey-dev/static/css/main.facf37da.chunk.css.map",
-    "static/js/2.280e54d9.chunk.js.LICENSE.txt": "/aia-survey-dev/static/js/2.280e54d9.chunk.js.LICENSE.txt",
+    "static/css/main.43592217.chunk.css.map": "/aia-survey-dev/static/css/main.43592217.chunk.css.map",
+    "static/js/2.06e05baf.chunk.js.LICENSE.txt": "/aia-survey-dev/static/js/2.06e05baf.chunk.js.LICENSE.txt",
     "static/media/index.css": "/aia-survey-dev/static/media/NotoSans-Medium.9ec34497.ttf",
     "static/media/Main-introduce.css": "/aia-survey-dev/static/media/bgimg.330ab57a.png",
     "static/media/semantic.min.css": "/aia-survey-dev/static/media/outline-icons.ef60a4f6.woff",
@@ -32,16 +32,13 @@
     "static/media/progress3.png": "/aia-survey-dev/static/media/progress3.abd4931f.png",
     "static/media/progress4.png": "/aia-survey-dev/static/media/progress4.e807fec9.png",
     "static/media/progress5.png": "/aia-survey-dev/static/media/progress5.8a395f6f.png",
-    "static/media/reviewimg1.png": "/aia-survey-dev/static/media/reviewimg1.76c5b43b.png",
-    "static/media/reviewimg2.png": "/aia-survey-dev/static/media/reviewimg2.ce4a6e64.png",
-    "static/media/reviewimg3.png": "/aia-survey-dev/static/media/reviewimg3.edca80de.png",
     "static/media/Main-effect.css": "/aia-survey-dev/static/media/usagebg.ff36fd60.png"
   },
   "entrypoints": [
     "static/js/runtime-main.658d4411.js",
     "static/css/2.4a609840.chunk.css",
-    "static/js/2.280e54d9.chunk.js",
-    "static/css/main.facf37da.chunk.css",
-    "static/js/main.8d69fb61.chunk.js"
+    "static/js/2.06e05baf.chunk.js",
+    "static/css/main.43592217.chunk.css",
+    "static/js/main.dd1c00fe.chunk.js"
   ]
 }
