@@ -16,9 +16,12 @@ function Header() {
             <img className="down-arrow" src={downArrow} alt=""></img>
           </div>
           
-            <ul className="slide-ul">
+          <ul className="slide-ul">
               <li className="bg-house slide-li"></li>
-            </ul>
+           {/*   <li className="bg-car slide-li"></li>
+              <li className="bg-money slide-li"></li>
+  <li className="bg-dream slide-li"></li>*/}
+           </ul>
         </div> 
       </header>
   );

@@ -2331,7 +2331,7 @@ var surveyJSON ={
            },
            {
             "value": "item3",
-            "text": "채권형 펀드, 금융채, 채권(A-이상), ELB/DLB(원금보장), CP/전단채(A2+이상) 등"
+            "text": "채권형 펀드, 금융채, 채권(A-이상), ELB/DLB(원금보���), CP/전단채(A2+이상) 등"
            },
            {
             "value": "item4",

@@ -1,9 +1,9 @@
 .description{
-    margin-top: 1rem;
+    margin-top: 2vh;
     line-height: 2.3rem;
     font-size: 1.25rem;
     color: white;
-    font-weight: 100 !important;
+    font-weight: 400 !important;
   }
   
 .header-subtitle{
@@ -12,8 +12,8 @@
 }
 
 .header-title{
-    margin-top: 3vh;
-    margin-bottom: 6vh;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
     font-size: 4rem;
     color: white;
 } 
