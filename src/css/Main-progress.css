@@ -32,24 +32,24 @@
     .main-container{
         font-family: "notosans" !important;
         height: 100vh;
-        padding : 4vh 12vw;
+        padding : 2vh 12vw;
         text-align: center;
         background-color: #FBFBFB;
     }
     
     .progress-title{
         color: #483527;
-        padding-top: 3vh;
-        font-size: 2rem;
+        padding-top: 2vh;
+        font-size: 1.8rem;
     }
     
     .progress-description{
-        padding-top: 3vh;
+        padding-top: 2vh;
         color: #2E2E2E;
-        font-size: 1rem;
+        font-size: 0.9rem;
         font-weight: 400;
-        letter-spacing: 1px;
-        line-height: 1.8rem;
+        letter-spacing: 0.5px;
+        line-height: 1.7rem;
     }
     
     .progress-caption{

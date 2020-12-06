@@ -137,9 +137,14 @@
     
     .progressbox-description{
         color: #191919;
-        font-size: 0.8rem;
+        font-size: 0.78rem;
         margin-top: 10%;
+        letter-spacing: -0.2px;
         text-align: left;
     }
-    
+    .emphasize{
+        color: #414040;
+        text-align: left;
+        font-size: 0.7rem;
+    }
 }
