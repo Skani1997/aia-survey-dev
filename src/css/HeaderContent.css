@@ -25,10 +25,10 @@
 @media screen and (max-width: 1024px){
   .description{
     margin-top: 30vh;
-    line-height: 2.3rem;
-    font-size: 1.2rem;
+    line-height: 2rem;
+    font-size: 1rem;
     color: white;
-    font-weight: 100 !important;
+    font-weight: 400 !important;
   }
   
 .header-subtitle{
