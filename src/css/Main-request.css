@@ -22,7 +22,7 @@
 .request-box-container{
     margin-top: 3vh;
     overflow: hidden;
-    padding: 0 21vw;
+    padding: 0 18vw;
 }
 
 .request-container-left{
@@ -31,7 +31,7 @@
     align-items: center;
     float: left;
     padding : 5vh 0;
-    width: 23vw;
+    width: 24vw;
     height:70vh;
 }
 
@@ -41,7 +41,7 @@
     align-items: center;
     float: right;
     padding : 5vh 0;
-    width: 23vw;
+    width: 24vw;
     height:70vh;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .howtoimg{
-    width: 7vw;
+    width: 8vw;
     margin-top: 4vh;
 }
 
