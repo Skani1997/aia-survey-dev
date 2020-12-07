@@ -1,7 +1,7 @@
 .contact-container{
     font-family: "notosans" !important;
     height: 70%;
-    padding : 8vh 10vw;
+    padding : 5vh 10vw;
     text-align: center;
     background-color: #FBFBFB;
 }
@@ -15,11 +15,11 @@
 .contact-container>p{
     color: #222222;
     font-size: 1rem;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 .contact-form{
-    margin-top: 5vh;
+    margin-top: 3vh;
 }
 
 .form-container{
@@ -61,7 +61,7 @@ textarea::placeholder{
 }
 
 .submit-btn{
-    margin-top: 5vh;
+    margin-top: 3.5vh;
     border: none;
     width:  6.5rem;
     height: 3.5vh;

@@ -1,7 +1,7 @@
 .main-request-container{
     font-family: "notosans" !important;
     height: 100vh;
-    padding : 8vh 6vw;
+    padding : 4vh 6vw;
     background-color: #FBFBFB;
     text-align: center;
 }
@@ -20,7 +20,7 @@
 }
 
 .request-box-container{
-    margin-top: 3vh;
+    margin-top: 2vh;
     overflow: hidden;
     padding: 0 18vw;
 }
@@ -60,14 +60,14 @@
 
 .howtoimg{
     width: 8vw;
-    margin-top: 4vh;
+    margin-top: 2vh;
 }
 
 .request-box-description{
     color: #2E2E2E;
     font-size: 1.1rem;
-    line-height: 1.6rem;
-    margin-top: 4vh;
+    line-height: 1.5rem;
+    margin-top: 3vh;
 }
 
 @media screen and (max-width: 768px){
