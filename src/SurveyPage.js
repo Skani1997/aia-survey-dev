@@ -11,7 +11,7 @@ var surveyJSON ={
       "elements": [
        {
         "type": "text",
-        "name": "name",
+        "name": "1",
         "minWidth": "100px",
         "maxWidth": "150px",
         "title": "이름",
@@ -19,7 +19,7 @@ var surveyJSON ={
        },
        {
         "type": "dropdown",
-        "name": "birthYear",
+        "name": "2",
         "width": "150px",
         "minWidth": "150px",
         "maxWidth": "150px",
@@ -427,14 +427,14 @@ var surveyJSON ={
        },
        {
         "type": "boolean",
-        "name": "성별",
+        "name": "3",
         "labelTrue": "남",
         "labelFalse": "여 ",
         "isRequired": true
        },
        {
         "type": "multipletext",
-        "name": "address",
+        "name": "4",
         "title": "주소",
         "items": [
          {
@@ -450,7 +450,7 @@ var surveyJSON ={
        },
        {
         "type": "multipletext",
-        "name": "phone",
+        "name": "5",
         "title" :"연락처",
         "maxWidth": "400px",
         "items": [
@@ -468,7 +468,7 @@ var surveyJSON ={
        },
        {
         "type": "text",
-        "name": "email",
+        "name": "6",
         "title": "이메일",
         "isRequired": true,
         validators: [
@@ -479,7 +479,7 @@ var surveyJSON ={
        },
        {
         "type": "radiogroup",
-        "name": "married",
+        "name": "7",
         "title": "결혼 여부",
         "choices": [
          {
@@ -499,7 +499,7 @@ var surveyJSON ={
        },
        {
         "type": "dropdown",
-        "name": "job",
+        "name": "8",
         "width": "150px",
         "minWidth": "150px",
         "maxWidth": "150px",
@@ -558,7 +558,7 @@ var surveyJSON ={
        },
        {
         "type": "dropdown",
-        "name": "rank",
+        "name": "9",
         "width": "150px",
         "minWidth": "150px",
         "maxWidth": "150px",
@@ -595,13 +595,17 @@ var surveyJSON ={
          {
           "value": "item8",
           "text": "사원"
-         }
+         },
+         {
+            "value": "item9",
+            "text": "기타"
+        }
         ],
         "isRequired": true
        },
        {
         "type": "dropdown",
-        "name": "reason",
+        "name": "10",
         "width": "600px",
         "minWidth": "600px",
         "maxWidth": "600px",
@@ -630,7 +634,7 @@ var surveyJSON ={
        },
        {
         "type": "radiogroup",
-        "name": "self_check",
+        "name": "11",
         "title": "현재 재정 상황에 대해서 점수를 메긴다면?",
         "choices": [
          {
@@ -658,7 +662,7 @@ var surveyJSON ={
        },
        {
         "type": "radiogroup",
-        "name": "experience",
+        "name": "12",
         "title": "지금까지 재정컨설팅을 받아 보신 경험이 있나요?(투자상담, 재무설계, 자산관리, 회계/세무 컨설팅, 보험설계 등)",
         "choices": [
          {
@@ -678,8 +682,8 @@ var surveyJSON ={
        },
        {
         type: "checkbox",
-        name: "Interest",
-        choicesEnableIf : "{Interest.length} <2 or {Interest} contains {item}",
+        name: "13",
+        choicesEnableIf : "{13.length} <2 or {13} contains {item}",
         "colCount": 2,
         "isRequired": true,
         title: "재무적인 부분에서 가장 큰 관심사는 무엇인가요?(최대 2개 선택)",
@@ -728,13 +732,13 @@ var surveyJSON ={
        },
        {
         "type": "boolean",
-        "name": "change",
+        "name": "14",
         "title": "직업과 관련하여 향후 5년 이내에 이직, 업종전환 등을 통해 소득의 큰 변화가 있을 예정이 있나요?",
         "isRequired": true
        },
        {
         "type": "radiogroup",
-        "name": "inherit",
+        "name": "15",
         "title": "부모로부터 향후 상속받을 재산이 있나요?",
         "choices": [
          {
@@ -768,7 +772,7 @@ var surveyJSON ={
         "elements": [
          {
           "type": "radiogroup",
-          "name": "goal",
+          "name": "16",
           "title": "삶에서 구체적으로 이루고 싶은 단 하나의 목표가 있나요?",
           "choices": [
            {
@@ -788,7 +792,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "bucketlist",
+          "name": "17",
           "title": "구체적이며 계획적인 버킷리스트 혹은 목표리스트가  5개이상 있나요?",
           "choices": [
            {
@@ -808,7 +812,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "goal_experience",
+          "name": "18",
           "title": "최근 1년이내에 계획했던 목표를 달성한 경험이 있나요?(다이어트, 저축, 취업, 자격증, 운동배우기 등)",
           "choices": [
            {
@@ -828,7 +832,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "plan_goal",
+          "name": "19",
           "title": "매년 / 매월 / 매주 일정한 시기에 나만의 계획 혹은 목표를 작성하시나요?",
           "choices": [
            {
@@ -848,7 +852,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "weak_char",
+          "name": "20",
           "title": "자기 자신의 성격적인 부분에서 단점 3가지를 즉시 떠올릴 수 있나요?",
           "choices": [
            {
@@ -868,7 +872,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "advice",
+          "name": "21",
           "title": "목표 혹은 계획을 세운 후 주변사람에게 공유하고 조언을 얻는 편인가요?",
           "choices": [
            {
@@ -888,7 +892,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "plan_careful",
+          "name": "22",
           "title": "계획을 세울 때 즉흥적이기 보다는 고심하고 실패할만한 요소나 기준근거를 정의한 다음 설정하나요?",
           "choices": [
            {
@@ -908,7 +912,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "short_plan",
+          "name": "23",
           "title": "단기 목표설정시에 현실적인 달성예상치를 기준으로 20% 이내로 상향된 목표를 설정하시나요?",
           "choices": [
            {
@@ -928,7 +932,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "job_ready",
+          "name": "24",
           "title": "현재의 직업은 당신이 최소 1년 이상의 준비기간을 거쳐서 선택한 직업인가요?",
           "choices": [
            {
@@ -948,7 +952,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "challenge",
+          "name": "25",
           "title": "머릿속에는 항상 도전하고 시도해야할 과제들이 가득 차 있나요?",
           "choices": [
            {
@@ -968,7 +972,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "stress",
+          "name": "26",
           "title": "세운 계획이 목표시점에 이루어지지 않았을 때 심한 스트레스를 받는다.",
           "choices": [
            {
@@ -988,7 +992,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "advertise",
+          "name": "27",
           "title": "목표나 계획이 생겼을 때 주변사람들에게 알리는 편이다.",
           "choices": [
            {
@@ -1008,7 +1012,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "evaluation",
+          "name": "28",
           "title": "주변의 가까운 사람으로 부터 성실한 사람 혹은 꾸준한 사람으로 평가 받는다.",
           "choices": [
            {
@@ -1028,7 +1032,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "support",
+          "name": "29",
           "title": "가족(부모님 혹은 배우자)로 부터 하고자 하는것은 무엇이든 지지 받는다.",
           "choices": [
            {
@@ -1048,7 +1052,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "promise",
+          "name": "30",
           "title": "한번 내뱉은 말은 반드시 지키는 편이다.",
           "choices": [
            {
@@ -1068,7 +1072,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "crisis",
+          "name": "31",
           "title": "일을 진행 하던 도중 예상치 못한 우발상황이 생겼다. 도저히 해결점을 찾을 수 없다면 어떻게 행동하나요?",
           "choices": [
            {
@@ -1088,7 +1092,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "routine",
+          "name": "32",
           "title": "목표를 달성하는데 가장 큰 역할을 하는것은 동기부여 보다는 루틴이다.",
           "choices": [
            {
@@ -1108,7 +1112,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "try",
+          "name": "33",
           "title": "잘 안될때가 많지만 그래도 열심히 해보려고 하는 편이다.",
           "choices": [
            {
@@ -1128,7 +1132,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "situation",
+          "name": "34",
           "title": "상황과 환경만 주어진다면 나도 뒤쳐지지않고 잘 하는 편이다.",
           "choices": [
            {
@@ -1148,7 +1152,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "work_hard",
+          "name": "35",
           "title": "최근 3개월 동안 동료 혹은 가까운 사람으로 부터 열심히 한다라는 이야기를 들은적이 있다.",
           "choices": [
            {
@@ -1168,7 +1172,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "better_life",
+          "name": "36",
           "title": "현재 비슷한 연령대의 사람들에 비해 좀 더 나은 삶을 살고 있다고 생각하시나요?",
           "choices": [
            {
@@ -1188,7 +1192,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "better_health",
+          "name": "37",
           "title": "신체와 건강은 비슷한 또래의 사람들에 비해 더 나은 편이라고 생각하시나요?",
           "choices": [
            {
@@ -1208,7 +1212,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "satisfy",
+          "name": "38",
           "title": "현재 자산상태(예금,부동산,대출 등)에 대해 만족하시나요?",
           "choices": [
            {
@@ -1228,7 +1232,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "5years",
+          "name": "39",
           "title": "지난 5년을 돌이켜보면 하지 않은것, 배우지못한것, 좀 더 열심히 하지 못한 것에 대한 후회가 있나요?",
           "choices": [
            {
@@ -1248,7 +1252,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "20years",
+          "name": "40",
           "title": "현실적으로 20년 후 꿈꾸는 삶과 실제는 얼마나 닮아 있을것 같나요?",
           "choices": [
            {
@@ -1268,7 +1272,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "study",
+          "name": "41",
           "title": "이 질문에 답하는 바로 이번 달, 직업관련된 것을 제외하고 무언가 배우거나 학습하고 있는것이 있나요?",
           "choices": [
            {
@@ -1288,7 +1292,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "using_planner",
+          "name": "42",
           "title": "자신의 일정/목표/루틴을 기록하는 일기, 스케줄러, 플래너를 성실히 활용하고 있나요?",
           "choices": [
            {
@@ -1308,7 +1312,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "program",
+          "name": "43",
           "title": "평소 목표를 설정 하실때 참고하는 멘토, 도서, 프로그램 등이 있나요? ",
           "choices": [
            {
@@ -1328,7 +1332,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "habit",
+          "name": "44",
           "title": "명상, 문구외우기, 목표상기하기 등 매일 혹은 매주 단위로 루틴한 나만의 행동양식이 있나요?",
           "choices": [
            {
@@ -1348,7 +1352,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "self_check_plan",
+          "name": "45",
           "title": "지난 계획이나 목표에 대해서 스스로 반성하고 점검해보는 시간을 갖는 편인가요?",
           "choices": [
            {
