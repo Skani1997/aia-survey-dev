@@ -683,8 +683,9 @@ var surveyJSON ={
        {
         type: "checkbox",
         name: "13",
-        choicesEnableIf : "{13.length} <2 or {13} contains {item}",
+        //choicesEnableIf : "{13} contains {item} or {13.length} <2 ",
         "colCount": 2,
+        maxSelectedChoices : 2,
         "isRequired": true,
         title: "재무적인 부분에서 가장 큰 관심사는 무엇인가요?(최대 2개 선택)",
         "choices": [
