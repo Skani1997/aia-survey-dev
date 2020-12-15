@@ -1719,7 +1719,8 @@ var surveyJSON ={
             "text": "수수료(비용)"
            }
           ],
-          choicesEnableIf : "{tendency_test_q3.length} <2 or {tendency_test_q3} contains {item}",
+          maxSelectedChoices : 2,
+          //choicesEnableIf : "{tendency_test_q3.length} <2 or {tendency_test_q3} contains {item}",
           "isRequired": true
          },
          {
