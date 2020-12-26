@@ -1,4 +1,5 @@
 import React from 'react'
+import '../css/Requestmodal.css';
 import { Button, Icon, Modal } from 'semantic-ui-react'
 
 
@@ -11,9 +12,9 @@ const Requestmodal = () => {
       open={open}
       onClose={() => setOpen(false)}
       onOpen={() => setOpen(true)}
-      trigger={<button className="btn_request ui large button">상담 요청하기</button>}
+      trigger={<button className="btn_request ui large button">신청하러가기 <Icon name='chevron right' /></button>}
     >
-      <Modal.Header>드림캘린더 상담 요청하기</Modal.Header>
+      <Modal.Header className="modal-title">드림캘린더 상담 요청하기</Modal.Header>
       <Modal.Content image scrolling>
 
         <Modal.Description>
@@ -23,7 +24,7 @@ const Requestmodal = () => {
         </Modal.Description>
       </Modal.Content>
       <Modal.Actions>
-        <Button onClick={() => setOpen(false)} primary>
+        <Button onClick={() => setOpen(false)} className="request-btn">
           신청하기 <Icon name='chevron right' />
         </Button>
       </Modal.Actions>

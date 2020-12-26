@@ -1,20 +1,20 @@
 .main-request-container{
-    font-family: "notosans" !important;
+    font-family: 'IBM Plex Sans' !important;
     height: 100vh;
-    padding : 4vh 6vw;
+    padding : 6vh 5vw;
     background-color: #FBFBFB;
     text-align: center;
 }
 
 .request-title{
     color: #483527;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 
 .request-description{
     color: #2E2E2E;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 2.5rem;
     margin-top: 5vh;
 }
@@ -22,7 +22,7 @@
 .request-box-container{
     margin-top: 2vh;
     overflow: hidden;
-    padding: 0 18vw;
+    padding: 0 10vw;
 }
 
 .request-container-left{
@@ -31,7 +31,7 @@
     align-items: center;
     float: left;
     padding : 5vh 0;
-    width: 24vw;
+    width: 22vw;
     height:70vh;
 }
 
@@ -41,7 +41,7 @@
     align-items: center;
     float: right;
     padding : 5vh 0;
-    width: 24vw;
+    width: 22vw;
     height:70vh;
 }
 
@@ -52,7 +52,7 @@
     background-color: #A4734B;
     border-radius: 64px;
     width: 15vh;
-    padding: 0.5vh;
+    padding: 1vh;
     height: 3rem;
     border: 0;
     outline: 0;
@@ -66,8 +66,14 @@
 .request-box-description{
     color: #2E2E2E;
     font-size: 1.1rem;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
     margin-top: 3vh;
+}
+
+.request-text-box{
+    float: left;
+    text-align: left;
+    margin-right: 5vw;
 }
 
 @media screen and (max-width: 768px){

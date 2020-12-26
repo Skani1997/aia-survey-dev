@@ -1,7 +1,7 @@
 .config-container{
-    font-family: "notosans" !important;
-    height: 100vh;
-    padding : 10vh 5vw;
+    font-family: 'IBM Plex Sans' !important;
+    height: 118vh;
+    padding : 20vh 5vw;
     text-align: center;
     background-color: #FBFBFB;
 }
@@ -10,9 +10,16 @@
     color: #483527;
 }
 
+
+.configbox-list{
+    margin-top: 20vh;
+    height: 55vh;
+    overflow: auto;
+}
+
 @media screen and (max-width: 1200px) {
     .config-container{
-        font-family: "notosans" !important;
+        font-family: "IBM Plex Sans" !important;
         height: 100vh;
         padding : 10vh 5vw;
         text-align: center;
@@ -26,7 +33,7 @@
 
 @media screen and (max-width: 768px) {
     .config-container{
-        font-family: "notosans" !important;
+        font-family: "IBM Plex Sans" !important;
         height: 100vh;
         padding : 10vh 0;
         text-align: center;
