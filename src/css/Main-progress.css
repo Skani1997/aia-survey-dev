@@ -1,32 +1,38 @@
 .main-container{
     font-family: "notosans" !important;
-    height: 100vh;
-    padding : 1vh 15vw;
-    text-align: center;
+    height: 130vh;
+    padding : 1vh 7vw;
     background-color: #FBFBFB;
 }
 
 .progress-title{
     color: #483527;
-    padding-top: 4vh;
-    font-size: 3.3rem;
+    padding-top: 8vh;
+    font-size: 2.7rem;
+    float: left;
 }
 
 .progress-description{
-    padding-top: 2.5vh;
+    float: right;
+    text-align: left;
+    margin-right: 20%;
+    padding-top: 8vh;
     color: #2E2E2E;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 2.3rem;
 }
 
 .progress-caption{
-    padding-top: 3vh;
+    text-align: center;
+    padding-top: 8vh;
     color: #2E2E2E;
     font-size: 1.3rem;
     line-height: 2.3rem;
 }
+
+
 
 @media screen and (max-width: 768px){
     .main-container{
