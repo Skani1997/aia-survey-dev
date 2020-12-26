@@ -17,10 +17,11 @@ function Header() {
           </div>
           
           <ul className="slide-ul">
-              <li className="bg-house slide-li"></li>
-           {/*   <li className="bg-car slide-li"></li>
+              <li className="bg-drive slide-li"></li>
+              <li className="bg-sky slide-li"></li>
+              <li className="bg-dding slide-li"></li>
+              <li className="bg-family slide-li"></li>
               <li className="bg-money slide-li"></li>
-  <li className="bg-dream slide-li"></li>*/}
            </ul>
         </div> 
       </header>

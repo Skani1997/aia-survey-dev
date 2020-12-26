@@ -26,6 +26,12 @@ Modal.Description>form>input{
     color : white !important ;
 }
 
+.btn_survey:hover{
+    background-color: #FA941E !important;
+    color : white !important ;
+    transition : 0.5s;
+}
+
 @media (max-width : 1280px){
     .modal-title{
         color : #7E7E7E !important;

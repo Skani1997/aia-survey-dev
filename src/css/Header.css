@@ -18,34 +18,40 @@ li {
 
 .slide .slide-ul {
   padding: 0;
-  height: calc(100% * 4);
-  animation: slide 8s infinite;
+  height: calc(100% * 5);
+  animation: slide 10s infinite;
 }
 
 .slide-ul li {
-  height: calc(100% / 4);
+  height: calc(100% / 5);
 }
 
 .slide-ul li:nth-child(1) {
-  background-image: url('../image/header-house.jpg');
+  background-image: url('../image/main-drive.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
-/*
+
 .slide-ul li:nth-child(2) {
-  background-image: url('../image/header-car.jpg');
+  background-image: url('../image/main-sky.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slide-ul li:nth-child(3) {
-  background-image: url('../image/header-money.jpg');
+  background-image: url('../image/main-dding.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slide-ul li:nth-child(4) {
-  background-image: url('../image/header-dream.jpg');
+  background-image: url('../image/main-family.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide-ul li:nth-child(5) {
+  background-image: url('../image/main-money.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -59,12 +65,16 @@ li {
     margin-top: 0;
   }
 
-  25% {
+  20% {
     margin-top: -100vh;
   }
 
-  35% {
+  30% {
     margin-top: -100vh;
+  }
+
+  40% {
+    margin-top: -200vh;
   }
 
   50% {
@@ -72,27 +82,31 @@ li {
   }
 
   60% {
-    margin-top: -200vh;
-  }
-
-  75% {
     margin-top: -300vh;
   }
 
-  85% {
+  70% {
     margin-top: -300vh;
+  }
+
+  80% {
+    margin-top: -400vh;
+  }
+
+  90% {
+    margin-top: -400vh;
   }
 
   100% {
     margin-top: 0;
   }
 }
-*/
+
 
 
 .header-content-container{
   float: left;
-  padding: 5vh 10vw;
+  padding: 5vh 7vw;
   z-index: 2;
 }
 
@@ -159,67 +173,80 @@ li {
   }
   
   .slide-ul li:nth-child(1) {
-    background-image: url('../image/header-house.jpg');
+    background-image: url('../image/main-drive.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
- /* 
-.slide-ul li:nth-child(2) {
-  background-image: url('../image/header-car.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.slide-ul li:nth-child(3) {
-  background-image: url('../image/header-money.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.slide-ul li:nth-child(4) {
-  background-image: url('../image/header-dream.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-@keyframes slide {
-  0% {
-    margin-top: 0;
+  
+  .slide-ul li:nth-child(2) {
+    background-image: url('../image/main-sky.png');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-
-  10% {
-    margin-top: 0;
+  
+  .slide-ul li:nth-child(3) {
+    background-image: url('../image/main-dding.png');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-
-  25% {
-    margin-top: -100vh;
+  
+  .slide-ul li:nth-child(4) {
+    background-image: url('../image/main-family.png');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-
-  35% {
-    margin-top: -100vh;
+  
+  .slide-ul li:nth-child(5) {
+    background-image: url('../image/main-money.png');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-
-  50% {
-    margin-top: -200vh;
+  
+  @keyframes slide {
+    0% {
+      margin-top: 0;
+    }
+  
+    10% {
+      margin-top: 0;
+    }
+  
+    20% {
+      margin-top: -100vh;
+    }
+  
+    30% {
+      margin-top: -100vh;
+    }
+  
+    40% {
+      margin-top: -200vh;
+    }
+  
+    50% {
+      margin-top: -200vh;
+    }
+  
+    60% {
+      margin-top: -300vh;
+    }
+  
+    70% {
+      margin-top: -300vh;
+    }
+  
+    80% {
+      margin-top: -400vh;
+    }
+  
+    90% {
+      margin-top: -400vh;
+    }
+  
+    100% {
+      margin-top: 0;
+    }
   }
-
-  60% {
-    margin-top: -200vh;
-  }
-
-  75% {
-    margin-top: -300vh;
-  }
-
-  85% {
-    margin-top: -300vh;
-  }
-
-  100% {
-    margin-top: 0;
-  }
-}
-  */
   .header-content-container{
     float: left;
     padding: 5vh 10vw;
