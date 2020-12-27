@@ -1,60 +1,117 @@
 import React from 'react';
-import Slider from '@farbenmeer/react-spring-slider';
 import '../css/Main-review.css';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
 
 function MainReview(){
 
-    const arrowStyle = { border: "solid #A4734B", borderWidth: "0 5px 5px 0" };
-
     return(
         <div className="review-container">
             <h1 className="review-title">드림캘린더 사용후기</h1>
-                <div className="slider-container">
-                    <Slider className="reviewbox-slider"
-                        hasArrows
-                        arrowStyle={arrowStyle}>
-                            <div className="reviewbox-container">
-                                <div className="reviewbox">
-                                    <h1 className="reviewbox-title">알찬 상담이었어요</h1>
-                                    <p className="reviewbox-name">오** 님</p>
-                                    <p className="reviewbox-description">
-                                        재무상담 처음 받아보는데 상담 자체에 기대를 많이 안했었거든요<br/>
-                                        상담사님하고 상담받고 이것저것 바꿀것도 있었고 제가 몰랐던 부분도 많이<br/>
-                                        알려주셔서 상담받으면서 진짜 도움을 많이 받았어요
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="reviewbox-container">
-                            <div className="reviewbox">
-                                    <h1 className="reviewbox-title">상담 딱 좋네요</h1>
-                                    <p className="reviewbox-name">최** 님</p>
-                                    <p className="reviewbox-description">
-                                        평소에 과소비도 좀 심하고 저축도 잘 못하는 편이라 도움을 받고 싶었었는데<br/>
-                                        저같은 사람한테 딱 맞는 상담이엇어요
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="reviewbox-container">
-                                <div className="reviewbox">
-                                    <h1 className="reviewbox-title">상담 꼭 받으세요</h1>
-                                    <p className="reviewbox-name">우** 님</p>
-                                    <p className="reviewbox-description">
-                                        재테크 1도 모르는 사람인데 이런거 받아보면 어떻게 좀 나아질까 상담받았어요<br/>
-                                        사람에 맞게 상담을 딱딱 해주셔서 저는 힘안들이고 체계적으로<br/>
-                                        잘 정리할 수 있었어요
-                                    </p>
-                                </div>
-                            </div>
-                    </Slider>   
-                </div>  
+            <Carousel
+            additionalTransfrom={0}
+            arrows
+            autoPlaySpeed={3000}
+            centerMode={true}
+            className=""
+            containerClass="container"
+            dotListClass=""
+            draggable
+            focusOnSelect={false}
+            itemClass="review-carousel"
+            keyBoardControl
+            infinite
+            minimumTouchDrag={80}
+            renderButtonGroupOutside={false}
+            renderDotsOutside={false}
+            responsive={{
+                desktop: {
+                breakpoint: {
+                    max: 3000,
+                    min: 1024
+                },
+                items: 3,
+                partialVisibilityGutter: 160
+                },
+                mobile: {
+                breakpoint: {
+                    max: 464,
+                    min: 0
+                },
+                items: 1,
+                partialVisibilityGutter: 30
+                },
+                tablet: {
+                breakpoint: {
+                    max: 1024,
+                    min: 464
+                },
+                items: 2,
+                partialVisibilityGutter: 30
+                }
+            }}
+            showDots={false}
+            sliderClass=""
+            slidesToSlide={1}
+            swipeable
+            >
+                         <div className="reviewbox1">
+                            <p className="reviewbox-name">오** 님</p>
+                            <p className="reviewbox-description">
+                                사내 게시판에서 임직원 대상으로 진행한다고 하여<br/>
+                                받게 되었는데 그간 월급이 스쳐만 가는 것 같던게<br/>
+                                이제는 스스로 효율적으로 관리할 수 있게 되었어요
+                            </p>
+                        </div>
+                        <div className="reviewbox2">
+                            <p className="reviewbox-name">최** 님</p>
+                            <p className="reviewbox-description">
+                                나이가 나이인지라 10년 안에 내 집마련이 가능할까<br/>
+                                싶었는데, 친절한 상담으로 자신이 생겼습니다.<br/>
+                                효율적으로 관리해서 성공해보이겠습니다.
+                            </p>
+                        </div>
+                        <div className="reviewbox3">
+                            <p className="reviewbox-name">우** 님</p>
+                            <p className="reviewbox-description">
+                                인생 전반에 대한 재무 플랜을 짤 수 있는 좋은 시간<br/>
+                                이었던 것 같습니다. 결혼을 하고 두 사람의 월급을<br/>
+                                관리하기에 어려웠는데 도움이 되었어요!
+                            </p>
+                        </div>  
+                        <div className="reviewbox1">
+                            <p className="reviewbox-name">김** 님</p>
+                            <p className="reviewbox-description">
+                                인생 전반에 대한 재무 플랜을 짤 수 있는 좋은 시간<br/>
+                                이었던 것 같습니다. 결혼을 하고 두 사람의 월급을<br/>
+                                관리하기에 어려웠는데 도움이 되었어요!
+                            </p>
+                        </div>  
+                        <div className="reviewbox2">
+                            <p className="reviewbox-name">박** 님</p>
+                            <p className="reviewbox-description">
+                                인생 전반에 대한 재무 플랜을 짤 수 있는 좋은 시간<br/>
+                                이었던 것 같습니다. 결혼을 하고 두 사람의 월급을<br/>
+                                관리하기에 어려웠는데 도움이 되었어요!
+                            </p>
+                        </div>  
+                        <div className="reviewbox3">
+                            <p className="reviewbox-name">한** 님</p>
+                            <p className="reviewbox-description">
+                                인생 전반에 대한 재무 플랜을 짤 수 있는 좋은 시간<br/>
+                                이었던 것 같습니다. 결혼을 하고 두 사람의 월급을<br/>
+                                관리하기에 어려웠는데 도움이 되었어요!
+                            </p>
+                        </div>  
+            </Carousel>
             <p className="review-description">
                 "꿈을 날짜와 함께 적어놓으면 그것은 목표가 되고, 목표를 잘게 나누면 그것은 계획이 되며,<br/>
                 그 계획을 실행에 옮기면 꿈은 실현되는 것이다.<br/>
                 당신의 꿈을 현실로 만들어줄 ‘나만의 드림캘린더’"
             </p>
         </div>
-    )
+    );
 }
 
 

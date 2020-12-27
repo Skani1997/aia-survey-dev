@@ -5,26 +5,79 @@
     background-color: #FBFBFB;
 }
 
+.review-title{
+    font-size: 2.5rem;
+    color: #343434;
+    margin-left: 3vw;
+    margin-bottom: 8vh;
+}
+
+.review-img{
+    width : 23vw;
+}
+
 .reviewbox-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 1vw;
+    padding: 0 3vw;
 }
 
-.reviewbox-slider{
-    height: 40vh !important;
+
+.reviewbox1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(../image/review1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 23vw;
+    height: 55vh;
+    padding : 5vh 2.5vw; 
+    margin-left: 4vw;
 }
 
-.slider-container{
-    height: 55vh ;
+.reviewbox2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(../image/review2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 23vw;
+    height: 55vh;
+    padding : 5vh 2.5vw; 
+    margin-left: 4vw;
 }
 
-.review-title{
-    font-size: 3rem;
-    color: #343434;
-    margin-left: 3vw;
-    margin-bottom: 8vh;
+.reviewbox3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(../image/review3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 23vw;
+    height: 55vh;
+    padding : 5vh 2.5vw; 
+    margin-left: 4vw;
+    text-overflow:ellipsis;
+}
+
+.review-carousel{
+    margin : 0 2vw;
+}
+
+.reviewbox-name{
+    font-size: 1.2rem;
+    padding-top: 33vh;
+    margin-bottom: 1vh;
+    color :#FA941E;
+}
+
+.reviewbox-description{
+    font-size: 0.8rem;
+    color :#ffffff;
 }
 
 .review-description{
@@ -34,33 +87,6 @@
     line-height: 2.4rem;
     color: #696969;
     font-weight: 500;
-}
-
-.reviewbox{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 50%;
-    height: 50vh;
-    padding : 5vh 2.5vw; 
-    margin-left: 20%;
-}
-
-.reviewbox-title{
-    font-size: 2.4rem;
-    padding-top: 14vh;
-    color: #483527;
-    margin-bottom: 4rem;
-}
-.reviewbox-name{
-    font-size: 1.4rem;
-    margin-bottom: 2rem;
-}
-.reviewbox-description{
-    font-size: 1.2rem;
-    line-height: 2rem;
-    letter-spacing: -0.3px;
-    color: #5C5C5C;
 }
 
 @media screen and (max-width : 1200px){
