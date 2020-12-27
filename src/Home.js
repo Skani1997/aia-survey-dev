@@ -7,7 +7,6 @@ import MainConfig from './Layout/Main-config';
 import MainRecommend from './Layout/Main-recommend';
 import MainRequest from './Layout/Main-request';
 import MainUsage from './Layout/Main-usage';
-import MainEffect from './Layout/Main-effect'
 import MainIntroduce from './Layout/Main-introduce';
 import MainReview from './Layout/Main-review';
 import Contact from './Layout/Contact';
@@ -21,7 +20,6 @@ function Home(){
                 <MainConfig />        
                 <MainRequest />
                 <MainUsage/>
-                <MainEffect/>
                 <MainRecommend />  
                 <MainReview />
                 <Contact />
