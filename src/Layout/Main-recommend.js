@@ -23,8 +23,8 @@ function MainRecommend(){
                 <div className="box">
                     <img src={person2} alt=''></img>
                     <p>
-                    "전 나름 노력하고 있는데<br/>
-                    결코 제 꿈을 이루기는 쉽지 않을 것 같아요"
+                    “매번 포기하고 가능성이 없는 것 같아요.<br/>
+                    꾸준히 돈도 모으고 제 꿈을 이루고 싶은데 너무 어려워요”
                     </p>
                 </div>
                 <div className="box">
@@ -36,18 +36,18 @@ function MainRecommend(){
             <div className="recommend-box2">
                 <div className="box">
                     <img src={person4} alt=''></img>
-                    <p>"막연한 미래를 잘 대비하고<br/>
-                    구체적으로 계획을 세우고 싶어요"</p>
+                    <p>“결혼도 하고 자식도 키워야하고<br/>
+                    집도 사야하는데 너무 막연해서 계속 미루게 돼요”</p>
                 </div>
                 <div className="box">
                     <img src={person5} alt=''></img>
-                    <p>"저와 비슷한 사람들과 비교해서 <br/>
-                    제가 잘 하고 있는지 확인하고 싶어요"</p>
+                    <p>“저와 비슷한 사람들과 비교해서<br/>
+                    제가 잘 하고 있는지 확인하고 싶어요”</p>
                 </div>
                 <div className="box">
                     <img src={person6} alt=''></img>
-                    <p>"어디에도 명쾌한 재무적<br/>
-                    방향성을 잡지 못하겠어요"</p>
+                    <p>“주식? 투자? 부동산? 금융은 너무 어렵고<br/>
+                    무엇부터 시작해야할지 모르겠어요”</p>
                 </div>
             </div>
         </div>
