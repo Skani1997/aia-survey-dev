@@ -9,6 +9,7 @@ import MainRequest from './Layout/Main-request';
 import MainUsage from './Layout/Main-usage';
 import MainIntroduce from './Layout/Main-introduce';
 import MainReview from './Layout/Main-review';
+import Qna from './Layout/Qna';
 import Contact from './Layout/Contact';
 
 function Home(){
@@ -22,6 +23,7 @@ function Home(){
                 <MainUsage/>
                 <MainRecommend />  
                 <MainReview />
+                <Qna/>
                 <Contact />
         </>
     );
