@@ -1,5 +1,5 @@
 .main-container{
-    font-family: "notosans" !important;
+    font-family: 'IBM Plex Sans' !important;
     height: 130vh;
     padding : 1vh 7vw;
     background-color: #FBFBFB;
@@ -31,14 +31,46 @@
     font-size: 1.3rem;
     line-height: 2.3rem;
 }
-
+@media screen and (max-width: 1200px){
+    .main-container{
+        font-family: 'IBM Plex Sans' !important;
+        height: 130vh;
+        padding : 2vh 12vw;
+        text-align: center;
+        background-color: #FBFBFB;
+    }
+    
+    .progress-title{
+        color: #483527;
+        padding-top: 2vh;
+        font-size: 1.8rem;
+    }
+    
+    .progress-description{
+        padding-top: 2vh;
+        color: #2E2E2E;
+        font-size: 0.9rem;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        line-height: 1.7rem;
+    }
+    
+    .progress-caption{
+        padding-top: 1vh;
+        color: #2E2E2E;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    
+    
+}
 
 
 @media screen and (max-width: 768px){
     .main-container{
-        font-family: "notosans" !important;
-        height: 100vh;
-        padding : 2vh 12vw;
+        font-family: 'IBM Plex Sans' !important;
+        height: 300vh;
+        padding : 4vh 11vw;
         text-align: center;
         background-color: #FBFBFB;
     }
@@ -61,7 +93,7 @@
     .progress-caption{
         padding-top: 3vh;
         color: #2E2E2E;
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         line-height: 1.5rem;
     }
     

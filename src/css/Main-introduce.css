@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 768px){
     .introduce-container{
-        font-family: "notosans" !important;
+        font-family: 'IBM Plex Sans' !important;
         height: 100vh;
         padding : 10vh 10vw;
         background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../image/bgimg.png");
