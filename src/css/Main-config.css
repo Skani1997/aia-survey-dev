@@ -12,9 +12,12 @@
 
 
 .configbox-list{
-    margin-top: 20vh;
-    height: 55vh;
-    overflow: auto;
+    margin-top: 15vh;
+    height: 10vh;
+}
+
+.react-multi-carousel-dot button::selection{
+    color: red;
 }
 
 @media screen and (max-width: 1200px) {

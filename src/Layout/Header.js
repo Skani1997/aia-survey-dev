@@ -22,6 +22,7 @@ function Header() {
               <li className="bg-dding slide-li"></li>
               <li className="bg-family slide-li"></li>
               <li className="bg-money slide-li"></li>
+              <li className="bg-money slide-li"></li>
            </ul>
         </div> 
       </header>

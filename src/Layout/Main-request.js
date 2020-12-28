@@ -8,7 +8,7 @@ function MainRequest(){
     return(
         <div className="main-request-container">
             <div className="request-text-box">
-                <h1 className="request-title">드림캘린더 신청방법</h1>
+                <h1 className="request-title">드림캘린더 신청</h1>
                 <p className="request-description">
                 정말 이루고 싶은 꿈과 고민, 현재 자신<br/>의 상황을 양식에 맞게 적어주시는 분<br/>께는 무료로 드림캘린더를 제공해드립니다.<br/>
                 드림캘린더는 그러한 사람들의<br/> 많은 꿈을 모아 2년에 한번씩 대한민국<br/> 재무&꿈 실태조사 보고서를 발간합니다.<br/>

@@ -1,7 +1,7 @@
 .introduce-container{
     font-family: 'IBM Plex Sans' !important;
     height: 50vh;
-    padding : 10vh 5vw;
+    padding : 10vh 7vw;
     background-image: linear-gradient( rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) ),url("../image/bgimg.png");
     background-size: cover;
 }
@@ -21,11 +21,6 @@
     font-size:  1.2rem;
     line-height: 2.5rem;
     text-align: left;
-}
-
-.vertical-line{
-    margin-top: 4vh;
-    height: 12vh;
 }
 
 @media screen and (max-width: 768px){
