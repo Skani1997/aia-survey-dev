@@ -1,0 +1,47 @@
+.qna-container{
+    height: 100vh;
+    background-color: #4A3729;
+    font-family: 'IBM Plex Sans' !important;
+    padding : 7vh 3vw 0 3vw;
+}
+
+.qna-title{
+    color: #ECD4BC;
+    font-size: 2.5rem;
+    float: left;
+}
+
+.qna-description{
+    color: #FFFFFF;
+    float: left;
+    font-size: 1.3rem;
+    margin-left: 7vh;
+    line-height: 2.2rem;
+}
+
+.qna-slider-container{
+    width: 100%;
+    height: 70vh;
+}
+.qna-slider{}
+
+.qna-box{
+    clear: both;
+    margin-left: 40vh;
+    background-color: #827368;
+    border-radius: 25px;
+    padding: 7vh 4vh;
+    width: 52%;
+    height: 100%;
+}
+
+.qna-box-title{
+    font-size: 2rem;
+    color: #FA941E;
+}
+
+.qna-box-description{
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+    color: #FFFFFF;
+}

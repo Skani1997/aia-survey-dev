@@ -1,0 +1,121 @@
+.usagebox-container{
+    height: 80%;
+    display: flex;
+    font-family: 'IBM Plex Sans';
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+}
+.usagebox-innercontainer{
+    height: 25vh;
+}
+.usagebox-img{
+    width: 40vh;
+    height: auto;
+    align-self: center;
+}
+
+.usagebox-title{
+    margin: 0;
+    font-size: 1.2rem;
+    color: #EAEAEA;
+}
+
+.usagebox-subtitle{
+    margin: 0;
+    margin-bottom: 5vh;
+    font-size: 1.6rem;
+    color: #FA941E;
+}
+
+.usagebox-description{
+    margin-top: 2.5vh;
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-align: left;
+}
+
+@media screen and (max-width: 1200px){
+    .usagebox-container{
+        height: 80%;
+        display: flex;
+        font-family: 'IBM Plex Sans';
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .usagebox-innercontainer{
+        height: 25vh;
+    }
+    .usagebox-img{
+        width: 25vh;
+        height: auto;
+        align-self: center;
+    }
+    
+    .usagebox-title{
+        margin-top: 5vh;
+        color: white;
+        font-size: 1.5rem;
+        align-self: center;
+        font-family: 'IBM Plex Sans'!important;
+        font-weight: bold;
+        background-color: #A4734B;
+        border-radius: 64px;
+        width: 14rem;
+        height: 3rem;
+        border: 0;
+        outline: 0;
+    }
+    
+    .usagebox-description{
+        margin-top: 2.5vh;
+        color: #191919;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .usagebox-container{
+    height: 80%;
+    display: flex;
+    font-family: 'IBM Plex Sans';
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+}
+.usagebox-innercontainer{
+    height: 25vh;
+}
+.usagebox-img{
+    width: 25vh;
+    height: auto;
+    align-self: center;
+}
+
+.usagebox-title{
+    margin-top: 5vh;
+    color: white;
+    font-size: 1.5rem;
+    align-self: center;
+    font-family: 'IBM Plex Sans'!important;
+    font-weight: bold;
+    background-color: #A4734B;
+    border-radius: 64px;
+    width: 14rem;
+    height: 3rem;
+    border: 0;
+    outline: 0;
+}
+
+.usagebox-description{
+    margin-top: 2.5vh;
+    color: #191919;
+    font-size: 1.2rem;
+    text-align: center;
+}
+}
