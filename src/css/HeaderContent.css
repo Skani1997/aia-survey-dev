@@ -1,4 +1,4 @@
-.description{
+.description{    
     margin-top: 2vh;
     line-height: 2.3rem;
     font-size: 1.25rem;
@@ -7,11 +7,13 @@
   }
   
 .header-subtitle{
+    font-family: 'IBM Plex Sans' !important;
     font-size: 3rem;
     color: white;
 }
 
 .header-title{
+  font-family: 'IBM Plex Sans' !important;
     margin-top: 1vh;
     margin-bottom: 3vh;
     font-size: 4rem;

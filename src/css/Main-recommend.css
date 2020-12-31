@@ -1,11 +1,11 @@
 .recommend-container{
-    font-family: 'IBM Plex Sans' !important;
     height: 130vh;
     padding : 6vh 7vw 0 7vw;
     background-color: #FBFBFB;
   }
 
 .recommend{
+    font-family: 'gmarketMid'!important;
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 6vh;
@@ -14,6 +14,7 @@
 }
 
 .recommend-box1{
+    font-family: 'notoserif' !important;
     display: flex;
     flex-direction: row;
     padding: 0 6vw;
@@ -23,6 +24,7 @@
 }
 
 .recommend-box2{
+    font-family: 'notoserif' !important;
     display: flex;
     flex-direction: row;
     padding: 0 6vw;

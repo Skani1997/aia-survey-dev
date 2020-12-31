@@ -1,3 +1,4 @@
+
 .modal-title{
     color : #7E7E7E !important;
     font-weight: 700 !important;
@@ -25,7 +26,6 @@ Modal.Description>form>input{
     background-color: #FA941E !important;
     color : white !important ;
 }
-
 .btn_survey:hover{
     background-color: #FA941E !important;
     color : white !important ;

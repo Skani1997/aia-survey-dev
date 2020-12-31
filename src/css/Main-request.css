@@ -1,5 +1,4 @@
 .main-request-container{
-    font-family: 'IBM Plex Sans' !important;
     height: 100vh;
     padding : 6vh 5vw;
     background-color: #FBFBFB;
@@ -7,12 +6,14 @@
 }
 
 .request-title{
+    font-family: 'gmarketMid' !important;
     color: #483527;
     font-size: 2rem;
 }
 
 
 .request-description{
+    font-family: 'IBM Plex Sans' !important;
     color: #2E2E2E;
     font-size: 1rem;
     line-height: 2.5rem;
@@ -46,6 +47,7 @@
 }
 
 .request-box-title{
+    font-family: 'notoserif' !important;
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
@@ -57,6 +59,9 @@
     border: 0;
     outline: 0;
 }
+.btn_request{
+    font-family: 'IBM Plex Sans' !important;
+}
 
 .howtoimg{
     width: 8vw;
@@ -64,6 +69,7 @@
 }
 
 .request-box-description{
+    font-family: 'IBM Plex Sans' !important;
     color: #2E2E2E;
     font-size: 1.1rem;
     line-height: 1.7rem;

@@ -1,12 +1,12 @@
 .qna-container{
     height: 100vh;
     background-color: #4A3729;
-    font-family: 'IBM Plex Sans' !important;
     padding : 7vh 3vw 0 3vw;
 }
 
 .qna-title{
     color: #ECD4BC;
+    font-family: 'gmarketMid' !important;
     font-size: 2.5rem;
     float: left;
 }
@@ -14,6 +14,7 @@
 .qna-description{
     color: #FFFFFF;
     float: left;
+    font-family: 'IBM Plex Sans' !important;
     font-size: 1.3rem;
     margin-left: 7vh;
     line-height: 2.2rem;
@@ -24,6 +25,7 @@
     height: 70vh;
 }
 .qna-box{
+    font-family: 'IBM Plex Sans' !important;
     clear: both;
     margin-left: 40vh;
     background-color: #827368;
@@ -34,6 +36,7 @@
 }
 
 .qna-box-title{
+    font-family: 'IBM Plex Sans' !important;
     font-size: 2rem;
     color: #FA941E;
 }

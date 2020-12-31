@@ -1,11 +1,11 @@
 .config-container{
-    font-family: 'IBM Plex Sans' !important;
     height: 118vh;
     padding : 20vh 5vw;
     text-align: center;
     background-color: #FBFBFB;
 }
 .config-title{
+    font-family: 'gmarketMid' !important;
     font-size: 3.2rem;
     color: #483527;
 }
@@ -22,7 +22,6 @@
 
 @media screen and (max-width: 1200px) {
     .config-container{
-        font-family: "IBM Plex Sans" !important;
         height: 100vh;
         padding : 10vh 5vw;
         text-align: center;

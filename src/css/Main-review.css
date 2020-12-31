@@ -1,11 +1,11 @@
 .review-container{
-    font-family: 'IBM Plex Sans' !important;
     height: 100vh;
     padding : 5vh 10vw 0 10vw;
     background-color: #FBFBFB;
 }
 
 .review-title{
+    font-family: 'gmarketMid' !important;
     font-size: 2.5rem;
     color: #343434;
     margin-left: 3vw;
@@ -17,6 +17,7 @@
 }
 
 .reviewbox-container{
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -25,6 +26,8 @@
 
 
 .reviewbox1{
+    
+    font-family: 'IBM Plex Sans' !important;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -38,6 +41,8 @@
 }
 
 .reviewbox2{
+    
+    font-family: 'IBM Plex Sans' !important;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -51,6 +56,8 @@
 }
 
 .reviewbox3{
+    
+    font-family: 'IBM Plex Sans' !important;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -87,6 +94,7 @@
     line-height: 2.4rem;
     color: #696969;
     font-weight: 500;
+    font-family: 'notoserif' !important;
 }
 
 @media screen and (max-width : 1200px){

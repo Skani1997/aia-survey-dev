@@ -1,5 +1,5 @@
 .header-container{
-  font-family: "notosans" !important;
+  font-family: 'IBM Plex Sans' !important;
   margin: 0;
   padding : 0;
   height: 100vh;
@@ -148,7 +148,7 @@ li {
   font-size: 1.3rem;
   border-radius: 150px;
   margin-top: 7vh;
-  font-family: "notosans" !important;
+  font-family: 'IBM Plex Sans' !important;
   color: #393939;
   background-color: #E6E6E6;
 }
@@ -156,7 +156,6 @@ li {
 /*모바일 반응형 코드*/
 @media screen and (max-width: 768px) {
   .header-container{
-    font-family: "notosans" !important;
     margin: 0;
     padding : 0;
     height: 100vh;

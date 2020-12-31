@@ -1,5 +1,4 @@
 .contact-container{
-    font-family: "notosans" !important;
     height: 70%;
     padding : 5vh 10vw;
     text-align: center;
@@ -7,12 +6,14 @@
 }
 
 .contact-container>h1{
+    font-family: 'gmarketMid' !important;
     color : #4B382A;
     font-size: 3rem;
     font-weight: bold;
 }
 
 .contact-container>p{
+    font-family: 'IBM Plex Sans' !important;
     color: #222222;
     font-size: 1rem;
     margin-top: 1.5rem;
@@ -67,9 +68,9 @@ textarea::placeholder{
     height: 3.5vh;
     font-size: 1em;
     border-radius: 150px;
-    font-family: "notosans" !important;
-    color: #7E7E7E;
-    background-color: #E6E6E6;
+    font-family: 'IBM Plex Sans' !important;
+    color: #ffffff;
+    background-color: #FA941E;
 }
 
 @media screen and (max-width: 1024px){

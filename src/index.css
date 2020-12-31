@@ -1,6 +1,26 @@
 @font-face{
   font-family: "notosans";
-  src: url(../src/Font/NotoSans-Medium.ttf);
+  src: url(./Font/NotoSans-Medium.ttf);
+}
+
+@font-face{
+  font-family: "gmarketBold";
+  src: url(./Font/GmarketSansTTFBold.ttf);
+}
+
+@font-face{
+  font-family: "gmarketLight";
+  src: url(./Font/GmarketSansTTFLight.ttf);
+}
+
+@font-face{
+  font-family: "gmarketMid";
+  src: url(./Font/GmarketSansTTFMedium.ttf);
+}
+
+@font-face{
+  font-family: "notoserif";
+  src: url(./Font/NotoSerifCJKkr-Medium.otf);
 }
 
 body {
