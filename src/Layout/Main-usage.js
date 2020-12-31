@@ -2,28 +2,30 @@ import React from 'react';
 import '../css/Main-usage.css';
 import UsageBox from '../Components/UsageBox';
 import EffectBox from '../Components/EffectBox';
-import UsageBoxImg from '../image/usagepic.png';
-import EffectBoxImg1 from '../image/usage1.png';
-import EffectBoxImg2 from '../image/usage2.png';
-import EffectBoxImg3 from '../image/usage3.png';
-import EffectBoxImg4 from '../image/usage4.png';
-import EffectBoxImg5 from '../image/usage5.png';
+import UsageBoxImg1 from '../image/usage1.png';
+import UsageBoxImg2 from '../image/usage2.png';
+import UsageBoxImg3 from '../image/usage3.png';
+import EffectBoxImg1 from '../image/effect1.png';
+import EffectBoxImg2 from '../image/effect2.png';
+import EffectBoxImg3 from '../image/effect3.png';
+import EffectBoxImg4 from '../image/effect4.png';
+import EffectBoxImg5 from '../image/effect5.png';
 
 function MainUsage(){
     return(
         <div className="usage-container">
             <h1 className="usage-title">드림캘린더 활용방법 및 효과</h1>
             <div className="usage-box-container">
-                <UsageBox title="지금껏 없었던" subtitle="나만의 재무보고서" img={UsageBoxImg} 
+                <UsageBox title="지금껏 없었던" subtitle="나만의 재무보고서" img={UsageBoxImg1} 
                           description="Part2. 목표 및 재무성향 평가 보고서 <br/>
                           Part3. 종합 재무상태보고서<br/>
                           Part4. 꿈 이룸 재무포트폴리오"></UsageBox>
-                <UsageBox title="청춘의 하루는 노년의 10년이다" subtitle="부자습관 기르는 우리집 가계부" img={UsageBoxImg} 
+                <UsageBox title="청춘의 하루는 노년의 10년이다" subtitle="부자습관 기르는 우리집 가계부" img={UsageBoxImg2} 
                           description="Part5. 금융환경의 이해<br/>
                           Part6. 드림캘린더 액션플랜<br/>
                                         - 일 / 월 / 분기 / 연도별 가계부 탑재<br/>
                                       - 최신 반영된 생활가계금융정보 수록"></UsageBox>
-                <UsageBox title="R=VD(Reality=Vivid Dream)" subtitle="현실 버킷리스트" img={UsageBoxImg} 
+                <UsageBox title="R=VD(Reality=Vivid Dream)" subtitle="현실 버킷리스트" img={UsageBoxImg3} 
                           description="Part6. 드림캘린더 액션플랜<br/>
                           Part7. 버킷리스트 FollowUp Sheet"></UsageBox>
             </div>

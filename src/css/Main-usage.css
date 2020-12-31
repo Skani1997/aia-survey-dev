@@ -29,6 +29,7 @@
 }
 
 .effect-box-container{
+    font-family: 'IBM Plex Sans' !important;
     margin-top: 15vh;
     display: flex;
     flex-direction: row;

@@ -1,11 +1,11 @@
 import React from 'react';
 import '../css/Main-recommend.css';
-import person1 from '../image/person1.png';
-import person2 from '../image/person2.png';
-import person3 from '../image/person3.png';
-import person4 from '../image/person4.png';
-import person5 from '../image/person5.png';
-import person6 from '../image/person6.png';
+import person1 from '../image/recommend1.png';
+import person2 from '../image/recommend2.png';
+import person3 from '../image/recommend3.png';
+import person4 from '../image/recommend4.png';
+import person5 from '../image/recommend5.png';
+import person6 from '../image/recommend6.png';
 
 function MainRecommend(){
     return(
