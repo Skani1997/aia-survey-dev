@@ -14,15 +14,11 @@ const Surveymodal = () => {
       trigger={<button className="btn_survey ui large button">설문시작</button>}
     >
       <Modal.Header className="modal-title">설문 시작하기</Modal.Header>
-      <Modal.Content image scrolling>
-        <Modal.Description>
-          <form>
-            <label for ="pin-num">핀 번호</label>
-            <input id="pin-num" type="text" name="pinNum" />
-            <label for ="phone">전화번호</label>
-            <input id="phone" type="text" name="phone"/>
-          </form>
-        </Modal.Description>
+      <Modal.Content scrolling>
+            <form className="surveymodal-form" id="contact">
+                    <div className="surveymodal-input"><label for="survey-pin">핀번호</label><input id="survey-pin" type="text" name="pin"/></div>
+                    <div className="surveymodal-input"><label for="survey-call">연락처</label><input id="survey-call" type="text" name="call"/></div>
+            </form>
       </Modal.Content>
       <Modal.Actions>
         <Link to="/surveypage">

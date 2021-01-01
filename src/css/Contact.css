@@ -25,39 +25,79 @@
 
 .form-container{
     overflow: hidden;
-    padding : 0 19vw;
+    padding : 0 26.3vw;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    border-top: 1px solid #707070;
+}
+
+.form-input:nth-child(5){
+    border-bottom: 1px solid #707070;
+}
+
+.select{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+}
+
+.select select{
+    appearance: none;
+    font-size: 1.1rem;
+    font-family: 'IBM Plex Sans' !important;
+    outline: none;
+    margin-bottom: 0.35vh;
+    background-color: #FBFBFB;
+    margin-left: 0.5vw;
+    color: #767676;
+    border: 0;
+}
+.select-arrow{
+    margin-left: 5px;
+    margin-top: 5px;
+    width :0;
+    height :0;
+    pointer-events: none;
+    border-style :solid;
+    border-width: 8px 5px 0 5px;
+    border-color: #999 transparent transparent transparent;
 }
 
 .form-container>div>input{
-    outline: none;
-    background-color: #E6E6E6;
-    width :27vw;
-    height : 5vh;
-    margin : 0.7vh 0 ;
+    float: left;
+    background-color: #FBFBFB;
+    width :20vw;
+    height : 3vh;
+    margin : 0.5vh 0 ;
     border-radius: 12px;
     border: none;
     padding : 0 20px;
 }
 
 .contact-content{
-    outline: none;
-    background-color: #E6E6E6;
+    float: left;
+    background-color: #FBFBFB;
     clear: both;
     resize: none;
     margin-top: 0.7vh;
     border-radius: 12px;
     border: none;
     padding : 20px 20px;
-    width: 27vw;
+    width: 20vw;
 }
-
-input::placeholder{
-    color : #7E7E7E;
-    font-weight: 700;
-}
-
-textarea::placeholder{
-    color : #7E7E7E;
+label{
+    font-size: 1.2rem;
+    height : 4vh;
+    margin : 2vh 0.5vw 0 0.5vw ;
+    float:left;
+    font-family: 'IBM Plex Sans' !important;
+    color : #4A3729;
     font-weight: 700;
 }
 
@@ -71,6 +111,20 @@ textarea::placeholder{
     font-family: 'IBM Plex Sans' !important;
     color: #ffffff;
     background-color: #FA941E;
+}
+
+.term{
+    text-align: left;
+    margin : 1.5vh 0 0 0.5vw;
+}
+
+.checkbox{
+    float: left;
+    margin : 0.3vh 1vh 0 0;
+}
+
+.termmodal{
+    float: left;
 }
 
 @media screen and (max-width: 1024px){

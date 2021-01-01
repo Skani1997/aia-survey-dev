@@ -15,13 +15,10 @@ const Requestmodal = () => {
       trigger={<button className="btn_request ui large button">신청하러가기 <Icon name='chevron right' /></button>}
     >
       <Modal.Header className="modal-title">드림캘린더 상담 요청하기</Modal.Header>
-      <Modal.Content image scrolling>
-
-        <Modal.Description>
+      <Modal.Content>
           <p>
             이부분이 상담요청하는 부분입니다
           </p>
-        </Modal.Description>
       </Modal.Content>
       <Modal.Actions>
         <Button onClick={() => setOpen(false)} className="request-btn">

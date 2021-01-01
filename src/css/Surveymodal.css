@@ -3,18 +3,23 @@
     color : #7E7E7E !important;
     font-weight: 700 !important;
 }
+.surveymodal-input{
+    margin-top: 1vh;
+}
 
-label{
+
+.surveymodal-form label{
+    margin-top: 1vh !important;
     color : #7E7E7E;
     font-weight: 700;
 }
 
-Modal.Description>form>input{
+.surveymodal-form input{
     margin : auto 1rem !important;
     outline: none;
     background-color: #E6E6E6;
     width :30vw;
-    height : 5vh;
+    height : 4vh;
     margin : 1vh 0 ;
     border-radius: 12px;
     border: none;
