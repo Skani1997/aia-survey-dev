@@ -36,24 +36,16 @@ function MainReview(){
                 },
                 mobile: {
                 breakpoint: {
-                    max: 464,
+                    max: 786,
                     min: 0
                 },
                 items: 1,
-                partialVisibilityGutter: 30
-                },
-                tablet: {
-                breakpoint: {
-                    max: 1024,
-                    min: 464
-                },
-                items: 2,
-                partialVisibilityGutter: 30
+                partialVisibilityGutter: 75
                 }
             }}
             showDots={false}
             sliderClass=""
-            slidesToSlide={1}
+            slidesToSlide={2}
             swipeable
             >
                              <div className="reviewbox1">

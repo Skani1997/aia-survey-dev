@@ -103,67 +103,100 @@
 
 @media screen and (max-width: 768px){
     .review-container{
-        font-family: "notosans" !important;
         height: 100vh;
-        padding : 5vh 10vw 0 10vw;
+        padding : 5vh 5vw 0 5vw;
         background-color: #FBFBFB;
     }
     
-    .reviewbox-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0 1vw;
-    }
-    
-    .reviewbox-slider{
-        height: 40vh !important;
-    }
-    
-    .slider-container{
-        height: 55vh ;
-    }
-    
     .review-title{
+        font-family: 'gmarketMid' !important;
         font-size: 2rem;
         color: #343434;
         margin-left: 3vw;
-        margin-bottom: 1vh;
+        margin-bottom: 8vh;
     }
     
-    .review-description{
-        margin-top: 5vh;
-        text-align: center;
-        font-size: 1.1rem;
-        line-height: 2.4rem;
-        color: #696969;
-        font-weight: 500;
+    .review-img{
+        width : 23vw;
     }
     
-    .reviewbox{
+    .reviewbox-container{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 74vw;
+    }
+
+    .reviewbox1{
+        
+        font-family: 'IBM Plex Sans' !important;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        width: 70%;
-        height: 50vh;
-        padding : 5vh 2.5vw; 
-        margin-left: 20%;
+        background-image: url(../image/review1.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 75vw;
+        height: 55vh;
+        padding : 5vh 10vw; 
+        margin-left: 4vw;
     }
     
-    .reviewbox-title{
-        font-size: 1.6rem;
-        padding-top: 14vh;
-        color: #483527;
-        margin-bottom: 4rem;
+    .reviewbox2{
+        
+        font-family: 'IBM Plex Sans' !important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-image: url(../image/review2.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 75vw;
+        height: 55vh;
+        padding : 5vh 10vw; 
+        margin-left: 4vw;
     }
+    
+    .reviewbox3{
+        
+        font-family: 'IBM Plex Sans' !important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-image: url(../image/review3.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 75vw;
+        height: 55vh;
+        padding : 5vh 10vw; 
+        margin-left: 4vw;
+    }
+    
+    .review-carousel{
+        margin : 0 17vw;
+    }
+    
     .reviewbox-name{
-        font-size: 1.4rem;
-        margin-bottom: 2rem;
+        font-size: 1.2rem;
+        padding-top: 33vh;
+        margin-bottom: 1vh;
+        color :#FA941E;
     }
+    
     .reviewbox-description{
+        font-size: 0.7rem;
+        color :#ffffff;
+    }
+    
+    .review-description{
+        margin-top: 6vh;
+        text-align: center;
         font-size: 0.9rem;
         line-height: 1.6rem;
-        letter-spacing: -0.4px;
-        color: #5C5C5C;
+        color: #696969;
+        font-weight: 500;
+        font-family: 'notoserif' !important;
     }
+    
 }

@@ -84,8 +84,7 @@
 
 @media screen and (max-width: 768px){
     .main-request-container{
-        font-family: "notosans" !important;
-        height: 100vh;
+        height: 120vh;
         padding : 4.5vh 6vw;
         background-color: #FBFBFB;
         text-align: center;
@@ -99,13 +98,13 @@
     
     .request-description{
         color: #2E2E2E;
-        font-size: 1rem;
-        line-height: 1.8rem;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
         margin-top: 3vh;
     }
     
     .request-box-container{
-        margin-top: 1vh;
+        margin-top: 38vh;
         overflow: hidden;
         padding: 0 4vw;
     }
@@ -117,7 +116,7 @@
         float: left;
         padding : 2vh 0;
         width: 35vw;
-        height:70vh;
+        height:66vh;
     }
     
     .request-container-right{
@@ -127,30 +126,30 @@
         float: right;
         padding : 2vh 0;
         width: 35vw;
-        height:70vh;
+        height:66vh;
     }
     
     .request-box-title{
         color: white;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: bold;
         background-color: #A4734B;
         border-radius: 64px;
         width: 15vh;
-        padding: 0.5vh;
+        padding: 1.5vh;
         height: 3rem;
         border: 0;
         outline: 0;
     }
     
     .howtoimg{
-        width: 24vw;
-        margin-top: 2vh;
+        width: 22vw;
+        margin-top: 1vh;
     }
     
     .request-box-description{
         color: #2E2E2E;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         letter-spacing: -0.45px;
         line-height: 1.4rem;
         margin-top: 4vh;

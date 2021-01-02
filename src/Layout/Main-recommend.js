@@ -29,7 +29,7 @@ function MainRecommend(){
                 </div>
                 <div className="box">
                     <img src={person3} alt=''></img>
-                    <p>"어떻게 하면 돈 관리를<br/>
+                    <p className="marginleft">"어떻게 하면 돈 관리를<br/>
                         잘 할 수 있는지 모르겠어요"</p>
                 </div>
             </div>

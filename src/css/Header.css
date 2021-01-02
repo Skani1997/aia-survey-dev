@@ -184,31 +184,36 @@ li {
   }
   
   .slide-ul li:nth-child(1) {
-    background-image: url('../image/main-drive.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../image/main-drive.png');
+    background-position:  center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   .slide-ul li:nth-child(2) {
-    background-image: url('../image/main-sky.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../image/main-sky.png');
+    background-position:  center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   .slide-ul li:nth-child(3) {
-    background-image: url('../image/main-dding.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../image/main-dding.png');
+    background-position:  center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   .slide-ul li:nth-child(4) {
-    background-image: url('../image/main-family.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../image/main-family.png');
+    background-position:  center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   .slide-ul li:nth-child(5) {
-    background-image: url('../image/main-money.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../image/main-money.png');
+    background-position:  center;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -265,9 +270,10 @@ li {
   }
   
   .down-arrow{
+    width: 3vh;
     position: absolute;
-    top: 90%;
-    left: 43%;
+    top: 92%;
+    left: 47%;
     z-index: 2;
     animation-name: verticalArrow;
     animation-duration: 0.7s;
@@ -277,10 +283,10 @@ li {
   
   @keyframes verticalArrow{
     0%{
-      top: 90%;
+      top: 92%;
     }
     100%{
-      top : 92%;
+      top : 94%;
     }
   }
   

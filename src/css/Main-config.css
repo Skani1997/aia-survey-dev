@@ -16,10 +16,6 @@
     height: 10vh;
 }
 
-.react-multi-carousel-dot button::selection{
-    color: red;
-}
-
 @media screen and (max-width: 1200px) {
     .config-container{
         height: 100vh;
@@ -44,5 +40,9 @@
     .config-title{
         font-size: 2.5rem;
         color: #483527;
+    }
+    .configbox-list{
+        margin-top: 10vh;
+        height: 10vh;
     }
 }

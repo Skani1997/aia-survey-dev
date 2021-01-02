@@ -55,10 +55,20 @@
     }
     
     .footer-container{
-        font-family: "notosans" !important;
-        height: 30vh !important;
+        font-family: 'IBM Plex Sans' !important;
+        height: 33vh !important;
+        background-color: #ffffff;
+        
+    }
+    
+    .footer-brown{
         background-color: #4A3729;
-        padding : 3vh 10vw;
+        padding : 4vh 7vw 0vh 7vw;
+    }
+    .footer-white{
+        color: #0B0B0B;
+        padding : 2vh 7vw;
+        font-size: 0.8rem;
     }
     
     .footer-menu{
@@ -70,7 +80,7 @@
         font-weight: bold;
         color : white;
         float: left;
-        margin: 0 0.8rem 0.8rem 0;
+        margin: 0 2rem 2rem 0;
     }
     
     .footer-company{
@@ -79,14 +89,15 @@
     
     .footer-container > p{
         color : white;
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
     
     .footer-shopcall{
-        margin : 1.2rem 0;
+        margin : 1rem 0;
     }
     
     .spforma{
         margin : 0 2rem;
     }
+    
 }

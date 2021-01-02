@@ -37,3 +37,45 @@
     font-size: 1.2rem;
     text-align: center;
 }
+
+@media screen and (max-width: 768px){
+    .effectBox-container{
+        height: 80%;
+        display: flex;
+        font-family: 'IBM Plex Sans';
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .effectBox-innercontainer{
+        height: 40vh;
+    }
+    .effectBox-img{
+        width: 25vh;
+        height: auto;
+        align-self: center;
+    }
+    
+    .effectBox-title{
+        margin-top: 5vh;
+        color: white;
+        font-size: 1.2rem;
+        align-self: center;
+        font-family: 'IBM Plex Sans'!important;
+        font-weight: bold;
+        background-color: #A4734B;
+        border-radius: 64px;
+        width: 14rem;
+        height: 3rem;
+        border: 0;
+        outline: 0;
+    }
+    
+    .effectBox-description{
+        margin-top: 2.5vh;
+        color: #FFFFFF;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}

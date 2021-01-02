@@ -129,7 +129,6 @@ label{
 
 @media screen and (max-width: 1024px){
     .contact-container{
-        font-family: "notosans" !important;
         height: 70%;
         padding : 8vh 10vw;
         text-align: center;
@@ -158,14 +157,7 @@ label{
     }
     
     .form-container>div>input{
-        outline: none;
-        background-color: #E6E6E6;
-        width :70vw;
-        height : 5vh;
-        margin : 0.7vh 0 ;
-        border-radius: 12px;
-        border: none;
-        padding : 0 20px;
+        width: 50vw;
     }
     
     .contact-content{
@@ -197,9 +189,15 @@ label{
         height: 3.5vh;
         font-size: 1em;
         border-radius: 150px;
-        font-family: "notosans" !important;
         color: #7E7E7E;
         background-color: #E6E6E6;
     }
     
+    .select select{
+        margin-top: 1vh;
+        margin-left: 3vh;
+    }
+    .select-arrow{
+        margin-top: 10px;
+    }
 }

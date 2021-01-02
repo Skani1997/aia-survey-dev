@@ -49,7 +49,7 @@
 
 @media screen and (max-width: 768px){
     .recommend-container{
-        font-family: "notosans" !important;
+        height: 100vh;
         padding : 5vh 0 0 7vw;
         background-color: #FBFBFB;
       }
@@ -101,5 +101,9 @@
         margin-top: 2vh;
         margin-left: 2rem;
         text-align: center;
+    }
+
+    .marginleft{
+        padding-left: 25px;
     }
 }

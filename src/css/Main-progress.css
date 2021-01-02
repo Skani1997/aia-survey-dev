@@ -49,6 +49,7 @@
     }
     
     .progress-description{
+        margin: 0;
         padding-top: 2vh;
         color: #2E2E2E;
         font-size: 0.9rem;
@@ -84,6 +85,7 @@
     }
     
     .progress-description{
+        margin: 0;
         padding-top: 2vh;
         color: #2E2E2E;
         font-size: 0.9rem;
@@ -95,7 +97,7 @@
     .progress-caption{
         padding-top: 3vh;
         color: #2E2E2E;
-        font-size: 0.7rem;
+        font-size: 1rem;
         line-height: 1.5rem;
     }
     
