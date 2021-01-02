@@ -24,7 +24,7 @@ function Qna(){
             draggable
             focusOnSelect={false}
             infinite
-            itemClass=""
+            itemClass="qna-carousel"
             keyBoardControl
             minimumTouchDrag={80}
             renderButtonGroupOutside={false}

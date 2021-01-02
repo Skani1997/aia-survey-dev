@@ -74,12 +74,12 @@
     }
     .qna-box{
         font-family: 'IBM Plex Sans' !important;
-        margin-left: 5%;
+        margin-left: 0;
         margin-top: 5%;
         background-color: #827368;
         border-radius: 25px;
         padding: 4vh 4vh;
-        width: 90%;
+        width: 95%;
         height: 100%;
     }
     
@@ -89,6 +89,7 @@
         color: #FA941E;
     }
     
+
     .qna-box-description{
         font-size: 1rem;
         line-height: 1.6rem;

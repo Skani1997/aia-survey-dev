@@ -15,7 +15,6 @@ function MainConfig() {
             arrows={false}
             autoPlay
             autoPlaySpeed={3000}
-            centerMode={false}
             className=""
             containerClass="config-slider-container"
             dotListClass="config-dot"
