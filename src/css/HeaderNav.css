@@ -1,18 +1,38 @@
 .navbar{
-    font-family: 'IBM Plex Sans' !important;
+    font-family: 'IBMPlexSansKR-Bold' !important;
     overflow: hidden;
     width: 88vw;
+    font-weight: bold;
     margin-bottom: 21vh;
 }
+.sub{
+    position: absolute; 
+    top: 8%; 
+    width: 3%; 
+    display: none; 
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .sub:nth-child(odd){
+    background-color: rgba(255 , 255 , 255 , 0.5);
+  }
+  .sub:nth-child(even){
+      
+}
+  .menu> ul >li:hover .sub{
+    display: block;
+    color: red;
+  }
 
 .logo{
     float: left;
-    height : 2.5rem;
+    height : 3rem;
     width : auto;
 }
 
 .menu{
     float : right;
+    margin-top: 1vh;
 }
 
 .menu>ul>li{

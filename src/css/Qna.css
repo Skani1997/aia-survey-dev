@@ -6,7 +6,7 @@
 
 .qna-title{
     color: #ECD4BC;
-    font-family: 'gmarketMid' !important;
+    font-family: 'gmarketBold' !important;
     font-size: 2.5rem;
     float: left;
 }
@@ -15,9 +15,9 @@
     color: #FFFFFF;
     float: left;
     font-family: 'IBM Plex Sans' !important;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-left: 7vh;
-    line-height: 2.2rem;
+    line-height: 2.5rem;
 }
 
 .qna-slider-container{
@@ -56,7 +56,7 @@
     
     .qna-title{
         color: #ECD4BC;
-        font-family: 'gmarketMid' !important;
+        font-family: 'gmarketBold' !important;
         font-size: 2rem;
     }
     

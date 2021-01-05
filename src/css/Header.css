@@ -127,6 +127,7 @@ li {
   top: 90%;
   left: 49%;
   z-index: 2;
+  width: 2.5vh;
   animation-name: verticalArrow;
   animation-duration: 0.7s;
   animation-direction: alternate;

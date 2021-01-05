@@ -6,23 +6,23 @@
 }
 
 .progress-title{
-    font-family: 'gmarketMid' !important;
+    font-family: 'gmarketBold' !important;
     color: #483527;
     padding-top: 8vh;
-    font-size: 2.7rem;
+    font-size: 2.5rem;
+    width: 40%;
     float: left;
 }
 
 .progress-description{
     float: left;
     text-align: left;
-    margin-left: 33.5%;
     padding-top: 8vh;
     color: #2E2E2E;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 400;
     letter-spacing: 1px;
-    line-height: 2.3rem;
+    line-height: 2.5rem;
 }
 
 .progress-caption{
@@ -30,8 +30,8 @@
     text-align: center;
     padding-top: 8vh;
     color: #2E2E2E;
-    font-size: 1.3rem;
-    line-height: 2.3rem;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
 }
 @media screen and (max-width: 1200px){
     .main-container{

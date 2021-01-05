@@ -5,7 +5,7 @@
 }
 
 .review-title{
-    font-family: 'gmarketMid' !important;
+    font-family: 'gmarketBold' !important;
     font-size: 2.5rem;
     color: #343434;
     margin-left: 3vw;
@@ -89,8 +89,8 @@
 .review-description{
     margin-top: 6vh;
     text-align: center;
-    font-size: 1.4rem;
-    line-height: 2.4rem;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
     color: #696969;
     font-weight: 500;
     font-family: 'notoserif' !important;
@@ -108,7 +108,7 @@
     }
     
     .review-title{
-        font-family: 'gmarketMid' !important;
+        font-family: 'gmarketBold' !important;
         font-size: 2rem;
         color: #343434;
         margin-left: 3vw;

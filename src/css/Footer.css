@@ -12,7 +12,7 @@
 
 .footer-brown{
     background-color: #4A3729;
-    padding : 3vh 15vw 0vh 15vw;
+    padding : 1vh 15vw 0vh 15vw;
 }
 .footer-white{
     color: #0B0B0B;
@@ -20,6 +20,7 @@
 }
 
 .footer-menu{
+    height: 3vh;
     overflow: hidden;
 }
 

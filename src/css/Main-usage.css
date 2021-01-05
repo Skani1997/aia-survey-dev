@@ -1,24 +1,25 @@
 .usage-container{
     font-family: 'IBM Plex Sans' !important;
-    height: 200vh;
+    height: 190vh;
     padding : 11vh 7vw;
     background-image: url("../image/usagebg.png");
     background-size: cover;
 }
 
 .usage-title{
-    font-family: 'gmarketMid' !important;
+    font-family: 'gmarketBold' !important;
     color: #ECD4BC;
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     margin-bottom: 10vh;
     text-align: left;
 }
 
 .usage-description{
     font-family: 'IBM Plex Sans' !important;
-    margin-top: 30vh;
+    margin-top: 20vh;
     color : #FFFFFF;
-    line-height: 1.8rem;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
 }
 
 .usage-box-container{
@@ -50,7 +51,6 @@
     }
     
     .usage-title{
-        font-family: 'gmarketMid' !important;
         color: #ECD4BC;
         font-size: 1.8rem;
         margin-bottom: 10vh;

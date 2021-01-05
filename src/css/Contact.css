@@ -6,16 +6,16 @@
 }
 
 .contact-container>h1{
-    font-family: 'gmarketMid' !important;
+    font-family: 'gmarketBold' !important;
     color : #4B382A;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
 .contact-container>p{
     font-family: 'IBM Plex Sans' !important;
     color: #222222;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-top: 1.5rem;
 }
 

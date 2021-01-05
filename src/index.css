@@ -23,6 +23,13 @@
   src: url(./Font/NotoSerifCJKkr-Medium.otf);
 }
 
+@font-face {
+  font-family: 'IBMPlexSansKR-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   font-family: 'notosans',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

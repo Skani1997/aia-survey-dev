@@ -6,16 +6,16 @@
 }
 
 .request-title{
-    font-family: 'gmarketMid' !important;
+    font-family: 'gmarketBold' !important;
     color: #483527;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 
 .request-description{
     font-family: 'IBM Plex Sans' !important;
     color: #2E2E2E;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 2.5rem;
     margin-top: 5vh;
 }
@@ -31,9 +31,9 @@
     flex-direction: column;
     align-items: center;
     float: left;
-    padding : 5vh 0;
-    width: 22vw;
-    height:65vh;
+    padding : 1vh 0;
+    width: 20vw;
+    height:60vh;
 }
 
 .request-container-right{
@@ -41,15 +41,15 @@
     flex-direction: column;
     align-items: center;
     float: right;
-    padding : 5vh 0;
-    width: 22vw;
-    height:65vh;
+    padding : 1vh 0;
+    width: 20vw;
+    height:60vh;
 }
 
 .request-box-title{
-    font-family: 'notoserif' !important;
+    font-family: 'notosans' !important;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     background-color: #A4734B;
     border-radius: 64px;
