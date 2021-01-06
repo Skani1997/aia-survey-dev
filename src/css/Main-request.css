@@ -23,7 +23,7 @@
 .request-box-container{
     margin-top: 2vh;
     overflow: hidden;
-    padding: 0 10vw;
+    padding: 0 8vw;
 }
 
 .request-container-left{
@@ -32,8 +32,8 @@
     align-items: center;
     float: left;
     padding : 1vh 0;
-    width: 20vw;
-    height:60vh;
+    width: 18vw;
+    height:65vh;
 }
 
 .request-container-right{
@@ -42,8 +42,8 @@
     align-items: center;
     float: right;
     padding : 1vh 0;
-    width: 20vw;
-    height:60vh;
+    width: 18vw;
+    height:65vh;
 }
 
 .request-box-title{
