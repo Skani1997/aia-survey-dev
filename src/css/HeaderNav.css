@@ -2,27 +2,9 @@
     font-family: 'IBMPlexSansKR-Bold' !important;
     overflow: hidden;
     width: 88vw;
-    font-weight: bold;
     margin-bottom: 21vh;
 }
-.sub{
-    position: absolute; 
-    top: 8%; 
-    width: 3%; 
-    display: none; 
-    box-sizing: border-box;
-    text-align: center;
-  }
-  .sub:nth-child(odd){
-    background-color: rgba(255 , 255 , 255 , 0.5);
-  }
-  .sub:nth-child(even){
-      
-}
-  .menu> ul >li:hover .sub{
-    display: block;
-    color: red;
-  }
+
 
 .logo{
     float: left;
@@ -33,13 +15,15 @@
 .menu{
     float : right;
     margin-top: 1vh;
+    border-bottom: 2px solid white;
+    padding: 0.8vh 0;
 }
 
 .menu>ul>li{
     float : left;
     size: 1.2rem;
     list-style: none;
-    margin-left: 1rem;
+    margin : 0 1.5rem;
     color: white;
 }
 

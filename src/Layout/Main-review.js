@@ -18,49 +18,49 @@ function MainReview(){
                 <div className="reviewbox1">
                     <p className="reviewbox-name">오** 님</p>
                     <p className="reviewbox-description">
-                        사내 게시판에서 임직원 대상으로 진행한다고 하여<br/>
-                        받게 되었는데 그간 월급이 스쳐만 가는 것 같던게<br/>
-                        이제는 스스로 효율적으로 관리할 수 있게 되었어요
+                        사내 게시판에서 임직원 대상으로 진행한다고 하여
+                        받게 되었는데 <br/>그간 월급이 스쳐만 가는 것 같던게
+                        이제는 스스로 효율적으로 <br/>관리할 수 있게 되었어요
                     </p>
                 </div>
                 <div className="reviewbox2">
                     <p className="reviewbox-name">최** 님</p>
                     <p className="reviewbox-description">
-                        나이가 나이인지라 10년 안에 내 집마련이 가능할까<br/>
-                        싶었는데, 친절한 상담으로 자신이 생겼습니다.<br/>
-                        효율적으로 관리해서 성공해보이겠습니다.
+                        나이가 나이인지라 10년 안에 내 집마련이 가능할까
+                        싶었는데, <br/>친절한 상담으로 자신이 생겼습니다.
+                        효율적으로 <br/>관리해서 성공해보이겠습니다.
                     </p>
                 </div>
                 <div className="reviewbox3">
                     <p className="reviewbox-name">우** 님</p>
                     <p className="reviewbox-description">
-                        인생 전반에 대한 재무 플랜을 짤 수 있는 좋은 시간<br/>
-                        이었던 것 같습니다. 결혼을 하고 두 사람의 월급을<br/>
-                        관리하기에 어려웠는데 도움이 되었어요!
+                        인생 전반에 대한 재무 플랜을 짤 수 있는 좋은 시간
+                        이었던 것 같습니다.<br/> 결혼을 하고 두 사람의 월급을
+                        관리하기에 어려웠는데 <br/>도움이 되었어요!
                     </p>
                 </div>  
                 <div className="reviewbox1">
                     <p className="reviewbox-name">김** 님</p>
                     <p className="reviewbox-description">
-                        인생 전반에 대한 재무 플랜을 짤 수 있는 좋은 시간<br/>
-                        이었던 것 같습니다. 결혼을 하고 두 사람의 월급을<br/>
-                        관리하기에 어려웠는데 도움이 되었어요!
+                    사내 게시판에서 임직원 대상으로 진행한다고 하여
+                        받게 되었는데 <br/>그간 월급이 스쳐만 가는 것 같던게
+                        이제는 스스로 효율적으로 <br/>관리할 수 있게 되었어요
                     </p>
                 </div>  
                 <div className="reviewbox2">
                     <p className="reviewbox-name">박** 님</p>
                     <p className="reviewbox-description">
-                        인생 전반에 대한 재무 플랜을 짤 수 있는 좋은 시간<br/>
-                        이었던 것 같습니다. 결혼을 하고 두 사람의 월급을<br/>
-                        관리하기에 어려웠는데 도움이 되었어요!
+                    나이가 나이인지라 10년 안에 내 집마련이 가능할까
+                        싶었는데, <br/>친절한 상담으로 자신이 생겼습니다.
+                        효율적으로 <br/>관리해서 성공해보이겠습니다.
                     </p>
                 </div>  
                 <div className="reviewbox3">
                     <p className="reviewbox-name">한** 님</p>
                     <p className="reviewbox-description">
-                        인생 전반에 대한 재무 플랜을 짤 수 있는 좋은 시간<br/>
-                        이었던 것 같습니다. 결혼을 하고 두 사람의 월급을<br/>
-                        관리하기에 어려웠는데 도움이 되었어요!
+                    인생 전반에 대한 재무 플랜을 짤 수 있는 좋은 시간
+                        이었던 것 같습니다.<br/> 결혼을 하고 두 사람의 월급을
+                        관리하기에 어려웠는데 <br/>도움이 되었어요!
                     </p>
                 </div> 
             </Slider>
