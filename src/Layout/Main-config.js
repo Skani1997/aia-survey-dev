@@ -1,62 +1,24 @@
 import React from 'react';
 import '../css/Main-config.css';
 import Config1 from '../image/config1.png';
+import Slider from "react-slick";
 import ConfigBox from '../Components/ConfigBox';
-import Carousel from 'react-multi-carousel';
 
 function MainConfig() {
-
+    const settings = {
+        dots: true,
+        arrows : false,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        speed: 1000,
+    };
   return (
       <div className="config-container">
             <h1 className="config-title">드림캘린더 구성</h1>
             <div className="configbox-list">
-            <Carousel
-            additionalTransfrom={0}
-            arrows={false}
-            autoPlay
-            autoPlaySpeed={3000}
-            className=""
-            containerClass="config-slider-container"
-            dotListClass="config-dot"
-            draggable
-            focusOnSelect={false}
-            infinite
-            itemClass=""
-            keyBoardControl
-            minimumTouchDrag={80}
-            renderButtonGroupOutside={false}
-            renderDotsOutside={false}
-            responsive={{
-                desktop: {
-                breakpoint: {
-                    max: 3000,
-                    min: 1024
-                },
-                items: 1,
-                partialVisibilityGutter: 40
-                },
-                mobile: {
-                breakpoint: {
-                    max: 464,
-                    min: 0
-                },
-                items: 1,
-                partialVisibilityGutter: 30
-                },
-                tablet: {
-                breakpoint: {
-                    max: 1024,
-                    min: 464
-                },
-                items: 1,
-                partialVisibilityGutter: 30
-                }
-            }}
-            showDots={true}
-            sliderClass="config-slider"
-            slidesToSlide={1}
-            swipeable
-            >
+            <Slider {...settings}>
                 <ConfigBox img={Config1} title="Part 1.<br/>드림캘린더 온라인 검사"
                     description="10가지 테마, 150여개의 질문을 통해서 세상에서 하나뿐인<br/>
                     ‘나만의 꿈을 그리는 달력’ 드림캘린더를 만드는 기초를 만듭니다.<br/>
@@ -89,8 +51,8 @@ function MainConfig() {
                     description="이곳저곳에 흩어져 있는 당신의 꿈과 소망, 목표, 계획은 <br/>
                     한데 모아서 정리해놓고 드림캘린더와 함께<br/>
                     하나씩 이루어 나가세요!"></ConfigBox>  
-            </Carousel>
-            </div>  
+                </Slider>
+                </div>
       </div>
   );
 }

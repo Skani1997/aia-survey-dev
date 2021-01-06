@@ -17,7 +17,7 @@ function Qna(){
             arrows={false}
             autoPlay
             autoPlaySpeed={3000}
-            centerMode={false}
+            centerMode={true}
             className=""
             containerClass="qna-slider-container"
             dotListClass=""

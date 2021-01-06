@@ -27,12 +27,21 @@
 .qna-box{
     font-family: 'IBM Plex Sans' !important;
     clear: both;
-    margin-left: 40vh;
     background-color: #827368;
     border-radius: 25px;
     padding: 7vh 4vh;
-    width: 52%;
-    height: 100%;
+    margin-left: 10%;
+    width: 80% !important;
+    height: 100% !important;
+}
+
+.react-multi-carousel-item{
+    opacity: 0.2;
+}
+
+.react-multi-carousel-item--active{
+    transform: scale(1.2);
+    opacity: 1;
 }
 
 .qna-box-title{
@@ -45,6 +54,10 @@
     font-size: 1.4rem;
     line-height: 2.3rem;
     color: #FFFFFF;
+}
+
+.qna-slider{
+    margin-top: 15%;
 }
 
 @media screen and (max-width: 768px){

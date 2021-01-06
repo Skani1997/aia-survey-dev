@@ -10,11 +10,26 @@
     color: #483527;
 }
 
+.slick-dots li.slick-active button::before{
+    opacity: 1;
+    color: #A4734B;
+    font-size: 15px;
+    line-height: 15px;
+}
+.slick-dots li button::before{
+    opacity: 1;
+    color: #D8D8D8;
+    font-size: 15px;
+    line-height: 15px;
+}
+
 
 .configbox-list{
     margin-top: 15vh;
     height: 10vh;
 }
+
+
 
 @media screen and (max-width: 1200px) {
     .config-container{
