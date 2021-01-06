@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/aia-survey-dev/static/css/main.edd06373.chunk.css",
+    "main.css": "/aia-survey-dev/static/css/main.fd756cfe.chunk.css",
     "main.js": "/aia-survey-dev/static/js/main.399ff43e.chunk.js",
     "main.js.map": "/aia-survey-dev/static/js/main.399ff43e.chunk.js.map",
     "runtime-main.js": "/aia-survey-dev/static/js/runtime-main.658d4411.js",
@@ -9,10 +9,10 @@
     "static/js/2.1b60aeab.chunk.js": "/aia-survey-dev/static/js/2.1b60aeab.chunk.js",
     "static/js/2.1b60aeab.chunk.js.map": "/aia-survey-dev/static/js/2.1b60aeab.chunk.js.map",
     "index.html": "/aia-survey-dev/index.html",
-    "precache-manifest.0984d275a880ea50c43dd5cddab6003d.js": "/aia-survey-dev/precache-manifest.0984d275a880ea50c43dd5cddab6003d.js",
+    "precache-manifest.02653c3843a973544f352edb4005f2b4.js": "/aia-survey-dev/precache-manifest.02653c3843a973544f352edb4005f2b4.js",
     "service-worker.js": "/aia-survey-dev/service-worker.js",
     "static/css/2.152eb206.chunk.css.map": "/aia-survey-dev/static/css/2.152eb206.chunk.css.map",
-    "static/css/main.edd06373.chunk.css.map": "/aia-survey-dev/static/css/main.edd06373.chunk.css.map",
+    "static/css/main.fd756cfe.chunk.css.map": "/aia-survey-dev/static/css/main.fd756cfe.chunk.css.map",
     "static/js/2.1b60aeab.chunk.js.LICENSE.txt": "/aia-survey-dev/static/js/2.1b60aeab.chunk.js.LICENSE.txt",
     "static/media/index.css": "/aia-survey-dev/static/media/NotoSerifCJKkr-Medium.2c660842.otf",
     "static/media/Main-introduce.css": "/aia-survey-dev/static/media/bgimg.330ab57a.png",
@@ -48,7 +48,7 @@
     "static/js/runtime-main.658d4411.js",
     "static/css/2.152eb206.chunk.css",
     "static/js/2.1b60aeab.chunk.js",
-    "static/css/main.edd06373.chunk.css",
+    "static/css/main.fd756cfe.chunk.css",
     "static/js/main.399ff43e.chunk.js"
   ]
 }
