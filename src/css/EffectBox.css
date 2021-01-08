@@ -11,13 +11,13 @@
     height: 25vh;
 }
 .effectBox-img{
-    width: 25vh;
+    width: 20vh;
     height: auto;
     align-self: center;
 }
 
 .effectBox-title{
-    margin-top: 10vh;
+    margin-top: 8vh;
     color: white;
     font-size: 1.2rem;
     align-self: center;

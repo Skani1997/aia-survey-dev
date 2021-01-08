@@ -19,7 +19,7 @@ li {
 .slide .slide-ul {
   padding: 0;
   height: calc(100% * 6);
-  animation: slide 10s infinite;
+  animation: slide 25s infinite;
 }
 
 .slide-ul li {

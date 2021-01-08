@@ -46,13 +46,14 @@
 
 .qna-box-title{
     font-family: 'IBM Plex Sans', sans-serif !important;
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: #FA941E;
 }
 
 .qna-box-description{
-    font-size: 1.4rem;
-    line-height: 2.3rem;
+    font-size: 1.15rem;
+    letter-spacing: -0.5px;
+    line-height: 2rem;
     color: #FFFFFF;
 }
 

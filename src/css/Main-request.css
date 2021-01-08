@@ -18,12 +18,13 @@
     font-size: 1.2rem;
     line-height: 2.5rem;
     margin-top: 5vh;
+    letter-spacing: -0.5px;
 }
 
 .request-box-container{
     margin-top: 2vh;
     overflow: hidden;
-    padding: 0 8vw;
+    padding: 0 4vw;
 }
 
 .request-container-left{
@@ -33,7 +34,7 @@
     float: left;
     padding : 1vh 0;
     width: 18vw;
-    height:65vh;
+    height:80vh;
 }
 
 .request-container-right{
@@ -43,7 +44,7 @@
     float: right;
     padding : 1vh 0;
     width: 18vw;
-    height:65vh;
+    height:80vh;
 }
 
 .request-box-title{
@@ -55,7 +56,7 @@
     border-radius: 64px;
     width: 15vh;
     padding: 1vh;
-    height: 3rem;
+    height: 2.5rem;
     border: 0;
     outline: 0;
 }
