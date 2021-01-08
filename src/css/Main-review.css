@@ -5,7 +5,7 @@
 }
 
 .review-title{
-    font-family: 'gmarketBold' !important;
+    font-family: 'gmarketBold' , sans-serif!important;
     font-size: 2.5rem;
     color: #343434;
     margin-left: 3vw;
@@ -34,7 +34,7 @@
 
 
 .reviewbox1{
-    font-family: 'IBM Plex Sans' !important;
+    font-family: 'IBM Plex Sans' , sans-serif!important;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -48,7 +48,7 @@
 
 .reviewbox2{
     
-    font-family: 'IBM Plex Sans' !important;
+    font-family: 'IBM Plex Sans', sans-serif !important;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -61,7 +61,7 @@
 }
 
 .reviewbox3{
-    font-family: 'IBM Plex Sans' !important;
+    font-family: 'IBM Plex Sans', sans-serif !important;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -98,7 +98,7 @@
     line-height: 2.5rem;
     color: #696969;
     font-weight: 500;
-    font-family: 'notoserif' !important;
+    font-family: 'notoserif' , sans-serif!important;
 }
 
 @media screen and (max-width : 1200px){
@@ -113,7 +113,7 @@
     }
     
     .review-title{
-        font-family: 'gmarketBold' !important;
+        font-family: 'gmarketBold' , sans-serif!important;
         font-size: 2rem;
         color: #343434;
         margin-left: 3vw;
@@ -122,7 +122,7 @@
 
     .reviewbox1{
         
-        font-family: 'IBM Plex Sans' !important;
+        font-family: 'IBM Plex Sans' , sans-serif!important;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -137,7 +137,7 @@
     
     .reviewbox2{
         
-        font-family: 'IBM Plex Sans' !important;
+        font-family: 'IBM Plex Sans', sans-serif!important;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -152,7 +152,7 @@
     
     .reviewbox3{
         
-        font-family: 'IBM Plex Sans' !important;
+        font-family: 'IBM Plex Sans' , sans-serif!important;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -184,6 +184,6 @@
         line-height: 1.6rem;
         color: #696969;
         font-weight: 500;
-        font-family: 'notoserif' !important;
+        font-family: 'notoserif', sans-serif !important;
     }
 }

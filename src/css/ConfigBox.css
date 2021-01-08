@@ -17,14 +17,14 @@
 }
 
 .configbox-title{
-    font-family: 'notoserif' !important;
+    font-family: 'notoserif' , sans-serif!important;
     font-size: 1.5rem;
     color: #2E2E2E;
     line-height: 4rem;
 }
 
 .configbox-description{
-    font-family: 'IBM Plex Sans' !important;
+    font-family: 'IBM Plex Sans' , sans-serif!important;
     color: #757373;
     font-size: 1.2rem;
     font-weight: 400;

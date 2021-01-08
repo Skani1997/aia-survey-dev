@@ -1,12 +1,12 @@
 .main-container{
-    font-family: 'IBM Plex Sans' !important;
+    font-family: 'IBM Plex Sans', sans-serif !important;
     height: 130vh;
     padding : 1vh 7vw;
     background-color: #FBFBFB;
 }
 
 .progress-title{
-    font-family: 'gmarketBold' !important;
+    font-family: 'gmarketBold', sans-serif !important;
     color: #483527;
     padding-top: 8vh;
     font-size: 2.5rem;
@@ -26,7 +26,7 @@
 }
 
 .progress-caption{
-    font-family: 'notoserif' !important;
+    font-family: 'notoserif' , sans-serif!important;
     text-align: center;
     padding-top: 8vh;
     color: #2E2E2E;
@@ -35,7 +35,7 @@
 }
 @media screen and (max-width: 1200px){
     .main-container{
-        font-family: 'IBM Plex Sans' !important;
+        font-family: 'IBM Plex Sans', sans-serif !important;
         height: 130vh;
         padding : 2vh 12vw;
         text-align: center;
@@ -71,7 +71,7 @@
 
 @media screen and (max-width: 768px){
     .main-container{
-        font-family: 'IBM Plex Sans' !important;
+        font-family: 'IBM Plex Sans', sans-serif !important;
         height: 300vh;
         padding : 4vh 11vw;
         text-align: center;

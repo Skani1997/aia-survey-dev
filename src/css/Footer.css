@@ -4,7 +4,7 @@
 }
 
 .footer-container{
-    font-family: 'IBM Plex Sans' !important;
+    font-family: 'IBM Plex Sans', sans-serif !important;
     height: 33vh !important;
     background-color: #ffffff;
     
@@ -56,7 +56,7 @@
     }
     
     .footer-container{
-        font-family: 'IBM Plex Sans' !important;
+        font-family: 'IBM Plex Sans', sans-serif !important;
         height: 33vh !important;
         background-color: #ffffff;
         

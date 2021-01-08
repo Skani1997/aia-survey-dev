@@ -5,7 +5,7 @@
   }
 
 .recommend{
-    font-family: 'gmarketBold'!important;
+    font-family: 'gmarketBold', sans-serif!important;
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 12vh;
@@ -14,7 +14,7 @@
 }
 
 .recommend-box1{
-    font-family: 'notoserif' !important;
+    font-family: 'notoserif' , sans-serif!important;
     display: flex;
     flex-direction: row;
     padding: 0 4vw;
@@ -24,7 +24,7 @@
 }
 
 .recommend-box2{
-    font-family: 'notoserif' !important;
+    font-family: 'notoserif' , sans-serif!important;
     display: flex;
     flex-direction: row;
     padding: 0 1.7vw;

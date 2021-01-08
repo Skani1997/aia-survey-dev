@@ -6,14 +6,14 @@
 }
 
 .contact-container>h1{
-    font-family: 'gmarketBold' !important;
+    font-family: 'gmarketBold' , sans-serif!important;
     color : #4B382A;
     font-size: 2.5rem;
     font-weight: bold;
 }
 
 .contact-container>p{
-    font-family: 'IBM Plex Sans' !important;
+    font-family: 'IBM Plex Sans' , sans-serif!important;
     color: #222222;
     font-size: 1.2rem;
     margin-top: 1.5rem;
@@ -50,7 +50,7 @@
 .select select{
     appearance: none;
     font-size: 1.1rem;
-    font-family: 'IBM Plex Sans' !important;
+    font-family: 'IBM Plex Sans' , sans-serif!important;
     outline: none;
     margin-bottom: 0.35vh;
     background-color: #FBFBFB;
@@ -96,7 +96,7 @@ label{
     height : 4vh;
     margin : 2vh 0.5vw 0 0.5vw ;
     float:left;
-    font-family: 'IBM Plex Sans' !important;
+    font-family: 'IBM Plex Sans' , sans-serif!important;
     color : #4A3729;
     font-weight: 700;
 }
@@ -108,7 +108,7 @@ label{
     height: 3.5vh;
     font-size: 1em;
     border-radius: 150px;
-    font-family: 'IBM Plex Sans' !important;
+    font-family: 'IBM Plex Sans' , sans-serif!important;
     color: #ffffff;
     background-color: #FA941E;
 }

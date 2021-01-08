@@ -7,13 +7,13 @@
   }
   
 .header-subtitle{
-    font-family: 'IBM Plex Sans' !important;
+    font-family: 'IBM Plex Sans' , sans-serif!important;
     font-size: 3rem;
     color: white;
 }
 
 .header-title{
-  font-family: 'IBM Plex Sans' !important;
+  font-family: 'IBM Plex Sans' , sans-serif!important;
     margin-top: 1vh;
     margin-bottom: 3vh;
     font-size: 4rem;

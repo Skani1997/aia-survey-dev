@@ -1,5 +1,5 @@
 .navbar{
-    font-family: 'IBMPlexSansKR-Bold' !important;
+    font-family: 'IBMPlexSansKR-Bold' , sans-serif!important;
     overflow: hidden;
     width: 88vw;
     margin-bottom: 21vh;

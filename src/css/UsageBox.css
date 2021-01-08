@@ -1,7 +1,7 @@
 .usagebox-container{
     height: 80%;
     display: flex;
-    font-family: 'IBM Plex Sans';
+    font-family: 'IBM Plex Sans', sans-serif;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
@@ -17,14 +17,14 @@
 }
 
 .usagebox-title{
-    font-family: 'gmarketMid' !important;
+    font-family: 'gmarketMid' , sans-serif!important;
     margin: 0;
     font-size: 1.2rem;
     color: #EAEAEA;
 }
 
 .usagebox-subtitle{
-    font-family: 'gmarketMid' !important;
+    font-family: 'gmarketMid', sans-serif !important;
     margin: 0;
     margin-bottom: 5vh;
     font-size: 1.6rem;
@@ -32,7 +32,7 @@
 }
 
 .usagebox-description{
-    font-family: 'IBM Plex Sans' !important;
+    font-family: 'IBM Plex Sans' , sans-serif!important;
     margin-top: 2.5vh;
     color: #FFFFFF;
     font-size: 1rem;
@@ -43,7 +43,7 @@
     .usagebox-container{
         height: 80%;
         display: flex;
-        font-family: 'IBM Plex Sans';
+        font-family: 'IBM Plex Sans', sans-serif;
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: center;
@@ -71,7 +71,7 @@
     .usagebox-container{
     height: 80%;
     display: flex;
-    font-family: 'IBM Plex Sans';
+    font-family: 'IBM Plex Sans', sans-serif;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
@@ -87,14 +87,14 @@
     align-self: center;
 }
 .usagebox-subtitle{
-    font-family: 'gmarketMid' !important;
+    font-family: 'gmarketMid' , sans-serif!important;
     margin: 0;
     margin-bottom: 3vh;
     font-size: 1.2rem;
     color: #FA941E;
 }
 .usagebox-title{
-    font-family: 'gmarketMid' !important;
+    font-family: 'gmarketMid', sans-serif !important;
     margin: 0;
     font-size: 1rem;
     color: #EAEAEA;
