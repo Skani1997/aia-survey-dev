@@ -27,8 +27,8 @@
     border-radius: 25px;
     padding: 6vh 3vh;
     margin-top: 10vh;
-    width: 65vh !important;
-    height:45vh !important;
+    width: 63vh !important;
+    height:43vh !important;
 }
 .qna-slider{
     clear: both;
@@ -57,9 +57,9 @@
 }
 
 .qna-box-description{
-    font-size: 1.1rem;
-    letter-spacing: -01px;
-    line-height: 2rem;
+    font-size: 1rem;
+    letter-spacing: -1px;
+    line-height: 1.8rem;
     color: #FFFFFF;
 }
 
