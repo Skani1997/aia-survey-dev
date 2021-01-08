@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/aia-survey-dev/precache-manifest.3037b41c20e861121e0977d0c78c01dc.js"
+  "/aia-survey-dev/precache-manifest.3774c45e086cdf705e6955b6dd543e68.js"
 );
 
 self.addEventListener('message', (event) => {
