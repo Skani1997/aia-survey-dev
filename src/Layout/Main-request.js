@@ -21,7 +21,7 @@ function MainRequest(){
                     <h1 className="request-box-title">무료 신청</h1>
                     <img className="howtoimg" src={howtoimg1} alt=""></img>
                     <p className="request-box-description">
-                        &lt;신청양식 작성 개인&gt;<br/>
+                        <strong>&lt;신청양식 작성 개인&gt;</strong><br/>
                         신청양식(신청이유/ 목표 달성 및 실패사례 등)을<br/>
                         상세히 작성한 개인 신청자<br/><br/>
                         드림캘린더 검사<br/>
@@ -36,7 +36,7 @@ function MainRequest(){
                     <h1 className="request-box-title">유료 신청</h1>
                     <img className="howtoimg" src={howtoimg2} alt=""></img>
                     <p className="request-box-description">
-                        &lt;양식 미작성 개인 및 기업, 공공기관&gt;<br/>
+                        <strong>&lt;양식 미작성 개인 및 기업, 공공기관&gt;</strong><br/>
                         유료 검사자 및 업무협약 된 단체기관<br/><br/><br/>
                         드림캘린더 검사<br/>
                         +<br/>

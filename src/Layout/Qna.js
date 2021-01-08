@@ -1,9 +1,26 @@
 import React from 'react';
 import '../css/Qna.css';
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
+import Slider from "react-slick";
 
 function Qna(){
+    let settings = {
+        className: "qna-slider",
+        centerMode: true,
+        infinite: true,
+        centerPadding: 0,
+        slidesToShow: 3,
+        speed: 500,
+        arrows:false,
+        autoplay: 1500,
+        focuseOnSelect:true,
+        responsive:[{
+                breakpoint: 768,
+                settings:{
+                    centerMode: false,
+                    slidesToShow:1,
+                }
+            }]
+    };
     return(
         <div className="qna-container">
             <h1 className="qna-title">드림캘린더 Q&A</h1>
@@ -12,54 +29,7 @@ function Qna(){
             답변합니다 Q&A를 참고하여 고객님의 <br/>
             궁금한 점을 해결해보세요.
             </p>
-            <Carousel
-            additionalTransfrom={0}
-            arrows={false}
-            autoPlay
-            autoPlaySpeed={3000}
-            centerMode={true}
-            className=""
-            containerClass="qna-slider-container"
-            dotListClass=""
-            draggable
-            focusOnSelect={false}
-            infinite
-            itemClass="qna-carousel"
-            keyBoardControl
-            minimumTouchDrag={80}
-            renderButtonGroupOutside={false}
-            renderDotsOutside={false}
-            responsive={{
-                desktop: {
-                breakpoint: {
-                    max: 3000,
-                    min: 1024
-                },
-                items: 1,
-                partialVisibilityGutter: 40
-                },
-                mobile: {
-                breakpoint: {
-                    max: 464,
-                    min: 0
-                },
-                items: 1,
-                partialVisibilityGutter: 30
-                },
-                tablet: {
-                breakpoint: {
-                    max: 1024,
-                    min: 464
-                },
-                items: 1,
-                partialVisibilityGutter: 30
-                }
-            }}
-            showDots={false}
-            sliderClass="qna-slider"
-            slidesToSlide={1}
-            swipeable
-            >
+            <Slider {...settings}>
             <div className="qna-box">
                 <h1 className="qna-box-title">Q1. 멘토 신청시 전문가분들은 어떤분들인가요?</h1>
                 <p className="qna-box-description">
@@ -126,7 +96,7 @@ function Qna(){
                 가장 큰 차이입니다.
                 </p>
             </div>
-            </Carousel>
+            </Slider>
         </div> 
     );
 }

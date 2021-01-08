@@ -109,13 +109,13 @@
         margin-top: 0;
     }
     .progressbox-container{
-        width: 50vw;
+        width: 60vw;
         height: 25vh;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
-        margin-left: 16%;
+        margin-left: 10%;
     }
     .progressbox-innercontainer{
         display: flex;
@@ -125,9 +125,9 @@
         height: 25vh;
     }
     .progressbox-img{
-        width: 17vh;
+        width: 20vh;
         height: auto;
-        margin-bottom: 2vh;
+        margin-bottom: 1vh;
         margin-right: 0;
     }
     
@@ -147,9 +147,9 @@
     
     .progressbox-description{
         color: #191919;
-        font-size: 0.78rem;
+        font-size: 1rem;
         margin-top: 10%;
-        letter-spacing: -0.2px;
+        letter-spacing: -0.5px;
         text-align: left;
     }
     .emphasize{

@@ -21,7 +21,7 @@
 
 .menu>ul>li{
     float : left;
-    size: 1.2rem;
+    font-size: 1.2rem;
     list-style: none;
     margin : 0 1.5rem;
     color: white;
@@ -36,6 +36,13 @@
     .navbar{
         overflow: hidden;
         width: 80vw;
-        margin-bottom: 15vh;
+        margin-bottom: 13vh;
+    }
+    .menu>ul>li{
+        float : left;
+        font-size: 0.7rem;
+        list-style: none;
+        margin : 0 1rem;
+        color: white;
     }
 }

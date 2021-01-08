@@ -1,18 +1,18 @@
-.main-request-container{
+.main-request-container {
     height: 100vh;
-    padding : 6vh 5vw;
+    padding: 6vh 5vw;
     background-color: #FBFBFB;
     text-align: center;
 }
 
-.request-title{
-    font-family: 'gmarketBold' , sans-serif!important;
+.request-title {
+    font-family: 'gmarketBold', sans-serif !important;
     color: #483527;
     font-size: 2.5rem;
 }
 
 
-.request-description{
+.request-description {
     font-family: 'IBM Plex Sans', sans-serif !important;
     color: #2E2E2E;
     font-size: 1.2rem;
@@ -21,34 +21,34 @@
     letter-spacing: -0.5px;
 }
 
-.request-box-container{
+.request-box-container {
     margin-top: 2vh;
     overflow: hidden;
     padding: 0 4vw;
 }
 
-.request-container-left{
+.request-container-left {
     display: flex;
     flex-direction: column;
     align-items: center;
     float: left;
-    padding : 1vh 0;
+    padding: 1vh 0;
     width: 18vw;
-    height:80vh;
+    height: 80vh;
 }
 
-.request-container-right{
+.request-container-right {
     display: flex;
     flex-direction: column;
     align-items: center;
     float: right;
-    padding : 1vh 0;
+    padding: 1vh 0;
     width: 18vw;
-    height:80vh;
+    height: 80vh;
 }
 
-.request-box-title{
-    font-family: 'notosans' , sans-serif!important;
+.request-box-title {
+    font-family: 'notosans', sans-serif !important;
     color: white;
     font-size: 1.3rem;
     font-weight: bold;
@@ -60,16 +60,17 @@
     border: 0;
     outline: 0;
 }
-.btn_request{
+
+.btn_request {
     font-family: 'IBM Plex Sans', sans-serif !important;
 }
 
-.howtoimg{
+.howtoimg {
     width: 8vw;
     margin-top: 2vh;
 }
 
-.request-box-description{
+.request-box-description {
     font-family: 'IBM Plex Sans' !important;
     color: #2E2E2E;
     font-size: 1.1rem;
@@ -77,64 +78,65 @@
     margin-top: 3vh;
 }
 
-.request-text-box{
+.request-text-box {
     float: left;
     text-align: left;
     margin-right: 5vw;
 }
 
-@media screen and (max-width: 768px){
-    .main-request-container{
-        height: 140vh;
-        padding : 4.5vh 5vw;
+@media screen and (max-width: 768px) {
+    .main-request-container {
+        height: 150vh;
+        padding: 4.5vh 5vw;
         background-color: #FBFBFB;
         text-align: center;
     }
-    
-    .request-title{
+
+    .request-title {
         color: #483527;
-        font-size: 2rem;
+        font-size: 1.8rem;
         text-align: center;
     }
-    .request-text-box{
-        float:none;
+
+    .request-text-box {
+        float: none;
         text-align: center;
     }
-    
-    .request-description{
+
+    .request-description {
         color: #2E2E2E;
-        font-size: 1rem;
+        font-size: 0.9rem;
         line-height: 1.8rem;
         margin-top: 3vh;
         text-align: center;
     }
-    
-    .request-box-container{
+
+    .request-box-container {
         margin-top: 5vh;
         padding: 0 4vw;
     }
-    
-    .request-container-left{
+
+    .request-container-left {
         display: flex;
         flex-direction: column;
         align-items: center;
         float: left;
-        padding : 2vh 0;
+        padding: 2vh 0;
         width: 35vw;
-        height:66vh;
+        height: 85vh;
     }
-    
-    .request-container-right{
+
+    .request-container-right {
         display: flex;
         flex-direction: column;
         align-items: center;
         float: right;
-        padding : 2vh 0;
+        padding: 2vh 0;
         width: 35vw;
-        height:66vh;
+        height: 85vh;
     }
-    
-    .request-box-title{
+
+    .request-box-title {
         color: white;
         font-size: 1rem;
         font-weight: bold;
@@ -142,22 +144,22 @@
         border-radius: 64px;
         width: 15vh;
         padding: 1.5vh;
-        height: 3rem;
+        height: 2.5rem;
         border: 0;
         outline: 0;
     }
-    
-    .howtoimg{
+
+    .howtoimg {
         width: 22vw;
         margin-top: 1vh;
     }
-    
-    .request-box-description{
+
+    .request-box-description {
         color: #2E2E2E;
         font-size: 0.9rem;
         letter-spacing: -0.45px;
         line-height: 1.4rem;
         margin-top: 4vh;
     }
-    
+
 }

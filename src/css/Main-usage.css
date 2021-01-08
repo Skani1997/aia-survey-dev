@@ -44,7 +44,7 @@
 @media screen and (max-width: 768px){
     .usage-container{
         font-family: 'IBM Plex Sans' !important;
-        height: 535vh;
+        height: 540vh;
         padding : 11vh 7vw;
         background-image: url("../image/usagebg.png");
         background-size: cover;

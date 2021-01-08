@@ -3,13 +3,21 @@ import '../css/Main-review.css';
 import Slider from "react-slick";
 
 function MainReview(){
-    const settings = {
+    let settings = {
         className: "center",
         centerMode: true,
         infinite: true,
         centerPadding: 0,
         slidesToShow: 3,
-        speed: 500
+        speed: 500,
+        focuseOnSelect:true,
+        responsive:[{
+                breakpoint: 768,
+                settings:{
+                    centerMode: false,
+                    slidesToShow:1,
+                }
+            }]
     };
     return(
         <div className="review-container">

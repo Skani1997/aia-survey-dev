@@ -1,5 +1,5 @@
 .qna-container{
-    height: 110vh;
+    height: 100vh;
     background-color: #4A3729;
     padding : 7vh 3vw 0 3vw;
 }
@@ -20,27 +20,33 @@
     line-height: 2.5rem;
 }
 
-.qna-slider-container{
-    width: 100%;
-    height: 80vh;
-}
 .qna-box{
     font-family: 'IBM Plex Sans', sans-serif !important;
     clear: both;
     background-color: #827368;
     border-radius: 25px;
     padding: 7vh 4vh;
-    margin-left: 10%;
-    width: 80% !important;
-    height: 100% !important;
+    margin-top: 10vh;
+    width: 63vh !important;
+    height:45vh !important;
+}
+.qna-slider{
+    clear: both;
+    height: 70%;
+}
+.qna-slider > .slick-list {
+    height: 100%;
+}
+.qna-slider  > .slick-track > .qna-box{
+    height: 90%;
+}
+.qna-slider .slick-slide{
+    opacity: 0.3;
+    transform: scale(0.4);
 }
 
-.react-multi-carousel-item{
-    opacity: 0.2;
-}
-
-.react-multi-carousel-item--active{
-    transform: scale(1.2);
+.slick-slide.slick-center {
+    transform: scale(1.1);
     opacity: 1;
 }
 
@@ -51,8 +57,8 @@
 }
 
 .qna-box-description{
-    font-size: 1.15rem;
-    letter-spacing: -0.5px;
+    font-size: 1.1rem;
+    letter-spacing: -01px;
     line-height: 2rem;
     color: #FFFFFF;
 }
@@ -68,7 +74,7 @@
     .qna-title{
         color: #ECD4BC;
         font-family: 'gmarketBold' , sans-serif!important;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     
     .qna-description{
@@ -85,13 +91,32 @@
     }
     .qna-box{
         font-family: 'IBM Plex Sans' , sans-serif!important;
-        margin-left: 0;
+        margin-left: 3%;
         margin-top: 5%;
         background-color: #827368;
         border-radius: 25px;
         padding: 4vh 4vh;
-        width: 95%;
+        width: 45vh !important;
+        height:60vh !important;
+    }
+    .qna-slider{
+        clear: both;
+        height: 90%;
+    }
+    .qna-slider > .slick-list {
         height: 100%;
+    }
+    .qna-slider  > .slick-track > .qna-box{
+        height: 90%;
+    }
+    .qna-slider .slick-slide{
+        opacity: 1;
+        transform: scale(1);
+    }
+    
+    .slick-slide.slick-center {
+        transform: scale(1);
+        opacity: 1;
     }
     
     .qna-box-title{

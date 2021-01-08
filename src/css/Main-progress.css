@@ -43,6 +43,7 @@
     }
     
     .progress-title{
+        width: 100%;
         color: #483527;
         padding-top: 2vh;
         font-size: 1.8rem;
@@ -52,6 +53,7 @@
         margin: 0;
         padding-top: 2vh;
         color: #2E2E2E;
+        text-align: center;
         font-size: 0.9rem;
         font-weight: 400;
         letter-spacing: 0.5px;
@@ -85,10 +87,10 @@
     }
     
     .progress-description{
-        margin: 0;
+        margin: 0 0 4rem 0;
         padding-top: 2vh;
         color: #2E2E2E;
-        font-size: 0.9rem;
+        font-size: 1rem;
         font-weight: 400;
         letter-spacing: 0.5px;
         line-height: 1.7rem;
