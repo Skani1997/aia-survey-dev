@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/aia-survey-dev/static/css/main.b392f70e.chunk.css",
-    "main.js": "/aia-survey-dev/static/js/main.32893ba3.chunk.js",
-    "main.js.map": "/aia-survey-dev/static/js/main.32893ba3.chunk.js.map",
+    "main.css": "/aia-survey-dev/static/css/main.742354c4.chunk.css",
+    "main.js": "/aia-survey-dev/static/js/main.294a6600.chunk.js",
+    "main.js.map": "/aia-survey-dev/static/js/main.294a6600.chunk.js.map",
     "runtime-main.js": "/aia-survey-dev/static/js/runtime-main.658d4411.js",
     "runtime-main.js.map": "/aia-survey-dev/static/js/runtime-main.658d4411.js.map",
-    "static/css/2.152eb206.chunk.css": "/aia-survey-dev/static/css/2.152eb206.chunk.css",
-    "static/js/2.1b60aeab.chunk.js": "/aia-survey-dev/static/js/2.1b60aeab.chunk.js",
-    "static/js/2.1b60aeab.chunk.js.map": "/aia-survey-dev/static/js/2.1b60aeab.chunk.js.map",
+    "static/css/2.4a609840.chunk.css": "/aia-survey-dev/static/css/2.4a609840.chunk.css",
+    "static/js/2.5a48006c.chunk.js": "/aia-survey-dev/static/js/2.5a48006c.chunk.js",
+    "static/js/2.5a48006c.chunk.js.map": "/aia-survey-dev/static/js/2.5a48006c.chunk.js.map",
     "index.html": "/aia-survey-dev/index.html",
-    "precache-manifest.b363291756a5327ffb73dacb21367495.js": "/aia-survey-dev/precache-manifest.b363291756a5327ffb73dacb21367495.js",
+    "precache-manifest.3037b41c20e861121e0977d0c78c01dc.js": "/aia-survey-dev/precache-manifest.3037b41c20e861121e0977d0c78c01dc.js",
     "service-worker.js": "/aia-survey-dev/service-worker.js",
-    "static/css/2.152eb206.chunk.css.map": "/aia-survey-dev/static/css/2.152eb206.chunk.css.map",
-    "static/css/main.b392f70e.chunk.css.map": "/aia-survey-dev/static/css/main.b392f70e.chunk.css.map",
-    "static/js/2.1b60aeab.chunk.js.LICENSE.txt": "/aia-survey-dev/static/js/2.1b60aeab.chunk.js.LICENSE.txt",
+    "static/css/2.4a609840.chunk.css.map": "/aia-survey-dev/static/css/2.4a609840.chunk.css.map",
+    "static/css/main.742354c4.chunk.css.map": "/aia-survey-dev/static/css/main.742354c4.chunk.css.map",
+    "static/js/2.5a48006c.chunk.js.LICENSE.txt": "/aia-survey-dev/static/js/2.5a48006c.chunk.js.LICENSE.txt",
     "static/media/index.css": "/aia-survey-dev/static/media/NotoSerifCJKkr-Medium.2c660842.otf",
     "static/media/Main-introduce.css": "/aia-survey-dev/static/media/bgimg.330ab57a.png",
     "static/media/semantic.min.css": "/aia-survey-dev/static/media/outline-icons.ef60a4f6.woff",
@@ -37,7 +37,6 @@
     "static/media/recommend4.png": "/aia-survey-dev/static/media/recommend4.43401876.png",
     "static/media/recommend5.png": "/aia-survey-dev/static/media/recommend5.c5cfbe78.png",
     "static/media/recommend6.png": "/aia-survey-dev/static/media/recommend6.d9a7967f.png",
-    "static/media/styles.css": "/aia-survey-dev/static/media/revicons.2feb69cc.eot",
     "static/media/Main-review.css": "/aia-survey-dev/static/media/review3.6bbcb918.png",
     "static/media/usage1.png": "/aia-survey-dev/static/media/usage1.dfe437d9.png",
     "static/media/usage2.png": "/aia-survey-dev/static/media/usage2.7b097ffc.png",
@@ -46,9 +45,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.658d4411.js",
-    "static/css/2.152eb206.chunk.css",
-    "static/js/2.1b60aeab.chunk.js",
-    "static/css/main.b392f70e.chunk.css",
-    "static/js/main.32893ba3.chunk.js"
+    "static/css/2.4a609840.chunk.css",
+    "static/js/2.5a48006c.chunk.js",
+    "static/css/main.742354c4.chunk.css",
+    "static/js/main.294a6600.chunk.js"
   ]
 }
