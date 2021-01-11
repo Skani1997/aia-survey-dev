@@ -19,15 +19,15 @@
 .usagebox-title{
     font-family: 'gmarketMid' , sans-serif!important;
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #EAEAEA;
 }
 
 .usagebox-subtitle{
     font-family: 'gmarketMid', sans-serif !important;
     margin: 0;
-    margin-bottom: 5vh;
-    font-size: 1.6rem;
+    margin-bottom: 4vh;
+    font-size: 1.7rem;
     color: #FA941E;
 }
 
@@ -35,7 +35,7 @@
     font-family: 'IBM Plex Sans' , sans-serif!important;
     margin-top: 2.5vh;
     color: #FFFFFF;
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: left;
 }
 

@@ -24,10 +24,8 @@
 }
 
 @font-face {
-  font-family: 'IBMPlexSansKR-Bold';
-  src: url('http://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Bold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'IBM Plex Sans';
+  src: url(./Font/IBMPlexSansKR-Medium.ttf);
 }
 
 body {

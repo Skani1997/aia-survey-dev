@@ -1,5 +1,5 @@
 .review-container{
-    height: 100vh;
+    height: 140vh;
     padding : 5vh 10vw 0 10vw;
     background-color: #FBFBFB;
 }
@@ -79,7 +79,7 @@
 }
 
 .reviewbox-name{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding-top: 33vh;
     margin-bottom: 1vh;
     color :#FA941E;
@@ -87,18 +87,18 @@
 }
 
 .reviewbox-description{
-    font-size: 0.8rem;
-    letter-spacing: -0.3px;
+    font-size: 1.05rem;
+    letter-spacing: -0.1px;
     color :#ffffff;
 }
 
 .review-description{
-    margin-top: 6vh;
+    margin-top: 22vh;
     text-align: center;
-    font-size: 1.2rem;
-    line-height: 2.5rem;
+    font-size: 1.6rem;
+    line-height: 3rem;
     color: #696969;
-    font-weight: 500;
+    font-weight: bold;
     font-family: 'notoserif' , sans-serif!important;
 }
 

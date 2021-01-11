@@ -1,6 +1,6 @@
 .main-container{
     font-family: 'IBM Plex Sans', sans-serif !important;
-    height: 130vh;
+    height: 180vh;
     padding : 1vh 7vw;
     background-color: #FBFBFB;
 }
@@ -10,7 +10,7 @@
     color: #483527;
     padding-top: 8vh;
     font-size: 2.5rem;
-    width: 40%;
+    width: 30%;
     float: left;
 }
 
@@ -19,7 +19,7 @@
     text-align: left;
     padding-top: 8vh;
     color: #2E2E2E;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 2.5rem;
@@ -28,10 +28,11 @@
 .progress-caption{
     font-family: 'notoserif' , sans-serif!important;
     text-align: center;
-    padding-top: 8vh;
+    padding-top: 15vh;
     color: #2E2E2E;
-    font-size: 1.2rem;
-    line-height: 2.5rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
 }
 @media screen and (max-width: 1200px){
     .main-container{

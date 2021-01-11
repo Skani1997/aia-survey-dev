@@ -27,7 +27,7 @@
     font-family: 'notoserif' , sans-serif!important;
     display: flex;
     flex-direction: row;
-    padding: 0 1.7vw;
+    padding: 0 ;
     justify-content: space-around;
     align-items: center;
     margin-bottom:7vh;
@@ -43,8 +43,8 @@
 
 .box>p{
     color: #313131;
-    font-size: 1rem;
-    line-height: 2.5rem;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
     margin-top: 4vh;
 }
 
