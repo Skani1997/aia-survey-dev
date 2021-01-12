@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d7d43a7eae66f7acb88974a1bd9587c1",
+    "revision": "0975fe1d6dd67f9ff941c41585362f52",
     "url": "/aia-survey-dev/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aia-survey-dev/static/css/2.4a609840.chunk.css"
   },
   {
-    "revision": "ffff41f84dff7142151b",
-    "url": "/aia-survey-dev/static/css/main.ac24892e.chunk.css"
+    "revision": "f448cb3c02081f36efe0",
+    "url": "/aia-survey-dev/static/css/main.25f3937e.chunk.css"
   },
   {
     "revision": "ce693bb6473bf4d7c7f0",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aia-survey-dev/static/js/2.5a48006c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ffff41f84dff7142151b",
+    "revision": "f448cb3c02081f36efe0",
     "url": "/aia-survey-dev/static/js/main.54f8ebe4.chunk.js"
   },
   {
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "da5032831fa046b8087dfcdac1c80f3c",
     "url": "/aia-survey-dev/static/media/IBMPlexSansKR-Medium.da503283.ttf"
+  },
+  {
+    "revision": "0e1f2365ab61e1ea88d2fbdef3952fdb",
+    "url": "/aia-survey-dev/static/media/NanumSquare.0e1f2365.ttf"
   },
   {
     "revision": "9ec3449723269a806ec6eaba0f8f6cef",
