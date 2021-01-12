@@ -15,14 +15,15 @@
 }
 
 .progress-description{
+    font-family: 'Nanum Square' , sans-serif!important; 
     float: left;
     text-align: left;
-    padding-top: 8vh;
+    padding-top: 10vh;
     color: #2E2E2E;
     font-size: 1.3rem;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 1px;
-    line-height: 2.5rem;
+    line-height: 3rem;
 }
 
 .progress-caption{

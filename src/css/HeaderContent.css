@@ -1,13 +1,15 @@
-.description{    
+.description{   
+    font-family: 'Nanum Square' , sans-serif!important; 
     margin-top: 2vh;
-    line-height: 2.3rem;
+    letter-spacing: 1px;
+    line-height: 2.5rem;
     font-size: 1.25rem;
     color: white;
-    font-weight: 400 !important;
+    font-weight: bold;
   }
   
 .header-subtitle{
-    font-family: 'IBM Plex Sans' , sans-serif!important;
+  font-family: 'IBM Plex Sans' , sans-serif!important;
     font-size: 3rem;
     color: white;
 }
@@ -30,7 +32,6 @@
     line-height: 2rem;
     font-size: 1rem;
     color: white;
-    font-weight: 400 !important;
   }
   
 .header-subtitle{

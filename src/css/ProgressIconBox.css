@@ -45,8 +45,10 @@
 }
 
 .progressbox-description{
+    font-family: 'Nanum Square' , sans-serif!important; 
+    font-weight: 600;
     margin-top: 2.5vh;
-    color: #191919;
+    color: #3b3b3b;
     font-size: 1.2rem;
     text-align: center;
 }

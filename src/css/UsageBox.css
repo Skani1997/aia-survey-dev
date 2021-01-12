@@ -32,11 +32,12 @@
 }
 
 .usagebox-description{
-    font-family: 'IBM Plex Sans' , sans-serif!important;
+    font-family: 'Nanum Square' , sans-serif!important; 
     margin-top: 2.5vh;
     color: #FFFFFF;
     font-size: 1.3rem;
     text-align: left;
+    line-height: 2.2rem;
 }
 
 @media screen and (max-width: 1200px){

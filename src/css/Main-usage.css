@@ -15,7 +15,7 @@
 }
 
 .usage-description{
-    font-family: 'IBM Plex Sans', sans-serif !important;
+    font-family: 'Nanum Square' , sans-serif!important; 
     margin-top: 20vh;
     color : #FFFFFF;
     font-size: 1.3rem;
@@ -58,7 +58,7 @@
     }
     
     .usage-description{
-        font-family: 'IBM Plex Sans', sans-serif !important;
+        font-family: 'Nanum Square' , sans-serif!important;
         margin-top: 13vh;
         font-size: 1.1rem;
         color : #FFFFFF;

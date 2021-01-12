@@ -28,6 +28,11 @@
   src: url(./Font/IBMPlexSansKR-Medium.ttf);
 }
 
+@font-face {
+  font-family: 'Nanum Square';
+  src: url(./Font/NanumSquare.ttf);
+}
+
 body {
   margin: 0;
   font-family: 'notosans',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

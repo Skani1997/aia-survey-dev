@@ -16,12 +16,13 @@
 }
 
 .introduce-description{
-    font-family: 'IBM Plex Sans' , sans-serif ;
+    font-family: 'Nanum Square' , sans-serif ;
     float : left;
     margin-top: 3vh;
     color: white;
     font-size:  1.3rem;
-    line-height: 2.5rem;
+    line-height: 3rem;
+    font-weight: bold;
     text-align: left;
 }
 
