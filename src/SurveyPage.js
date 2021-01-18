@@ -773,7 +773,7 @@ var surveyJSON ={
         "elements": [
          {
           "type": "radiogroup",
-          "name": "16",
+          "name": "goal_test_q1",
           "title": "삶에서 구체적으로 이루고 싶은 단 하나의 목표가 있나요?",
           "choices": [
            {
@@ -793,7 +793,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "17",
+          "name": "goal_test_q2",
           "title": "구체적이며 계획적인 버킷리스트 혹은 목표리스트가  5개이상 있나요?",
           "choices": [
            {
@@ -813,7 +813,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "18",
+          "name": "goal_test_q3",
           "title": "최근 1년이내에 계획했던 목표를 달성한 경험이 있나요?(다이어트, 저축, 취업, 자격증, 운동배우기 등)",
           "choices": [
            {
@@ -833,7 +833,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "19",
+          "name": "goal_test_q4",
           "title": "매년 / 매월 / 매주 일정한 시기에 나만의 계획 혹은 목표를 작성하시나요?",
           "choices": [
            {
@@ -853,7 +853,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "20",
+          "name": "goal_test_q5",
           "title": "자기 자신의 성격적인 부분에서 단점 3가지를 즉시 떠올릴 수 있나요?",
           "choices": [
            {
@@ -873,7 +873,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "21",
+          "name": "goal_test_q6",
           "title": "목표 혹은 계획을 세운 후 주변사람에게 공유하고 조언을 얻는 편인가요?",
           "choices": [
            {
@@ -893,7 +893,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "22",
+          "name": "goal_test_q7",
           "title": "계획을 세울 때 즉흥적이기 보다는 고심하고 실패할만한 요소나 기준근거를 정의한 다음 설정하나요?",
           "choices": [
            {
@@ -913,7 +913,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "23",
+          "name": "goal_test_q8",
           "title": "단기 목표설정시에 현실적인 달성예상치를 기준으로 20% 이내로 상향된 목표를 설정하시나요?",
           "choices": [
            {
@@ -933,7 +933,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "24",
+          "name": "goal_test_q9",
           "title": "현재의 직업은 당신이 최소 1년 이상의 준비기간을 거쳐서 선택한 직업인가요?",
           "choices": [
            {
@@ -953,7 +953,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "25",
+          "name": "goal_test_q10",
           "title": "머릿속에는 항상 도전하고 시도해야할 과제들이 가득 차 있나요?",
           "choices": [
            {
@@ -973,7 +973,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "26",
+          "name": "goal_test_q11",
           "title": "세운 계획이 목표시점에 이루어지지 않았을 때 심한 스트레스를 받는다.",
           "choices": [
            {
@@ -993,7 +993,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "27",
+          "name": "goal_test_q12",
           "title": "목표나 계획이 생겼을 때 주변사람들에게 알리는 편이다.",
           "choices": [
            {
@@ -1013,7 +1013,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "28",
+          "name": "goal_test_q13",
           "title": "주변의 가까운 사람으로 부터 성실한 사람 혹은 꾸준한 사람으로 평가 받는다.",
           "choices": [
            {
@@ -1033,7 +1033,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "29",
+          "name": "goal_test_q14",
           "title": "가족(부모님 혹은 배우자)로 부터 하고자 하는것은 무엇이든 지지 받는다.",
           "choices": [
            {
@@ -1053,7 +1053,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "30",
+          "name": "goal_test_q15",
           "title": "한번 내뱉은 말은 반드시 지키는 편이다.",
           "choices": [
            {
@@ -1073,7 +1073,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "31",
+          "name": "goal_test_q16",
           "title": "일을 진행 하던 도중 예상치 못한 우발상황이 생겼다. 도저히 해결점을 찾을 수 없다면 어떻게 행동하나요?",
           "choices": [
            {
@@ -1093,7 +1093,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "32",
+          "name": "goal_test_q17",
           "title": "목표를 달성하는데 가장 큰 역할을 하는것은 동기부여 보다는 루틴이다.",
           "choices": [
            {
@@ -1113,7 +1113,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "33",
+          "name": "goal_test_q18",
           "title": "잘 안될때가 많지만 그래도 열심히 해보려고 하는 편이다.",
           "choices": [
            {
@@ -1133,7 +1133,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "34",
+          "name": "goal_test_q19",
           "title": "상황과 환경만 주어진다면 나도 뒤쳐지지않고 잘 하는 편이다.",
           "choices": [
            {
@@ -1153,7 +1153,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "35",
+          "name": "goal_test_q20",
           "title": "최근 3개월 동안 동료 혹은 가까운 사람으로 부터 열심히 한다라는 이야기를 들은적이 있다.",
           "choices": [
            {
@@ -1173,7 +1173,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "36",
+          "name": "goal_test_q21",
           "title": "현재 비슷한 연령대의 사람들에 비해 좀 더 나은 삶을 살고 있다고 생각하시나요?",
           "choices": [
            {
@@ -1193,7 +1193,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "37",
+          "name": "goal_test_q22",
           "title": "신체와 건강은 비슷한 또래의 사람들에 비해 더 나은 편이라고 생각하시나요?",
           "choices": [
            {
@@ -1213,7 +1213,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "38",
+          "name": "goal_test_q23",
           "title": "현재 자산상태(예금,부동산,대출 등)에 대해 만족하시나요?",
           "choices": [
            {
@@ -1233,7 +1233,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "39",
+          "name": "goal_test_q24",
           "title": "지난 5년을 돌이켜보면 하지 않은것, 배우지못한것, 좀 더 열심히 하지 못한 것에 대한 후회가 있나요?",
           "choices": [
            {
@@ -1253,7 +1253,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "40",
+          "name": "goal_test_q25",
           "title": "현실적으로 20년 후 꿈꾸는 삶과 실제는 얼마나 닮아 있을것 같나요?",
           "choices": [
            {
@@ -1273,7 +1273,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "41",
+          "name": "goal_test_q26",
           "title": "이 질문에 답하는 바로 이번 달, 직업관련된 것을 제외하고 무언가 배우거나 학습하고 있는것이 있나요?",
           "choices": [
            {
@@ -1293,7 +1293,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "42",
+          "name": "goal_test_q27",
           "title": "자신의 일정/목표/루틴을 기록하는 일기, 스케줄러, 플래너를 성실히 활용하고 있나요?",
           "choices": [
            {
@@ -1313,7 +1313,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "43",
+          "name": "goal_test_q28",
           "title": "평소 목표를 설정 하실때 참고하는 멘토, 도서, 프로그램 등이 있나요? ",
           "choices": [
            {
@@ -1333,7 +1333,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "44",
+          "name": "goal_test_q29",
           "title": "명상, 문구외우기, 목표상기하기 등 매일 혹은 매주 단위로 루틴한 나만의 행동양식이 있나요?",
           "choices": [
            {
@@ -1353,7 +1353,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "45",
+          "name": "goal_test_q30",
           "title": "지난 계획이나 목표에 대해서 스스로 반성하고 점검해보는 시간을 갖는 편인가요?",
           "choices": [
            {
@@ -2207,7 +2207,7 @@ var surveyJSON ={
         "elements": [
          {
           "type": "rating",
-          "name": "question34",
+          "name": "tendency_test_q21",
           "title": "있을지도 모를 늙은 나를 위해 왜 오늘 먹고 싶은 아메리카노 한 잔을 참아야 하는지 모르겠다.",
           "rateMax": 4,
           "minRateDescription": "매우 공감한다",
@@ -2216,7 +2216,7 @@ var surveyJSON ={
          },
          {
           "type": "rating",
-          "name": "question35",
+          "name": "tendency_test_q22",
           "title": " 느리더라도 안정적인 것보다는 역동적이고 화끈한 것이 재테크가 나와 맞다.",
           "rateMax": 4,
           "minRateDescription": "매우 공감한다",
@@ -2225,7 +2225,7 @@ var surveyJSON ={
          },
          {
           "type": "rating",
-          "name": "question36",
+          "name": "tendency_test_q23",
           "title": "아무리 저금리라도 부동산, 주식 보다는 안정적으로 은행을 믿는것이 가장 좋다.",
           "rateMax": 4,
           "minRateDescription": "매우 공감한다",
@@ -2234,7 +2234,7 @@ var surveyJSON ={
          },
          {
           "type": "rating",
-          "name": "question37",
+          "name": "tendency_test_q24",
           "title": "보험은 불 필요하다. 일단 저축부터 하고 여유가 남으면 최소한의 보험만 가입하는것이 맞다.",
           "rateMax": 4,
           "minRateDescription": "매우 공감한다",
@@ -2243,7 +2243,7 @@ var surveyJSON ={
          },
          {
           "type": "rating",
-          "name": "question38",
+          "name": "tendency_test_q25",
           "title": "10년 뒤에' 매월 500만원씩 20년 받는 연금복권보다 10억을 일시금으로 '지금' 받는 로또를 선택할것이다.",
           "rateMax": 4,
           "minRateDescription": "매우 공감한다",
@@ -2252,7 +2252,7 @@ var surveyJSON ={
          },
          {
           "type": "rating",
-          "name": "question39",
+          "name": "tendency_test_q26",
           "title": "정책이 변하고 기술의 발전이 이루어져도 부자가 되는 방법은 크게 달라지지 않는다.",
           "rateMax": 4,
           "minRateDescription": "매우 공감한다",
@@ -2261,7 +2261,7 @@ var surveyJSON ={
          },
          {
           "type": "rating",
-          "name": "question40",
+          "name": "tendency_test_q27",
           "title": "현재의 자녀 혹은 미래 출산계획이 있다면 자식의 교육은 딱 성인이 될 때 까지이며 그 이후로는 자녀 몫이다.",
           "rateMax": 4,
           "minRateDescription": "매우 공감한다",
@@ -2270,7 +2270,7 @@ var surveyJSON ={
          },
          {
           "type": "rating",
-          "name": "question41",
+          "name": "tendency_test_q28",
           "title": "여유로운 경제상황을 이룩하더라도 기부가 필수는 아니라고 생각한다.",
           "rateMax": 4,
           "minRateDescription": "매우 공감한다",
@@ -2279,7 +2279,7 @@ var surveyJSON ={
          },
          {
           "type": "rating",
-          "name": "question42",
+          "name": "tendency_test_q29",
           "title": "부모님의 경제활동적 측면에 대해서 평가해보자면  그리 좋은 점수를 줄 수 없다.",
           "rateMax": 4,
           "minRateDescription": "매우 공감한다",
@@ -2288,7 +2288,7 @@ var surveyJSON ={
          },
          {
           "type": "rating",
-          "name": "question43",
+          "name": "tendency_test_q30",
           "title": "최고의 재테크는 좋은 부모를 만나는 것이다. 나를 발전시키는 것은 한계가 있다.",
           "rateMax": 4,
           "minRateDescription": "매우 공감한다",
@@ -2297,7 +2297,7 @@ var surveyJSON ={
          },
          {
           "type": "rating",
-          "name": "question44",
+          "name": "tendency_test_q31",
           "title": "사람들은 현자처럼 돈보다 사람, 깨닳음, 사랑이 더 중요하다고 이야기하지만 다 허울좋은 소리일 뿐이다. 결국 돈이 있어야 그것들도 있다.",
           "rateMax": 4,
           "minRateDescription": "매우 공감한다",
@@ -2306,7 +2306,7 @@ var surveyJSON ={
          },
          {
           "type": "rating",
-          "name": "question45",
+          "name": "tendency_test_q32",
           "title": "재무설계에 있어서 보험(위험설계)는 다른설계(투자,부동산,세금,상속,은퇴)보다 우선시되는 가장 기본의 요소이다.",
           "rateMax": 4,
           "minRateDescription": "매우 공감한다",
@@ -2315,7 +2315,7 @@ var surveyJSON ={
          },
          {
           "type": "rating",
-          "name": "question46",
+          "name": "tendency_test_q33",
           "title": "소득을 높이는 것보다는 지출을 줄이는게 현명하다.",
           "rateMax": 4,
           "minRateDescription": "매우 공감한다",
@@ -2324,7 +2324,7 @@ var surveyJSON ={
          },
          {
           "type": "checkbox",
-          "name": "question47",
+          "name": "tendency_test_q34",
           "title": "지금까지 가입해보신 경험이 있는 상품을 모두 골라주세요.",
           "choices": [
            {
@@ -2356,7 +2356,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "question48",
+          "name": "tendency_test_q35",
           "title": "투자를 할 때 원금 보존과 수익률 중 어떻것을 더 중요하게 생각하시나요?",
           "choices": [
            {
@@ -2384,7 +2384,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "question49",
+          "name": "tendency_test_q36",
           "title": "투자상품에 투자한 다면 연간 수익률은 최소 어느정도 되어야 한다고 생각하시나요?",
           "choices": [
            {
@@ -2412,7 +2412,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "question50",
+          "name": "tendency_test_q37",
           "title": "원하는 투자 수익률을 위해 어느정도까지의 원금 손실을 견딜 수 있나요?",
           "choices": [
            {
@@ -2440,7 +2440,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "question51",
+          "name": "tendency_test_q38",
           "title": "투자를 할 때 주식시장에 대한 선호도가 부동산, 금과 같은 실물 시장에 대해 더 높다고 생각하시나요?",
           "choices": [
            {
@@ -2468,7 +2468,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "question52",
+          "name": "tendency_test_q39",
           "title": "'투자란 것은 잘 알아야 하는데 잘 몰라서 아직은 하지 않는다'라는 생각에 공감하시나요?",
           "choices": [
            {
@@ -2496,7 +2496,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "question53",
+          "name": "tendency_test_q40",
           "title": "투자는 현 시대의 유일한 평범한 사람이 부를 축적할 수 있는 유일한 방법이다.",
           "choices": [
            {
@@ -2524,7 +2524,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "question54",
+          "name": "tendency_test_q41",
           "title": "부동산 Gap투자, 비상장주식, P2P, 펀딩, 사업투자, 실물자산, 해외주식 투자 중 경험해본 투자는 몇가지 인가요?",
           "choices": [
            {
@@ -2552,7 +2552,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "question55",
+          "name": "tendency_test_q42",
           "title": "은퇴자산인 연금상품 만큼은 연금펀드, 변액보험보다는 확정금리형 상품이 옳다고 생각한다.",
           "choices": [
            {
@@ -2580,7 +2580,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "question56",
+          "name": "tendency_test_q43",
           "title": "미래의 다양한 소득구조 창출을 위해 필요하다면 기꺼이 지금의 일부현금자산을 투자형 자산으로 이동할 의향이 있다.",
           "choices": [
            {
@@ -2608,7 +2608,7 @@ var surveyJSON ={
          },
          {
           "type": "radiogroup",
-          "name": "question57",
+          "name": "tendency_test_q44",
           "title": "주식에 투자할 경우 증시가 폭락해 투자자산의 가치가 20%정도 급락했다. 어떻게 행동할까요?",
           "choices": [
            {
