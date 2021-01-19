@@ -29,9 +29,10 @@ Modal.Description>form>input{
 .btn_request{
     background-color: #FA941E !important;
     color : white !important ;
-    border-radius: 25px !important;
+    border-radius: 50px !important;
     height: 7vh;
     font-size: 1.5rem !important;
+    margin-top: 5vh !important;
 }
 
 @media (max-width : 1280px){

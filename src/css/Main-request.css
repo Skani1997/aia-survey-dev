@@ -80,6 +80,19 @@
     margin-top: 3vh;
 }
 
+.request-box-description-title{
+    display: block;
+    padding : 2vh 0 1.5vh 0  !important;
+    letter-spacing: 0.5px;
+}
+
+.request-box-description-box{
+    margin-top: 2vh;
+    background-color: rgba(245,232,221,50);
+    border-radius: 10px;
+    padding : 2.5vh 5vh 2.5vh 5vh;
+}
+
 .request-text-box {
     float: left;
     text-align: left;
