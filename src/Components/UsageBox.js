@@ -9,6 +9,8 @@ function UsageBox(props){
             <img className="usagebox-img" src={props.img} alt=""/>
             {/* eslint-disable-next-line*/}
             <p className="usagebox-description" dangerouslySetInnerHTML={{__html: props.description.replace(new RegExp('\n', 'g') , '<br/>')}}/>
+            {/* eslint-disable-next-line*/}
+            <p className="usagebox-description-small" dangerouslySetInnerHTML={{__html: props.descriptionSmall.replace(new RegExp('\n', 'g') , '<br/>')}}/>
         </div>
     );
 }

@@ -27,6 +27,7 @@
     font-family: 'gmarketMid', sans-serif !important;
     margin: 0;
     margin-bottom: 4vh;
+    letter-spacing: 1.5px;
     font-size: 1.7rem;
     color: #FA941E;
 }
@@ -34,10 +35,18 @@
 .usagebox-description{
     font-family: 'Nanum Square' , sans-serif!important; 
     margin-top: 2.5vh;
+    margin-bottom: 0.5vh;
     color: #FFFFFF;
     font-size: 1.3rem;
     text-align: left;
     line-height: 2.2rem;
+}
+.usagebox-description-small{
+    font-family: 'Nanum Square' , sans-serif!important; 
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    text-align: left;
+    line-height: 1.5rem;
 }
 
 @media screen and (max-width: 1200px){
@@ -75,6 +84,7 @@
     font-family: 'IBM Plex Sans', sans-serif;
     flex-direction: column;
     flex-wrap: nowrap;
+    margin-top: 7vh;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -83,7 +93,7 @@
     height: 25vh;
 }
 .usagebox-img{
-    width: 32vh;
+    width: 34vh;
     height: auto;
     align-self: center;
 }
@@ -103,9 +113,17 @@
 
 .usagebox-description{
     margin-top: 2.5vh;
-    padding-bottom: 7vh;
+    width: 34vh;
     color: #ffffff;
     font-size: 1rem;
     text-align: left;
+}
+.usagebox-description-small{
+    font-family: 'Nanum Square' , sans-serif!important; 
+    color: #FFFFFF;
+    width: 34vh;
+    font-size: 0.7rem;
+    text-align: left;
+    line-height: 1.5rem;
 }
 }

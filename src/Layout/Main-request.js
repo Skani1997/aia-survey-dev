@@ -22,8 +22,7 @@ function MainRequest(){
                     <img className="howtoimg" src={howtoimg1} alt=""></img>
                     <p className="request-box-description">
                         <strong>&lt;신청양식 작성 개인&gt;</strong><br/>
-                        신청양식(신청이유/ 목표 달성 및 실패사례 등)을<br/>
-                        상세히 작성한 개인 신청자<br/><br/>
+                        신청양식을 상세히 작성한 개인 신청자<br/><br/><br/>
                         드림캘린더 검사<br/>
                         +<br/>
                         검사결과 일반 레포트(PDF)<br/>

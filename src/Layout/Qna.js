@@ -26,7 +26,7 @@ function Qna(){
             <h1 className="qna-title">드림캘린더 Q&A</h1>
             <p className="qna-description">
             드림캘린더를 사용하면서 굼금한 점에 대해<br/>
-            답변합니다 Q&A를 참고하여 고객님의 <br/>
+            답변합니다 Q&A를 참고하여 고객님의
             궁금한 점을 해결해보세요.
             </p>
             <Slider {...settings}>

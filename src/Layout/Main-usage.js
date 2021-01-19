@@ -19,15 +19,17 @@ function MainUsage(){
                 <UsageBox title="지금껏 없었던" subtitle="나만의 재무보고서" img={UsageBoxImg1} 
                           description="Part2. 목표 및 재무성향 평가 보고서 <br/>
                           Part3. 종합 재무상태보고서<br/>
-                          Part4. 꿈 이룸 재무포트폴리오"></UsageBox>
+                          Part4. 꿈 이룸 재무포트폴리오"
+                          descriptionSmall=""></UsageBox>
                 <UsageBox title="청춘의 하루는 노년의 10년이다" subtitle="부자습관 기르는 우리집 가계부" img={UsageBoxImg2} 
                           description="Part5. 금융환경의 이해<br/>
-                          Part6. 드림캘린더 액션플랜<br/>
-                                        - 일 / 월 / 분기 / 연도별 가계부 탑재<br/>
-                                      - 최신 반영된 생활가계금융정보 수록"></UsageBox>
+                          Part6. 드림캘린더 액션플랜<br/>"
+                          descriptionSmall="- 일 / 월 / 분기 / 연도별 가계부 탑재<br/>
+                          - 최신 반영된 생활가계금융정보 수록"></UsageBox>
                 <UsageBox title="R=VD(Reality=Vivid Dream)" subtitle="현실 버킷리스트" img={UsageBoxImg3} 
                           description="Part6. 드림캘린더 액션플랜<br/>
-                          Part7. 버킷리스트 FollowUp Sheet"></UsageBox>
+                          Part7. 버킷리스트 FollowUp Sheet"
+                          descriptionSmall=""></UsageBox>
             </div>
             <p className="usage-description">
                 자신의 목표를 구체화하고 System을 이용하여 꿈을 관리한 사람들의 10년간 변화<br/>

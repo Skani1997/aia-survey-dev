@@ -62,4 +62,11 @@ Modal.Description>form>input{
         background-color: #FA941E !important;
         color : white !important ;
     }
+    .btn_request{
+        background-color: #FA941E !important;
+        color : white !important ;
+        border-radius: 25px !important;
+        height: 7vh;
+        font-size: 1.2rem !important;
+    }
 }

@@ -26,7 +26,7 @@ li {
   height: calc(100% / 6);
 }
 .slide-ul li:nth-child(1) {
-  background-image: url('../image/house.png');
+  background-image: url('../image/main-house.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -37,19 +37,19 @@ li {
 }
 
 .slide-ul li:nth-child(3) {
-  background-image: url('../image/main-sky.png');
+  background-image: url('../image/main-dding.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slide-ul li:nth-child(4) {
-  background-image: url('../image/main-dding.png');
+  background-image: url('../image/main-family.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .slide-ul li:nth-child(5) {
-  background-image: url('../image/main-family.png');
+  background-image: url('../image/main-sky.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
 }

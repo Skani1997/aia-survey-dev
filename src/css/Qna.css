@@ -42,11 +42,11 @@
 }
 .qna-slider .slick-slide{
     opacity: 0.3;
-    transform: scale(0.4);
+    transform: scale(0.8);
 }
 
 .slick-slide.slick-center {
-    transform: scale(1.1);
+    transform: scale(1);
     opacity: 1;
 }
 
@@ -58,7 +58,9 @@
 
 .qna-box-description{
     font-size: 1.4rem;
-    line-height: 2rem;
+    margin-top: 3vh;
+    letter-spacing: 0.1px;
+    line-height: 2.5rem;
     color: #FFFFFF;
 }
 
