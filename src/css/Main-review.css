@@ -38,7 +38,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-image: url(../image/review1.png);
+    background-image: url(../image/review1.jpeg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 20vw;
@@ -47,12 +47,11 @@
 }
 
 .reviewbox2{
-    
     font-family: 'IBM Plex Sans', sans-serif !important;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-image: url(../image/review2.png);
+    background-image: url(../image/review2.jpeg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 20vw;
@@ -65,7 +64,21 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-image: url(../image/review3.png);
+    background-image: url(../image/review3.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 20vw;
+    height: 55vh;
+    padding : 5vh 2.5vw; 
+    text-overflow:ellipsis;
+}
+
+.reviewbox4{
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url(../image/review4.jpeg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 20vw;
@@ -127,7 +140,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        background-image: url(../image/review1.png);
+        background-image: url(../image/review1.jpeg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         width: 100%;
@@ -142,7 +155,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        background-image: url(../image/review2.png);
+        background-image: url(../image/review2.jpeg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         width: 100%;
@@ -157,7 +170,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        background-image: url(../image/review3.png);
+        background-image: url(../image/review3.jpeg);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         width: 100%;
@@ -165,7 +178,20 @@
         padding : 5vh 10vw; 
         margin : 0;
     }
-    
+    .reviewbox4{
+        
+        font-family: 'IBM Plex Sans', sans-serif!important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-image: url(../image/review4.jpeg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        padding : 5vh 10vw; 
+        margin : 0;
+    }
     .reviewbox-name{
         font-size: 1.2rem;
         padding-top: 33vh;

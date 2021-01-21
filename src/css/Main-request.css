@@ -23,7 +23,6 @@
 }
 
 .request-box-container {
-    width: 60%;
     margin-top: 2vh;
     overflow: hidden;
     padding: 0 4vw;
@@ -35,7 +34,7 @@
     align-items: center;
     float: left;
     padding: 1vh 0;
-    width: 20vw;
+    width: 22vw;
     height: 70vh;
 }
 
@@ -45,7 +44,7 @@
     align-items: center;
     float: right;
     padding: 1vh 0;
-    width: 20vw;
+    width: 22vw;
     height: 70vh;
 }
 
@@ -56,7 +55,7 @@
     font-weight: bold;
     background-color: #A4734B;
     border-radius: 64px;
-    width: 15vh;
+    width: 10rem;
     padding: 1vh;
     height: 2.5rem;
     border: 0;
@@ -70,13 +69,13 @@
 
 .howtoimg {
     width: 8vw;
-    margin-top: 2vh;
+    margin-top: 1rem;
 }
 
 .request-box-description {
     font-family: 'Nanum Square' , sans-serif!important; 
-    color: #2E2E2E;
-    font-size: 1.1rem;
+    color: #1b1b1b;
+    font-size: 1.25rem;
     line-height: 1.7rem;
     margin-top: 3vh;
 }

@@ -47,7 +47,7 @@ function MainReview(){
                         관리하기에 어려웠는데 도움이 되었어요!
                     </p>
                 </div>  
-                <div className="reviewbox1">
+                <div className="reviewbox4">
                     <p className="reviewbox-name">김** 님</p>
                     <p className="reviewbox-description">
                     사내 게시판에서 임직원 대상으로 진행한다고 하여
@@ -55,7 +55,7 @@ function MainReview(){
                         이제는 스스로 효율적으로 관리할 수 있게 되었어요
                     </p>
                 </div>  
-                <div className="reviewbox2">
+                <div className="reviewbox1">
                     <p className="reviewbox-name">박** 님</p>
                     <p className="reviewbox-description">
                     나이가 나이인지라 10년 안에 내 집마련이 가능할까
@@ -63,7 +63,7 @@ function MainReview(){
                         효율적으로 관리해서 성공해보이겠습니다.
                     </p>
                 </div>  
-                <div className="reviewbox3">
+                <div className="reviewbox2">
                     <p className="reviewbox-name">한** 님</p>
                     <p className="reviewbox-description">
                     인생 전반에 대한 재무 플랜을 짤 수 있는 좋은 시간

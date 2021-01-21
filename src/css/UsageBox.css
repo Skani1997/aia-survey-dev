@@ -11,7 +11,7 @@
     height: 25vh;
 }
 .usagebox-img{
-    width: 40vh;
+    width: 43vh;
     height: auto;
     align-self: center;
 }
@@ -47,6 +47,15 @@
     font-size: 0.9rem;
     text-align: left;
     line-height: 1.5rem;
+}
+.usagebox-img-title{
+    font-weight: bold;
+    font-family: 'gmarketMid' , sans-serif!important;
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #EAEAEA;
+    margin-bottom: 1vh;
 }
 
 @media screen and (max-width: 1200px){
