@@ -38,7 +38,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-image: url(../image/review1.jpeg);
+    background-image: url(../image/review1.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 20vw;
@@ -51,7 +51,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-image: url(../image/review2.jpeg);
+    background-image: url(../image/review2.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 20vw;
@@ -64,7 +64,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-image: url(../image/review3.jpeg);
+    background-image: url(../image/review3.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 20vw;
@@ -78,7 +78,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-image: url(../image/review4.jpeg);
+    background-image: url(../image/review4.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 20vw;
@@ -140,7 +140,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        background-image: url(../image/review1.jpeg);
+        background-image: url(../image/review1.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         width: 100%;
@@ -155,7 +155,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        background-image: url(../image/review2.jpeg);
+        background-image: url(../image/review2.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         width: 100%;
@@ -170,7 +170,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        background-image: url(../image/review3.jpeg);
+        background-image: url(../image/review3.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         width: 100%;
@@ -184,7 +184,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        background-image: url(../image/review4.jpeg);
+        background-image: url(../image/review4.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
         width: 100%;
