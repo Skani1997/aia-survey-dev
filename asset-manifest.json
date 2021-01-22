@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/aia-survey-dev/static/css/main.0aab10f7.chunk.css",
-    "main.js": "/aia-survey-dev/static/js/main.62ba6f1e.chunk.js",
-    "main.js.map": "/aia-survey-dev/static/js/main.62ba6f1e.chunk.js.map",
+    "main.css": "/aia-survey-dev/static/css/main.5ce11726.chunk.css",
+    "main.js": "/aia-survey-dev/static/js/main.aa7363bd.chunk.js",
+    "main.js.map": "/aia-survey-dev/static/js/main.aa7363bd.chunk.js.map",
     "runtime-main.js": "/aia-survey-dev/static/js/runtime-main.658d4411.js",
     "runtime-main.js.map": "/aia-survey-dev/static/js/runtime-main.658d4411.js.map",
     "static/css/2.4a609840.chunk.css": "/aia-survey-dev/static/css/2.4a609840.chunk.css",
     "static/js/2.5a48006c.chunk.js": "/aia-survey-dev/static/js/2.5a48006c.chunk.js",
     "static/js/2.5a48006c.chunk.js.map": "/aia-survey-dev/static/js/2.5a48006c.chunk.js.map",
     "index.html": "/aia-survey-dev/index.html",
-    "precache-manifest.cd02b3c2bfdade2da1e067ac340ca160.js": "/aia-survey-dev/precache-manifest.cd02b3c2bfdade2da1e067ac340ca160.js",
+    "precache-manifest.67556d68b053660a4d1248211e1b5bcb.js": "/aia-survey-dev/precache-manifest.67556d68b053660a4d1248211e1b5bcb.js",
     "service-worker.js": "/aia-survey-dev/service-worker.js",
     "static/css/2.4a609840.chunk.css.map": "/aia-survey-dev/static/css/2.4a609840.chunk.css.map",
-    "static/css/main.0aab10f7.chunk.css.map": "/aia-survey-dev/static/css/main.0aab10f7.chunk.css.map",
+    "static/css/main.5ce11726.chunk.css.map": "/aia-survey-dev/static/css/main.5ce11726.chunk.css.map",
     "static/js/2.5a48006c.chunk.js.LICENSE.txt": "/aia-survey-dev/static/js/2.5a48006c.chunk.js.LICENSE.txt",
     "static/media/index.css": "/aia-survey-dev/static/media/NotoSerifCJKkr-Medium.2c660842.otf",
     "static/media/Main-introduce.css": "/aia-survey-dev/static/media/bgimg.330ab57a.png",
@@ -37,7 +37,7 @@
     "static/media/recommend4.png": "/aia-survey-dev/static/media/recommend4.43401876.png",
     "static/media/recommend5.png": "/aia-survey-dev/static/media/recommend5.c5cfbe78.png",
     "static/media/recommend6.png": "/aia-survey-dev/static/media/recommend6.d9a7967f.png",
-    "static/media/Main-review.css": "/aia-survey-dev/static/media/review3.6bbcb918.png",
+    "static/media/Main-review.css": "/aia-survey-dev/static/media/review4.bb0b5b82.png",
     "static/media/usage1.png": "/aia-survey-dev/static/media/usage1.dfe437d9.png",
     "static/media/usage2.png": "/aia-survey-dev/static/media/usage2.7b097ffc.png",
     "static/media/usage3.png": "/aia-survey-dev/static/media/usage3.b561548e.png",
@@ -47,7 +47,7 @@
     "static/js/runtime-main.658d4411.js",
     "static/css/2.4a609840.chunk.css",
     "static/js/2.5a48006c.chunk.js",
-    "static/css/main.0aab10f7.chunk.css",
-    "static/js/main.62ba6f1e.chunk.js"
+    "static/css/main.5ce11726.chunk.css",
+    "static/js/main.aa7363bd.chunk.js"
   ]
 }
